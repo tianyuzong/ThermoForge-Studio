@@ -1,0 +1,128 @@
+{
+  "task_id": "60d24810164648549950796fea42fa57",
+  "provider": "Codex CLI",
+  "request_execution_mode": "auto",
+  "manual_confirmation_required": false,
+  "source_sha256": "56179a987fac513fbb5867ee1e3c89b9e5bb3b35c60c170adb2de8846cade5a4",
+  "mesh_sha256": "c2a13ead5f94c58efc1c2cb5e6c014b620ad0a2f5e37004cf19b8da5e19ca3f3",
+  "scope": "Experimental fixed-normal, small-slip, frictionless quadratic gear contact; teaching assumptions. No contact mesh convergence / Hertz validation.",
+  "cases": [
+    {
+      "job_id": "b12e464eacdf4f679353f6d6c768287a",
+      "input_torque_Nm": 5.0,
+      "maximum_von_mises_MPa": 26.978208492561418,
+      "maximum_displacement_mm": 0.025825706273256567,
+      "maximum_elastic_displacement_mm": 0.0005912597338632485,
+      "safety_factor": 13.158768496354478,
+      "contact_pressure_sample_MPa": 76.40719549888128,
+      "output_shaft_torque_Nm": -16.984101340559214,
+      "balance": {
+        "passed": true,
+        "force_relative": 2.501965575183213e-12,
+        "moment_relative": 5.494007720350087e-12,
+        "free_dof_relative": 2.6996514188252007e-12,
+        "force_residual_N": [
+          -2.0620702922968803e-09,
+          -2.777529567454806e-09,
+          5.560427118744826e-11
+        ],
+        "moment_residual_Nm": [
+          -3.0194971089442246e-11,
+          2.5817955412454907e-11,
+          2.836185236318456e-10
+        ],
+        "reaction_N": [
+          -2.0620987140063107e-09,
+          -2.7777569411302494e-09,
+          5.560338300902856e-11
+        ],
+        "moment_origin_m": [
+          -0.019088233232712103,
+          -0.07912503268367253,
+          0.011396769974744921
+        ]
+      },
+      "compute_s": 21.158366600051522,
+      "factorization_reused": false,
+      "report_sha256": "6a7e35bc6b9cd421aef8372c79cef651c3dcc4341b3ba9a886795a02609b6c5c"
+    },
+    {
+      "job_id": "9c79810102274be593d297eade0e20dc",
+      "input_torque_Nm": 10.0,
+      "maximum_von_mises_MPa": 53.95641698514617,
+      "maximum_displacement_mm": 0.027502960113941682,
+      "maximum_elastic_displacement_mm": 0.0011825194677270792,
+      "safety_factor": 6.579384248174393,
+      "contact_pressure_sample_MPa": 152.81439099734686,
+      "output_shaft_torque_Nm": -33.968202681118456,
+      "balance": {
+        "passed": true,
+        "force_relative": 2.5020639709602993e-12,
+        "moment_relative": 5.4940742552523455e-12,
+        "free_dof_relative": 4.4242928811841985e-12,
+        "force_residual_N": [
+          -4.124451224996051e-09,
+          -5.555167492676816e-09,
+          1.1120767501315854e-10
+        ],
+        "moment_residual_Nm": [
+          -6.039049382094985e-11,
+          5.163748942327295e-11,
+          5.672438491144405e-10
+        ],
+        "reaction_N": [
+          -4.124337538158329e-09,
+          -5.5540306242996e-09,
+          1.1120589865631914e-10
+        ],
+        "moment_origin_m": [
+          -0.019088233232712103,
+          -0.07912503268367253,
+          0.011396769974744921
+        ]
+      },
+      "compute_s": 1.103667600080371,
+      "factorization_reused": true,
+      "report_sha256": "9f10acd6da159d20acf01ee859f03ed771cdf5ebeda3b1fb779e44851b15f899"
+    },
+    {
+      "job_id": "60ce6981e00a4fad8c75438010189ca4",
+      "input_torque_Nm": 15.0,
+      "maximum_von_mises_MPa": 80.9346254777313,
+      "maximum_displacement_mm": 0.029180213954626846,
+      "maximum_elastic_displacement_mm": 0.0017737792015909107,
+      "safety_factor": 4.386256165448943,
+      "contact_pressure_sample_MPa": 229.2215864958133,
+      "output_shaft_torque_Nm": -50.952304021677676,
+      "balance": {
+        "passed": true,
+        "force_relative": 2.501866469103134e-12,
+        "moment_relative": 5.493933742220764e-12,
+        "free_dof_relative": 3.231993574084693e-12,
+        "force_residual_N": [
+          -6.184691869748349e-09,
+          -8.333205459010173e-09,
+          1.6674789327097983e-10
+        ],
+        "moment_residual_Nm": [
+          -9.058998256400441e-11,
+          7.745539626347053e-11,
+          8.508432101234087e-10
+        ],
+        "reaction_N": [
+          -6.185544521031261e-09,
+          -8.32945379336536e-09,
+          1.6675144598465863e-10
+        ],
+        "moment_origin_m": [
+          -0.019088233232712103,
+          -0.07912503268367253,
+          0.011396769974744921
+        ]
+      },
+      "compute_s": 1.2504585001152009,
+      "factorization_reused": true,
+      "report_sha256": "b936453f91afe9f00f7c4dcde39090a42ad152920392a6a4ded012f15fa66e1f"
+    }
+  ]
+}

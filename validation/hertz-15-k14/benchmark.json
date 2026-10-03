@@ -1,0 +1,23 @@
+{
+  "normal_force_N": 1.10858785832,
+  "expected_radius_m": 0.00011480679408892471,
+  "expected_peak_Pa": 40158392.922606006,
+  "actual_peak_Pa": 51109650.0,
+  "pressure_error": 0.2727015769405776,
+  "mesh": {
+    "nodes": 52332,
+    "elements": 36922,
+    "dofs": 156996,
+    "size_m": 0.001,
+    "min_jacobian": 1.177879590326229e-15,
+    "gmsh_version": "4.15.2",
+    "sha256": "44c74bcc8e76b0e603ec90224b4947739f46d3d0d121bd8cb009aca964cfa0d8",
+    "cache_key": "8d08bee8b5ef1260871a43c13ad597c27024f5c6aea472a6f0721befcc2e8c6a",
+    "cache_reused": false
+  },
+  "balance": {
+    "force_relative": 4.637667208159368e-09,
+    "moment_relative": 4.2212486582273234e-05,
+    "passed": true
+  }
+}

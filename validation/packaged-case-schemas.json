@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "count": 22,
+  "cases": [
+    "examples/motor-unified/fatigue.json",
+    "examples/motor-unified/static.json",
+    "examples/motor-unified/thermal_steady.json",
+    "examples/motor-unified/thermal_transient.json",
+    "examples/motor-unified/thermo-contact.json",
+    "examples/motor-unified/thermo_mechanical.json",
+    "examples/local-bearing/case.json",
+    "examples/local-bearing/grid-36.json",
+    "examples/local-bearing/grid-45.json",
+    "examples/local-bearing/step-129.json",
+    "examples/thermal-gap/case.json",
+    "examples/thermal-gap/heating-cooling.json",
+    "examples/thermal-gap/step-coarse.json",
+    "examples/thermal-gap/step-eighth.json",
+    "examples/thermal-gap/step-half.json",
+    "examples/thermal-gap/step-quarter.json",
+    "examples/thermal-gap/step-sixteenth.json",
+    "examples/thermal-gap/step-sixtyfourth.json",
+    "examples/thermal-gap/step-thirtysecond.json",
+    "examples/gears/case.json",
+    "examples/gears/full-revolution-unverified.json",
+    "examples/gears/tooth-engagement.json"
+  ]
+}

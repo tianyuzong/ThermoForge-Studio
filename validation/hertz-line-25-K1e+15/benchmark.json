@@ -1,0 +1,32 @@
+{
+  "source_study": "e341b88f3c0a470e8ab57d2ab21c4888",
+  "normal_force_N": 0.3721996,
+  "expected_half_width_m": 6.56694995276875e-05,
+  "actual_half_width_m": 6.4492725e-05,
+  "expected_peak_Pa": 18041071.298815247,
+  "actual_peak_Pa": 18428680.0,
+  "pressure_error": 0.021484794043810984,
+  "width_error": 0.017919651225472677,
+  "balance": {
+    "passed": true,
+    "frames": [
+      {
+        "force_relative": 1.8239524890982253e-09,
+        "moment_relative": 1.1632064864878385e-09,
+        "passed": true
+      }
+    ]
+  },
+  "mesh": {
+    "nodes": 27426,
+    "elements": 16373,
+    "dofs": 82278,
+    "size_m": 0.0004,
+    "min_jacobian": 5.5673237508676216e-15,
+    "gmsh_version": "4.15.2",
+    "sha256": "64b0875827b79a091dc2099865b3b4f9b3ac21dc55e3debe8d987d8d10c4caad",
+    "cache_key": "469f008427ee849d3138cb52bf8406a812481548edb2473d588afa72222a5312",
+    "cache_reused": false
+  },
+  "passed": true
+}

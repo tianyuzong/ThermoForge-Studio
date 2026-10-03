@@ -1,0 +1,62 @@
+{
+  "study_id": "04eace3ebae441b3b3b1d2988951c31f",
+  "node_ids": "original one-based IDs",
+  "surface_vertices": 46492,
+  "frames": [
+    {
+      "frame": 0,
+      "time_s": 0.0,
+      "checks": {
+        "no_topology_retransmission": true,
+        "same_topology_id": true,
+        "real_time": true,
+        "temperature_exact": true,
+        "displacement_exact": true,
+        "magnitude_exact": true,
+        "pressure_display_projection": true,
+        "missing_contact_is_null": true
+      },
+      "display_temperature_range_C": [
+        25.0,
+        25.0
+      ]
+    },
+    {
+      "frame": 5,
+      "time_s": 300.0,
+      "checks": {
+        "no_topology_retransmission": true,
+        "same_topology_id": true,
+        "real_time": true,
+        "temperature_exact": true,
+        "displacement_exact": true,
+        "magnitude_exact": true,
+        "pressure_display_projection": true,
+        "missing_contact_is_null": true
+      },
+      "display_temperature_range_C": [
+        25.658113701549198,
+        33.46286339256201
+      ]
+    },
+    {
+      "frame": 10,
+      "time_s": 600.0,
+      "checks": {
+        "no_topology_retransmission": true,
+        "same_topology_id": true,
+        "real_time": true,
+        "temperature_exact": true,
+        "displacement_exact": true,
+        "magnitude_exact": true,
+        "pressure_display_projection": true,
+        "missing_contact_is_null": true
+      },
+      "display_temperature_range_C": [
+        27.99017169047128,
+        40.01241651326381
+      ]
+    }
+  ],
+  "passed": true
+}

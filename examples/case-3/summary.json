@@ -1,0 +1,235 @@
+{
+  "maximum_displacement_m": 7.847926985904049e-06,
+  "maximum_von_mises_Pa": 32381990.24014645,
+  "minimum_safety_factor": 7.257120339337647,
+  "principal_max_Pa": 46168187.30787044,
+  "principal_min_Pa": -45574232.74422442,
+  "stress_peak": {
+    "element": 21525,
+    "integration_point": 1,
+    "position_m": [
+      0.021199673646968405,
+      0.0216313857127397,
+      0.007884615255847719
+    ]
+  },
+  "displacement_peak": {
+    "node": 2,
+    "position_m": [
+      0.008,
+      -0.03,
+      0.06
+    ]
+  },
+  "mesh": {
+    "nodes": 38508,
+    "elements": 22929,
+    "dofs": 115524,
+    "size_m": 0.005,
+    "min_jacobian": 5.180779421589475e-10,
+    "gmsh_version": "4.15.2",
+    "sha256": "4464426a10a7dfaf6e4f2a3b4e6dc24f9d9f593c8584001503d4c980c354d4c4",
+    "cache_key": "6d95c1973624b4ad09d141a449ed79e406d123214fc791ca178201c1cf8a3290",
+    "cache_reused": true
+  },
+  "checks": {
+    "strength": {
+      "status": "within_limit",
+      "value_Pa": 32381990.24014645,
+      "limit_Pa": 156666666.66666666,
+      "safety_factor": 7.257120339337647,
+      "target": 1.5
+    },
+    "displacement": {
+      "status": "not_evaluated",
+      "value_m": 7.847926985904049e-06,
+      "limit_m": null
+    }
+  },
+  "warnings": [],
+  "loads": [
+    {
+      "name": "顶面全局+Y方向300 N总力",
+      "kind": "force",
+      "area_m2": 0.00047999999999999996,
+      "resultant_N": [
+        0.0,
+        300.00000000000006,
+        0.0
+      ],
+      "moment_Nm": [
+        -15.91413043749475,
+        0.0,
+        -11.283269560132155
+      ],
+      "moment_origin_m": [
+        0.04161089853377384,
+        3.256166658002237e-05,
+        0.006952898541684179
+      ],
+      "mapping_force_relative": 1.8947806286936001e-16,
+      "mapping_moment_relative": 2.4413689592118594e-16,
+      "mapping_passed": true
+    }
+  ],
+  "supports": [
+    {
+      "name": "四个安装孔全部孔壁固定",
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "face_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "area_m2": 0.0008042434510347792,
+      "reaction_N": [
+        1.3630845873885411e-05,
+        -299.99999933477545,
+        4.921966368787688e-06
+      ],
+      "moment_Nm": [
+        15.914130407307502,
+        1.9559163176076106e-08,
+        11.283269573623537
+      ]
+    }
+  ],
+  "balance": {
+    "passed": true,
+    "force_relative": 5.986303561394495e-09,
+    "moment_relative": 8.026311754168763e-10,
+    "free_dof_relative": 1.185977838643236e-09,
+    "force_residual_N": [
+      1.3630845873885411e-05,
+      6.652242534096325e-07,
+      4.921966368787688e-06
+    ],
+    "moment_residual_Nm": [
+      -3.018724500637683e-08,
+      1.9559163176076106e-08,
+      1.3491388536619568e-08
+    ],
+    "reaction_N": [
+      1.3630845873885411e-05,
+      -299.99999933477545,
+      4.921966368787688e-06
+    ],
+    "moment_origin_m": [
+      0.04161089853377384,
+      3.256166658002237e-05,
+      0.006952898541684179
+    ]
+  },
+  "maximum_normal_strain": 0.0001441613,
+  "maximum_displacement_gradient": 0.0002829909374892611,
+  "convergence": {
+    "status": "not_verified"
+  },
+  "stress_basis": "C3D10 四个积分点原始应力；显示云图为外推后的体积加权节点平均",
+  "solver": "CalculiX 2.23 / C3D10 / linear static",
+  "units": "SI",
+  "execution": {
+    "backend": "calculix_cpu",
+    "requested_device": "CPU",
+    "executable_sha256": "e18360eb32a5cd48f91a212c57069212cd8e27d2f798a599a78106bd0b3ecc1f",
+    "gpu_execution_verified": false,
+    "note": "CPU 求解"
+  },
+  "material": {
+    "name": "演示钢材（假设值）",
+    "young_modulus_Pa": 210000000000.0,
+    "poisson_ratio": 0.3,
+    "density_kg_m3": 7850.0,
+    "yield_strength_Pa": 235000000.0,
+    "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+  },
+  "name": "工况3：顶面全局+Y方向300 N",
+  "geometry_sha256": "1ee52edd021a397fd9bfa5dd24e27690ef767dcbfbcad4ad9570cb30832fbf64",
+  "mesh_sha256": "4464426a10a7dfaf6e4f2a3b4e6dc24f9d9f593c8584001503d4c980c354d4c4",
+  "elapsed_s": 12.660569499945268,
+  "job_id": "ce62df80604b4521b7719aa4a1faeba8",
+  "created_at": 1789984264.073839,
+  "configuration": {
+    "schema_version": 1,
+    "model_id": "f31b7ca051ab4f42984c443e86ba7369",
+    "geometry_sha256": "1ee52edd021a397fd9bfa5dd24e27690ef767dcbfbcad4ad9570cb30832fbf64",
+    "case": {
+      "schema_version": 1,
+      "name": "工况3：顶面全局+Y方向300 N",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "supports": [
+        {
+          "name": "四个安装孔全部孔壁固定",
+          "selection": {
+            "kind": "faces",
+            "name": "安装孔",
+            "face_ids": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "name": "顶面全局+Y方向300 N总力",
+          "kind": "force",
+          "selection": {
+            "kind": "faces",
+            "name": "顶面",
+            "face_ids": [
+              4
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            300.0,
+            0.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.005,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null
+    },
+    "task_id": "04c45301f9a245d6a1b78ae4fb7d4741",
+    "project_id": "3c984d89e6ae413cbab429b99832613c",
+    "config_sha256": "96e574ec24bf16bfbb671bf738300c30dd2ea4e4beeb1788f1642f381e40d1e6",
+    "compute_backend": "calculix_cpu"
+  }
+}

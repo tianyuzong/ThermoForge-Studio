@@ -1,0 +1,91 @@
+{
+  "run_id": "b05d815b421c4591bf504ca6c165ae69",
+  "passed": false,
+  "checks": [
+    {
+      "name": "six completed studies",
+      "passed": false
+    },
+    {
+      "name": "six completed exports",
+      "passed": false
+    },
+    {
+      "name": "motor transient refinement",
+      "passed": false,
+      "validation": null
+    },
+    {
+      "name": "static raw checksum",
+      "passed": true
+    },
+    {
+      "name": "static frame 0 time",
+      "passed": true
+    },
+    {
+      "name": "fatigue raw checksum",
+      "passed": true
+    },
+    {
+      "name": "fatigue frame 0 time",
+      "passed": true
+    },
+    {
+      "name": "fatigue frame 2 time",
+      "passed": true
+    },
+    {
+      "name": "fatigue frame 4 time",
+      "passed": true
+    },
+    {
+      "name": "thermal_steady raw checksum",
+      "passed": true
+    },
+    {
+      "name": "thermal_steady frame 0 time",
+      "passed": true
+    },
+    {
+      "name": "thermal_steady frame 0 temperature",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient raw checksum",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient frame 0 time",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient frame 0 temperature",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient frame 5 time",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient frame 5 temperature",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient frame 10 time",
+      "passed": true
+    },
+    {
+      "name": "thermal_transient frame 10 temperature",
+      "passed": true
+    },
+    {
+      "name": "thermo_mechanical archive exists",
+      "passed": false
+    },
+    {
+      "name": "ZIP exists",
+      "passed": false
+    }
+  ]
+}

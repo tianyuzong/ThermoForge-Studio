@@ -1,0 +1,712 @@
+{
+  "id": "6cd644217ea54f9eb6eeef689a1f96da",
+  "project_id": "20ce2c6d36be4a408708ac5c6b58b0b9",
+  "model_id": "bc9665519868483f84b29c7ca3215ac7",
+  "name": "热致间隙闭合 · 0.625 秒步长验证",
+  "analysis_type": "thermo_mechanical",
+  "resume_from": null,
+  "results_from_study": null,
+  "case": {
+    "schema_version": 3,
+    "name": "热致间隙闭合 · 0.625 秒步长验证",
+    "analysis_type": "thermo_mechanical",
+    "geometry_sha256": "3ba3b0a1acaa760edfa81d7c70fb11506c404a79dc82261c64c10d97cf8a88a5",
+    "material": {
+      "name": "演示钢材（合成疲劳数据）",
+      "density_kg_m3": 7850.0,
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "yield_strength_Pa": 1600000000.0,
+      "tensile_strength_Pa": 2000000000.0,
+      "conductivity_W_mK": 45.0,
+      "specific_heat_J_kgK": 470.0,
+      "thermal_expansion_per_K": 1.2e-05,
+      "sn_curve": {
+        "points": [
+          {
+            "x": 1000.0,
+            "y": 600000000.0
+          },
+          {
+            "x": 100000.0,
+            "y": 300000000.0
+          },
+          {
+            "x": 10000000.0,
+            "y": 150000000.0
+          },
+          {
+            "x": 1000000000.0,
+            "y": 75000000.0
+          }
+        ],
+        "endurance_limit_Pa": 75000000.0,
+        "reference_R": -1.0,
+        "life_definition": "initiation",
+        "source": "软件验证合成曲线；不代表该电机实测材料",
+        "demonstration": true
+      },
+      "findley": {
+        "k": 0.2,
+        "curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "calibration": "rolling_contact"
+      },
+      "hardness_Pa": 7000000000.0,
+      "wear_coefficient": 1e-08,
+      "valid_temperature_C": null,
+      "phase_change": null,
+      "source": "软件验证演示假设，非实物牌号和认证数据"
+    },
+    "component_materials": {
+      "1": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 1600000000.0,
+        "tensile_strength_Pa": 2000000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 600000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 300000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 150000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 75000000.0
+              }
+            ],
+            "endurance_limit_Pa": 75000000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "软件验证合成曲线；不代表该电机实测材料",
+            "demonstration": true
+          },
+          "calibration": "rolling_contact"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      },
+      "2": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 1600000000.0,
+        "tensile_strength_Pa": 2000000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 600000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 300000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 150000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 75000000.0
+              }
+            ],
+            "endurance_limit_Pa": 75000000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "软件验证合成曲线；不代表该电机实测材料",
+            "demonstration": true
+          },
+          "calibration": "rolling_contact"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      }
+    },
+    "mesh": {
+      "size_m": 0.008,
+      "local_selections": [],
+      "local_size_m": null,
+      "convergence": false,
+      "evaluation_selection": null,
+      "regions": []
+    },
+    "resources": {
+      "cpu_threads": 6,
+      "max_dofs": 300000,
+      "memory_limit_GiB": null,
+      "time_limit_s": 86400.0
+    },
+    "supports": [
+      {
+        "name": "底面固定",
+        "selection": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-z",
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "上端固定",
+        "selection": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+z",
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "loads": [],
+    "bonded_connections": [],
+    "thermal_connections": [],
+    "contacts": [
+      {
+        "name": "受热开闭界面",
+        "slave": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-z",
+          "bounds_m": null
+        },
+        "master": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+z",
+          "bounds_m": null
+        },
+        "friction": 0.0,
+        "penalty_Pa_m": 1000000000000000.0,
+        "tangential_stiffness_Pa_m": 100000000000000.0,
+        "search_distance_m": 0.001,
+        "initial_offset_m": 0.0,
+        "thermal": true,
+        "conductance": [
+          {
+            "pressure_Pa": 0.0,
+            "conductance_W_m2K": 26000.0,
+            "temperature_C": null
+          },
+          {
+            "pressure_Pa": 100000000.0,
+            "conductance_W_m2K": 36000.0,
+            "temperature_C": null
+          }
+        ],
+        "gap_conductivity_W_mK": 0.026,
+        "minimum_gap_m": 1e-06,
+        "maximum_gap_m": 0.005,
+        "wear": false
+      }
+    ],
+    "thermal": {
+      "initial_C": 25.0,
+      "reference_C": 25.0,
+      "duration_s": 40.0,
+      "dt_s": 0.625,
+      "save_s": 5.0,
+      "initial_from_study": null,
+      "boundaries": [
+        {
+          "name": "上部升温",
+          "kind": "temperature",
+          "selection": {
+            "body_id": 1,
+            "kind": "direction",
+            "name": null,
+            "face_ids": [],
+            "direction": "+z",
+            "bounds_m": null
+          },
+          "body_id": null,
+          "value": 100.0,
+          "ambient_C": 25.0,
+          "profile": [],
+          "ambient_profile": [],
+          "thermostat": null,
+          "start_s": 0.0,
+          "end_s": null
+        },
+        {
+          "name": "下部恒温",
+          "kind": "temperature",
+          "selection": {
+            "body_id": 2,
+            "kind": "direction",
+            "name": null,
+            "face_ids": [],
+            "direction": "-z",
+            "bounds_m": null
+          },
+          "body_id": null,
+          "value": 25.0,
+          "ambient_C": 25.0,
+          "profile": [],
+          "ambient_profile": [],
+          "thermostat": null,
+          "start_s": 0.0,
+          "end_s": null
+        }
+      ]
+    },
+    "fatigue": {
+      "method": "sn_goodman",
+      "body_ids": [],
+      "target_cycles": 1000000.0,
+      "plane_count": 162
+    },
+    "history": null,
+    "motions": [],
+    "axles": [],
+    "clearance_probes": [],
+    "coupling": {
+      "transient": true,
+      "temperature_tolerance_K": 0.01,
+      "displacement_relative_tolerance": 0.0001,
+      "heatflow_relative_tolerance": 0.001,
+      "relaxation": 0.5,
+      "max_iterations": 30,
+      "max_cutbacks": 6
+    },
+    "cycles_per_wear_block": 1,
+    "wear_blocks": 1,
+    "assumptions": [
+      "独立双块体数值示例：真实 CAD 初始间隙10μm；上、下端固定，温升使界面闭合。",
+      "热导表、空气导热与材料均为演示假设，未经过实物标定。"
+    ]
+  },
+  "dependencies": [],
+  "snapshot_sha256": "313bb9b542cbd2636652ec0d50b32566b26be9dc0b36114312178b0cc040fd9a",
+  "status": "completed",
+  "detail": "结果与报告已保存",
+  "created_at": 1790773313.194726,
+  "cancel_requested": false,
+  "updated_at": 1790774939.6836274,
+  "summary": {
+    "name": "热致间隙闭合 · 0.625 秒步长验证",
+    "analysis_type": "thermo_mechanical",
+    "frames": 9,
+    "times_s": [
+      0.0,
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0
+    ],
+    "mesh": {
+      "nodes": 2526,
+      "elements": 1282,
+      "dofs": 7578,
+      "size_m": 0.008,
+      "min_jacobian": 1.5442088178131507e-08,
+      "gmsh_version": "4.15.2",
+      "sha256": "15af7519edc35963791cc400bf5754fecf95a38c6777a69ed6bc328de3f14760",
+      "cache_key": "cc7150d8697a4ebb9ed10dcc1129fe7768a7166f2943d3088f62f9b7dbdf2907",
+      "cache_reused": true
+    },
+    "resources": {
+      "cpu_threads": 6,
+      "estimated_memory_GiB": 0.054904648828052495,
+      "memory_budget_GiB": 39.493655395507815,
+      "estimated_storage_GiB": 0.02057039737701416,
+      "method": "conservative sparse-factorization estimate, not a measured peak"
+    },
+    "stress_basis": "C3D10 原始积分点；显示场独立投影",
+    "convergence": {
+      "status": "not_verified"
+    },
+    "assumptions": [
+      "独立双块体数值示例：真实 CAD 初始间隙10μm；上、下端固定，温升使界面闭合。",
+      "热导表、空气导热与材料均为演示假设，未经过实物标定。"
+    ],
+    "source_versions": {
+      "strength_studio": {
+        "url": "https://github.com/tianyuzong/strength-studio",
+        "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+      },
+      "thermoforge": {
+        "url": "https://github.com/tianyuzong/ThermoForge",
+        "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+      },
+      "integration_version": "0.6.0"
+    },
+    "compute_backend": "calculix_cpu + scipy_fp64",
+    "minimum_temperature_C": 25.0,
+    "maximum_temperature_C": 100.0,
+    "maximum_temperature_rise_K": 75.0,
+    "maximum_gradient_K_m": 5326.347731047215,
+    "thermal_balance": {
+      "maximum_relative_error": 1.3259462972037284e-12,
+      "passed": true
+    },
+    "maximum_displacement_m": 1.1051035172396022e-05,
+    "maximum_von_mises_Pa": 411008011.3547524,
+    "reused_native_frames": 0,
+    "mechanical_balance": {
+      "passed": true,
+      "frames": [
+        {
+          "force_relative": 0.0,
+          "moment_relative": 0.0,
+          "passed": true
+        },
+        {
+          "force_relative": 1.1368397940621365e-08,
+          "moment_relative": 1.1287993132046601e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 4.983871565465949e-09,
+          "moment_relative": 9.144004779100427e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 8.210521153836388e-09,
+          "moment_relative": 1.3281801271175018e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 6.594108585399802e-09,
+          "moment_relative": 4.764876084533914e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 7.968033271621454e-09,
+          "moment_relative": 9.67094473392421e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 3.0372075559296857e-09,
+          "moment_relative": 7.03556848198737e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 7.425739826848983e-09,
+          "moment_relative": 1.4509786289027401e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.0689813552193428e-08,
+          "moment_relative": 5.416812331714401e-09,
+          "passed": true
+        }
+      ]
+    },
+    "maximum_contact_pressure_Pa": 45218480.0,
+    "contact_projection": "Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.",
+    "contact_history": [
+      {
+        "time_s": 0.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "moment_Nm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "area_m2": 0.0,
+            "normal_force_N": 0.0,
+            "shear_force_N": 0.0
+          }
+        }
+      },
+      {
+        "time_s": 5.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              3.748043e-05,
+              -4.294672e-05,
+              62.63579
+            ],
+            "moment_Nm": [
+              -0.001339163,
+              0.0003825309,
+              4.489099e-09
+            ],
+            "area_m2": 1.011888e-05,
+            "normal_force_N": -62.63579,
+            "shear_force_N": 2.645021e-05
+          }
+        }
+      },
+      {
+        "time_s": 10.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.0005454234,
+              0.0001232267,
+              3503.26
+            ],
+            "moment_Nm": [
+              0.01606555,
+              -0.02904248,
+              1.206776e-06
+            ],
+            "area_m2": 0.0001469012,
+            "normal_force_N": -3503.26,
+            "shear_force_N": 0.0002668262
+          }
+        }
+      },
+      {
+        "time_s": 15.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.001106892,
+              -0.0009019245,
+              4836.744
+            ],
+            "moment_Nm": [
+              0.03049802,
+              -0.02668873,
+              4.223356e-06
+            ],
+            "area_m2": 0.0001720525,
+            "normal_force_N": -4836.744,
+            "shear_force_N": 0.0007966052
+          }
+        }
+      },
+      {
+        "time_s": 20.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.0008559587,
+              -0.001359205,
+              5186.559
+            ],
+            "moment_Nm": [
+              0.02263857,
+              -0.01617783,
+              3.729475e-06
+            ],
+            "area_m2": 0.0001780104,
+            "normal_force_N": -5186.559,
+            "shear_force_N": 0.001003243
+          }
+        }
+      },
+      {
+        "time_s": 25.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.0008543844,
+              -0.001424438,
+              5275.695
+            ],
+            "moment_Nm": [
+              0.02083308,
+              -0.01518791,
+              3.622044e-06
+            ],
+            "area_m2": 0.0001796445,
+            "normal_force_N": -5275.695,
+            "shear_force_N": 0.001165228
+          }
+        }
+      },
+      {
+        "time_s": 30.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.0008508214,
+              -0.001422336,
+              5299.272
+            ],
+            "moment_Nm": [
+              0.02039185,
+              -0.01483653,
+              3.576089e-06
+            ],
+            "area_m2": 0.0001808791,
+            "normal_force_N": -5299.272,
+            "shear_force_N": 0.001913735
+          }
+        }
+      },
+      {
+        "time_s": 35.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.000826322,
+              -0.001418249,
+              5305.22
+            ],
+            "moment_Nm": [
+              0.02027377,
+              -0.01471715,
+              3.564787e-06
+            ],
+            "area_m2": 0.0001808794,
+            "normal_force_N": -5305.22,
+            "shear_force_N": 0.001912442
+          }
+        }
+      },
+      {
+        "time_s": 40.0,
+        "pairs": {
+          "受热开闭界面": {
+            "force_N": [
+              0.0008262976,
+              -0.001422604,
+              5306.718
+            ],
+            "moment_Nm": [
+              0.02024381,
+              -0.01468681,
+              3.561679e-06
+            ],
+            "area_m2": 0.0001808796,
+            "normal_force_N": -5306.718,
+            "shear_force_N": 0.001912257
+          }
+        }
+      }
+    ]
+  }
+}

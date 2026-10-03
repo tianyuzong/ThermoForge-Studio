@@ -1,0 +1,68 @@
+{
+  "run_id": "f395a017c3404608bfc15313e659bd6e",
+  "export_generation": "1a1a3d92dc6b4078",
+  "pdf_pages": 42,
+  "toc_entries": 43,
+  "toc_errors": [],
+  "toc_links": 86,
+  "no_appendix": true,
+  "pdf_creator": "ThermoForge Studio / engineering-report-4",
+  "pdf_author": "ThermoForge Studio",
+  "figure_count": 29,
+  "report_diagnostics": [],
+  "source_count": 4,
+  "source_errors": [],
+  "zip_members": 177,
+  "manifest_files": 176,
+  "duplicate_members": 0,
+  "unlisted_members": [],
+  "zip_hash_errors": [],
+  "zip_check_seconds": 1.5370512999943458,
+  "manifest_complete": true,
+  "scope": "report",
+  "per_study_reports": {
+    "static": {
+      "pages": 11,
+      "toc_entries": 13,
+      "appendix": false,
+      "diagnostics": []
+    },
+    "thermal_steady": {
+      "pages": 12,
+      "toc_entries": 13,
+      "appendix": false,
+      "diagnostics": []
+    },
+    "thermal_transient": {
+      "pages": 14,
+      "toc_entries": 15,
+      "appendix": false,
+      "diagnostics": []
+    },
+    "thermo_mechanical": {
+      "pages": 20,
+      "toc_entries": 20,
+      "appendix": false,
+      "diagnostics": []
+    }
+  },
+  "visual_review": {
+    "status": "passed",
+    "rendered_pages": 42,
+    "renderer": "Poppler pdftoppm",
+    "contact_sheets": [
+      ".runtime/live-export-qa/contact-sheet-1.png",
+      ".runtime/live-export-qa/contact-sheet-2.png",
+      ".runtime/live-export-qa/contact-sheet-3.png",
+      ".runtime/live-export-qa/contact-sheet-4.png"
+    ],
+    "detail_pages": [
+      30,
+      33,
+      41
+    ],
+    "findings": [],
+    "note": "All 42 pages inspected in contact sheets; dense contact parameters, temperature frame figures and numerical verification pages inspected at 1600 pixels. No clipping, overlap or missing charts found."
+  },
+  "toc_title_page_mismatch": []
+}

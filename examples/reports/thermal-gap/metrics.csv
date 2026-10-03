@@ -1,0 +1,15 @@
+﻿metric,value
+name,热致间隙闭合 · 0.15625 秒步长验证
+analysis_type,thermo_mechanical
+frames,9
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+minimum_temperature_C,25.0
+maximum_temperature_C,100.0
+maximum_temperature_rise_K,75.0
+maximum_gradient_K_m,5083.335055060273
+maximum_displacement_m,1.105109383672535e-05
+maximum_von_mises_Pa,411009109.54753673
+reused_native_frames,0
+maximum_contact_pressure_Pa,45219660.0
+contact_projection,Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.

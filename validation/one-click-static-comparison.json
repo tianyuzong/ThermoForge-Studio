@@ -1,0 +1,12 @@
+{
+  "study_id": "e1680fc9e78f4adeadf49eaef5435cdd",
+  "reference_job": "db45c4882c344bd988fd71e83de433d5",
+  "identical_mesh": false,
+  "relative_changes": {
+    "maximum_displacement_m": 5.469232539079272e-07,
+    "maximum_von_mises_Pa": 1.0305090114570703e-12
+  },
+  "limit": 0.001,
+  "passed": false,
+  "note": "本次一键示例重新导入 CAD，网格拓扑一致但节点坐标非逐位相同；位移与应力指标分别相差 5.47e-7 和 1.03e-12。严格同网格检查未通过，不替代原验收。"
+}

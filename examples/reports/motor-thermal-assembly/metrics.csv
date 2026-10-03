@@ -1,0 +1,16 @@
+﻿metric,value
+name,电机 · 热结构装配 · 配合间隙探针
+analysis_type,thermo_mechanical
+frames,11
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+minimum_temperature_C,25.0
+maximum_temperature_C,40.00723344790968
+maximum_temperature_rise_K,15.007233447909677
+maximum_gradient_K_m,463.32144693521093
+maximum_displacement_m,3.3087907444911446e-05
+maximum_von_mises_Pa,55690716.17453334
+maximum_contact_pressure_Pa,0.0
+contact_projection,Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.
+derived_from,motor-thermo_mechanical
+postprocess_only,True

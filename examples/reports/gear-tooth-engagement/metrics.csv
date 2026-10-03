@@ -1,0 +1,11 @@
+﻿metric,value
+name,标准渐开线齿轮 · 单齿节啮合基准（0.25°步长）
+analysis_type,contact_cycle
+frames,73
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+maximum_displacement_m,0.0034412529349765915
+maximum_von_mises_Pa,14737655.403353991
+reused_native_frames,0
+maximum_contact_pressure_Pa,2470655000.0
+contact_projection,Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.

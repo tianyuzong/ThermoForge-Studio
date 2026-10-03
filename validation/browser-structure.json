@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-30T14:36:51.654336+00:00",
+  "url": "http://127.0.0.1:8877",
+  "checks": [
+    "original structural workbench",
+    "CPU/GPU resource availability matches health",
+    "Agent composer"
+  ],
+  "command": "npm test",
+  "page_errors": [],
+  "gpu_available_during_check": true
+}

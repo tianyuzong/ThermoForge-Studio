@@ -1,0 +1,15 @@
+﻿metric,value
+name,电机 · 轴承座接触与双向热结构稳态
+analysis_type,thermo_mechanical
+frames,1
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+minimum_temperature_C,65.47527404992029
+maximum_temperature_C,157.26194114405297
+maximum_temperature_rise_K,132.26194114405297
+maximum_gradient_K_m,2441.11492107958
+maximum_displacement_m,0.00043313816554070973
+maximum_von_mises_Pa,301479299.5588682
+reused_native_frames,1
+maximum_contact_pressure_Pa,75111460.0
+contact_projection,Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.

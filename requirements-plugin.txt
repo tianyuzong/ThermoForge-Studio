@@ -1,0 +1,2 @@
+# Kept in a separate .runtime/plugin-env; does not change solver dependencies.
+mcp==1.30.0

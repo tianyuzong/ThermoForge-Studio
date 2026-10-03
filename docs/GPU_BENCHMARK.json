@@ -1,0 +1,869 @@
+{
+  "results": [
+    {
+      "target_dofs": 500000,
+      "mesh": {
+        "nodes": 159667,
+        "elements": 102809,
+        "dofs": 479001,
+        "size_m": 0.0016516146737836806,
+        "min_jacobian": 5.753156591431678e-10,
+        "gmsh_version": "4.15.2",
+        "sha256": "8a11f45b225a33333d70bc60cb15881bfbc075317d82d92906caceedde2b8ffb",
+        "cache_key": "12f569bfbac3f5b0c25a1066b5667a7c553cce26cabb0f6402f8617743352254",
+        "cache_reused": false
+      },
+      "mesh_sha256": "8a11f45b225a33333d70bc60cb15881bfbc075317d82d92906caceedde2b8ffb",
+      "mesh_prepare_s": 23.639673300087452,
+      "cpu_threads": 6,
+      "gpu": [
+        {
+          "wall_s": 7.388132200110704,
+          "execution": {
+            "backend": "cudss_cuda",
+            "requested_device": "GPU",
+            "executed_device": "CUDA",
+            "array_adapter": "native_cuda",
+            "precision": "float64",
+            "cudss_version": "0.8.0",
+            "devices": [
+              {
+                "name": "NVIDIA GeForce RTX 3090 Ti",
+                "memory_MiB": 24564,
+                "driver": "591.86"
+              }
+            ],
+            "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+            "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+            "factorization_reused": false,
+            "gpu_execution_verified": true,
+            "kernel_trace_verified": false,
+            "cudss_ir_status": 0,
+            "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+            "timings_s": {
+              "structure": 1.3275381999555975,
+              "transfer": 0.06941430014558136,
+              "assembly": 0.02964100008830428,
+              "analysis": 2.787339000031352,
+              "factorization": 2.9347860000561923,
+              "rhs_transfer": 0.0028177001513540745,
+              "solve": 0.013909200206398964,
+              "recovery": 0.043765899958088994
+            },
+            "compute_s": 7.388116999994963,
+            "relative_residual": 3.6373806534163714e-12,
+            "buffer_peak_bytes": 497123664,
+            "memory_budget_bytes": 19529518284,
+            "factor_memory_estimates_bytes": [
+              4247338836,
+              4247338836,
+              38448032,
+              340082192,
+              1162763076,
+              3345499776,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+          },
+          "balance": {
+            "passed": true,
+            "force_relative": 4.634719383244633e-14,
+            "moment_relative": 2.1128885749190087e-13,
+            "free_dof_relative": 1.5489516900383175e-13,
+            "force_residual_N": [
+              2.208245253321195e-10,
+              4.612457638053513e-11,
+              -1.4827591932053963e-10
+            ],
+            "moment_residual_Nm": [
+              -5.063883340428177e-13,
+              9.779944215582148e-12,
+              -2.6565727048732946e-11
+            ],
+            "reaction_N": [
+              2.208245253321195e-10,
+              4.612457638053513e-11,
+              999.9999999998516
+            ],
+            "moment_origin_m": [
+              0.037905338509981956,
+              3.4155112989818986e-05,
+              0.012337274808355935
+            ]
+          }
+        },
+        {
+          "wall_s": 7.491798399947584,
+          "execution": {
+            "backend": "cudss_cuda",
+            "requested_device": "GPU",
+            "executed_device": "CUDA",
+            "array_adapter": "native_cuda",
+            "precision": "float64",
+            "cudss_version": "0.8.0",
+            "devices": [
+              {
+                "name": "NVIDIA GeForce RTX 3090 Ti",
+                "memory_MiB": 24564,
+                "driver": "591.86"
+              }
+            ],
+            "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+            "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+            "factorization_reused": false,
+            "gpu_execution_verified": true,
+            "kernel_trace_verified": false,
+            "cudss_ir_status": 0,
+            "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+            "timings_s": {
+              "structure": 1.410196099895984,
+              "transfer": 0.07766800001263618,
+              "assembly": 0.03235910017974675,
+              "analysis": 2.808537500211969,
+              "factorization": 2.9329454998951405,
+              "rhs_transfer": 0.004051500000059605,
+              "solve": 0.013256500009447336,
+              "recovery": 0.04138850001618266
+            },
+            "compute_s": 7.4887822000309825,
+            "relative_residual": 3.6159154754691023e-12,
+            "buffer_peak_bytes": 497123664,
+            "memory_budget_bytes": 19529518284,
+            "factor_memory_estimates_bytes": [
+              4247338836,
+              4247338836,
+              38448032,
+              340082192,
+              1162763076,
+              3345499776,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+          },
+          "balance": {
+            "passed": true,
+            "force_relative": 9.287889671397769e-14,
+            "moment_relative": 2.1312947007815979e-13,
+            "free_dof_relative": 1.539810902524867e-13,
+            "force_residual_N": [
+              4.0288422598067086e-10,
+              -1.3907403006996333e-11,
+              -3.607759924140197e-10
+            ],
+            "moment_residual_Nm": [
+              -1.363371221474452e-13,
+              9.111810264639253e-12,
+              -2.7067056061758077e-11
+            ],
+            "reaction_N": [
+              4.0288422598067086e-10,
+              -1.3907403006996333e-11,
+              999.999999999638
+            ],
+            "moment_origin_m": [
+              0.037905338509981956,
+              3.4155112989818986e-05,
+              0.012337274808355935
+            ]
+          }
+        },
+        {
+          "wall_s": 7.336327699944377,
+          "execution": {
+            "backend": "cudss_cuda",
+            "requested_device": "GPU",
+            "executed_device": "CUDA",
+            "array_adapter": "native_cuda",
+            "precision": "float64",
+            "cudss_version": "0.8.0",
+            "devices": [
+              {
+                "name": "NVIDIA GeForce RTX 3090 Ti",
+                "memory_MiB": 24564,
+                "driver": "591.86"
+              }
+            ],
+            "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+            "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+            "factorization_reused": false,
+            "gpu_execution_verified": true,
+            "kernel_trace_verified": false,
+            "cudss_ir_status": 0,
+            "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+            "timings_s": {
+              "structure": 1.2943302998319268,
+              "transfer": 0.0650112999137491,
+              "assembly": 0.030101400101557374,
+              "analysis": 2.798596499953419,
+              "factorization": 2.9310121999587864,
+              "rhs_transfer": 0.0030359001830220222,
+              "solve": 0.014333500061184168,
+              "recovery": 0.036843299865722656
+            },
+            "compute_s": 7.334665999980643,
+            "relative_residual": 3.6430514330867636e-12,
+            "buffer_peak_bytes": 497123664,
+            "memory_budget_bytes": 19529518284,
+            "factor_memory_estimates_bytes": [
+              4247338836,
+              4247338836,
+              38448032,
+              340082192,
+              1162763076,
+              3345499776,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+          },
+          "balance": {
+            "passed": true,
+            "force_relative": 5.5903101224935575e-14,
+            "moment_relative": 2.0770650353028031e-13,
+            "free_dof_relative": 1.5513665496835568e-13,
+            "force_residual_N": [
+              1.24154020397782e-10,
+              4.206063275447036e-11,
+              -2.980653918127629e-10
+            ],
+            "moment_residual_Nm": [
+              -8.202726692330131e-14,
+              7.611706404064833e-13,
+              -2.7822699873170098e-11
+            ],
+            "reaction_N": [
+              1.24154020397782e-10,
+              4.206063275447036e-11,
+              999.9999999997012
+            ],
+            "moment_origin_m": [
+              0.037905338509981956,
+              3.4155112989818986e-05,
+              0.012337274808355935
+            ]
+          }
+        }
+      ],
+      "cpu": [
+        {
+          "wall_s": 47.162411800120026,
+          "balance": {
+            "passed": true,
+            "force_relative": 8.87864350017029e-10,
+            "moment_relative": 1.3753283267696716e-09,
+            "free_dof_relative": 1.2846368257357542e-09,
+            "force_residual_N": [
+              -2.816049635534501e-06,
+              -4.268230009180085e-06,
+              -7.724055188923495e-07
+            ],
+            "moment_residual_Nm": [
+              6.479459624918193e-08,
+              1.0487762459182592e-07,
+              -1.36996300170375e-07
+            ],
+            "reaction_N": [
+              -2.816049635534501e-06,
+              -4.268230009180085e-06,
+              999.999999227597
+            ],
+            "moment_origin_m": [
+              0.037905338509981956,
+              3.4155112989818986e-05,
+              0.012337274808355935
+            ]
+          }
+        },
+        {
+          "wall_s": 46.89857690013014,
+          "balance": {
+            "passed": true,
+            "force_relative": 8.87864350017029e-10,
+            "moment_relative": 1.3753283267696716e-09,
+            "free_dof_relative": 1.2846368256868313e-09,
+            "force_residual_N": [
+              -2.816049635534501e-06,
+              -4.268230009180085e-06,
+              -7.724055188923495e-07
+            ],
+            "moment_residual_Nm": [
+              6.479459624918193e-08,
+              1.0487762459182592e-07,
+              -1.36996300170375e-07
+            ],
+            "reaction_N": [
+              -2.816049635534501e-06,
+              -4.268230009180085e-06,
+              999.999999227597
+            ],
+            "moment_origin_m": [
+              0.037905338509981956,
+              3.4155112989818986e-05,
+              0.012337274808355935
+            ]
+          }
+        },
+        {
+          "wall_s": 46.95175230014138,
+          "balance": {
+            "passed": true,
+            "force_relative": 8.87864350017029e-10,
+            "moment_relative": 1.3753283267696716e-09,
+            "free_dof_relative": 1.284636825635105e-09,
+            "force_residual_N": [
+              -2.816049635534501e-06,
+              -4.268230009180085e-06,
+              -7.724055188923495e-07
+            ],
+            "moment_residual_Nm": [
+              6.479459624918193e-08,
+              1.0487762459182592e-07,
+              -1.36996300170375e-07
+            ],
+            "reaction_N": [
+              -2.816049635534501e-06,
+              -4.268230009180085e-06,
+              999.999999227597
+            ],
+            "moment_origin_m": [
+              0.037905338509981956,
+              3.4155112989818986e-05,
+              0.012337274808355935
+            ]
+          }
+        }
+      ],
+      "cpu_gpu_errors": [
+        {
+          "displacements": 1.575592096599424e-07,
+          "stresses": 1.374099733966105e-07
+        },
+        {
+          "displacements": 1.5755921013468555e-07,
+          "stresses": 1.3740997340710136e-07
+        },
+        {
+          "displacements": 1.5755920966019035e-07,
+          "stresses": 1.374099733976868e-07
+        }
+      ],
+      "gpu_cold_s": 7.735716900089756,
+      "reuse": {
+        "backend": "cudss_cuda",
+        "requested_device": "GPU",
+        "executed_device": "CUDA",
+        "array_adapter": "native_cuda",
+        "precision": "float64",
+        "cudss_version": "0.8.0",
+        "devices": [
+          {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_MiB": 24564,
+            "driver": "591.86"
+          }
+        ],
+        "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+        "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+        "factorization_reused": true,
+        "gpu_execution_verified": true,
+        "kernel_trace_verified": false,
+        "cudss_ir_status": 0,
+        "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+        "timings_s": {
+          "rhs_transfer": 0.0029700000304728746,
+          "solve": 0.01363420020788908,
+          "recovery": 0.03835239983163774
+        },
+        "compute_s": 0.2081019999459386,
+        "relative_residual": 3.6224197021839277e-12,
+        "buffer_peak_bytes": 497123664,
+        "memory_budget_bytes": 19529518284,
+        "factor_memory_estimates_bytes": [
+          4247338836,
+          4247338836,
+          38448032,
+          340082192,
+          1162763076,
+          3345499776,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+      },
+      "cpu_cold_s": 48.533436600118876,
+      "speedup": 6.355023303378066,
+      "performance_passed": true
+    },
+    {
+      "target_dofs": 1000000,
+      "mesh": {
+        "nodes": 328253,
+        "elements": 218732,
+        "dofs": 984759,
+        "size_m": 0.001165383816759983,
+        "min_jacobian": 4.6136678492426916e-10,
+        "gmsh_version": "4.15.2",
+        "sha256": "d68b701ff0c3692d1f9f4c04cbb1873942b8bedec8eb5f1e767a6f1d41767dcb",
+        "cache_key": "bcc1af202ecb1f32173a186be28ce6fd9575b28ab592b487767518ec537fff46",
+        "cache_reused": false
+      },
+      "mesh_sha256": "d68b701ff0c3692d1f9f4c04cbb1873942b8bedec8eb5f1e767a6f1d41767dcb",
+      "mesh_prepare_s": 26.557861600071192,
+      "cpu_threads": 6,
+      "gpu": [
+        {
+          "wall_s": 20.914857800118625,
+          "execution": {
+            "backend": "cudss_cuda",
+            "requested_device": "GPU",
+            "executed_device": "CUDA",
+            "array_adapter": "native_cuda",
+            "precision": "float64",
+            "cudss_version": "0.8.0",
+            "devices": [
+              {
+                "name": "NVIDIA GeForce RTX 3090 Ti",
+                "memory_MiB": 24564,
+                "driver": "591.86"
+              }
+            ],
+            "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+            "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+            "factorization_reused": false,
+            "gpu_execution_verified": true,
+            "kernel_trace_verified": false,
+            "cudss_ir_status": 0,
+            "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+            "timings_s": {
+              "structure": 2.7434253999963403,
+              "transfer": 0.141915800049901,
+              "assembly": 0.061581999994814396,
+              "analysis": 6.6698616000358015,
+              "factorization": 10.976812100037932,
+              "rhs_transfer": 0.005656900117173791,
+              "solve": 0.034754900028929114,
+              "recovery": 0.0788561999797821
+            },
+            "compute_s": 20.914840900106356,
+            "relative_residual": 4.911455500522191e-12,
+            "buffer_peak_bytes": 1024341720,
+            "memory_budget_bytes": 19529518284,
+            "factor_memory_estimates_bytes": [
+              11253916172,
+              11253916172,
+              79462720,
+              718559776,
+              2325067012,
+              9495227616,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+          },
+          "balance": {
+            "passed": true,
+            "force_relative": 6.768414169201176e-14,
+            "moment_relative": 1.4681182860131467e-13,
+            "free_dof_relative": 1.9615824746658852e-13,
+            "force_residual_N": [
+              -3.7946185083015394e-10,
+              -1.0597409061396945e-10,
+              1.3126666420504307e-11
+            ],
+            "moment_residual_Nm": [
+              -1.7701861677876796e-11,
+              4.18469989563186e-12,
+              -7.527794360084883e-12
+            ],
+            "reaction_N": [
+              -3.7946185083015394e-10,
+              -1.0597409061396945e-10,
+              1000.0000000000149
+            ],
+            "moment_origin_m": [
+              0.034139736863249025,
+              -2.793406937385139e-05,
+              0.014487608358195118
+            ]
+          }
+        },
+        {
+          "wall_s": 20.87737339991145,
+          "execution": {
+            "backend": "cudss_cuda",
+            "requested_device": "GPU",
+            "executed_device": "CUDA",
+            "array_adapter": "native_cuda",
+            "precision": "float64",
+            "cudss_version": "0.8.0",
+            "devices": [
+              {
+                "name": "NVIDIA GeForce RTX 3090 Ti",
+                "memory_MiB": 24564,
+                "driver": "591.86"
+              }
+            ],
+            "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+            "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+            "factorization_reused": false,
+            "gpu_execution_verified": true,
+            "kernel_trace_verified": false,
+            "cudss_ir_status": 0,
+            "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+            "timings_s": {
+              "structure": 2.722880900138989,
+              "transfer": 0.1526758000254631,
+              "assembly": 0.0643949001096189,
+              "analysis": 6.609866400016472,
+              "factorization": 11.016894900007173,
+              "rhs_transfer": 0.004092500079423189,
+              "solve": 0.03394790017046034,
+              "recovery": 0.07941520004533231
+            },
+            "compute_s": 20.873457700014114,
+            "relative_residual": 4.9135347571898675e-12,
+            "buffer_peak_bytes": 1024341720,
+            "memory_budget_bytes": 19529518284,
+            "factor_memory_estimates_bytes": [
+              11253916172,
+              11253916172,
+              79462720,
+              718559776,
+              2325067012,
+              9495227616,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+          },
+          "balance": {
+            "passed": true,
+            "force_relative": 1.2543611914612207e-13,
+            "moment_relative": 8.926945927838179e-14,
+            "free_dof_relative": 1.9624129074040547e-13,
+            "force_residual_N": [
+              -6.946043185074302e-10,
+              -1.1886737427690974e-10,
+              1.926294679321927e-10
+            ],
+            "moment_residual_Nm": [
+              -1.1605395464076018e-11,
+              -1.6179989206083212e-12,
+              -2.4454002191254265e-12
+            ],
+            "reaction_N": [
+              -6.946043185074302e-10,
+              -1.1886737427690974e-10,
+              1000.0000000001919
+            ],
+            "moment_origin_m": [
+              0.034139736863249025,
+              -2.793406937385139e-05,
+              0.014487608358195118
+            ]
+          }
+        },
+        {
+          "wall_s": 20.893022400094196,
+          "execution": {
+            "backend": "cudss_cuda",
+            "requested_device": "GPU",
+            "executed_device": "CUDA",
+            "array_adapter": "native_cuda",
+            "precision": "float64",
+            "cudss_version": "0.8.0",
+            "devices": [
+              {
+                "name": "NVIDIA GeForce RTX 3090 Ti",
+                "memory_MiB": 24564,
+                "driver": "591.86"
+              }
+            ],
+            "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+            "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+            "factorization_reused": false,
+            "gpu_execution_verified": true,
+            "kernel_trace_verified": false,
+            "cudss_ir_status": 0,
+            "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+            "timings_s": {
+              "structure": 2.719775900011882,
+              "transfer": 0.14138879999518394,
+              "assembly": 0.05840909993276,
+              "analysis": 6.666926300153136,
+              "factorization": 10.999658799963072,
+              "rhs_transfer": 0.004486000165343285,
+              "solve": 0.033379900036379695,
+              "recovery": 0.07666829996742308
+            },
+            "compute_s": 20.88819280010648,
+            "relative_residual": 4.907625720486347e-12,
+            "buffer_peak_bytes": 1024341720,
+            "memory_budget_bytes": 19529518284,
+            "factor_memory_estimates_bytes": [
+              11253916172,
+              11253916172,
+              79462720,
+              718559776,
+              2325067012,
+              9495227616,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+          },
+          "balance": {
+            "passed": true,
+            "force_relative": 9.884504834368251e-14,
+            "moment_relative": 1.3371526865423295e-13,
+            "free_dof_relative": 1.960052901731892e-13,
+            "force_residual_N": [
+              -5.707844752400604e-10,
+              -7.493881903908317e-11,
+              1.7392753903777702e-12
+            ],
+            "moment_residual_Nm": [
+              -1.494053969083864e-11,
+              -4.278328993162495e-12,
+              -8.941706750031919e-12
+            ],
+            "reaction_N": [
+              -5.707844752400604e-10,
+              -7.493881903908317e-11,
+              1000.0000000000001
+            ],
+            "moment_origin_m": [
+              0.034139736863249025,
+              -2.793406937385139e-05,
+              0.014487608358195118
+            ]
+          }
+        }
+      ],
+      "cpu": [
+        {
+          "wall_s": 114.78725429996848,
+          "balance": {
+            "passed": true,
+            "force_relative": 1.0328490119267476e-08,
+            "moment_relative": 5.013088841136258e-09,
+            "free_dof_relative": 1.7795173062358636e-10,
+            "force_residual_N": [
+              6.000403984829372e-05,
+              2.9978058805751884e-06,
+              3.012774564326026e-06
+            ],
+            "moment_residual_Nm": [
+              1.9840465393630886e-07,
+              -5.527958132568907e-07,
+              -3.2696836577703406e-07
+            ],
+            "reaction_N": [
+              6.000403984829372e-05,
+              2.9978058805751884e-06,
+              1000.0000030127759
+            ],
+            "moment_origin_m": [
+              0.034139736863249025,
+              -2.793406937385139e-05,
+              0.014487608358195118
+            ]
+          }
+        },
+        {
+          "wall_s": 119.04361260007136,
+          "balance": {
+            "passed": true,
+            "force_relative": 1.0328490119267476e-08,
+            "moment_relative": 5.013088841136258e-09,
+            "free_dof_relative": 1.7795173074519372e-10,
+            "force_residual_N": [
+              6.000403984829372e-05,
+              2.9978058805751884e-06,
+              3.012774564326026e-06
+            ],
+            "moment_residual_Nm": [
+              1.9840465393630886e-07,
+              -5.527958132568907e-07,
+              -3.2696836577703406e-07
+            ],
+            "reaction_N": [
+              6.000403984829372e-05,
+              2.9978058805751884e-06,
+              1000.0000030127759
+            ],
+            "moment_origin_m": [
+              0.034139736863249025,
+              -2.793406937385139e-05,
+              0.014487608358195118
+            ]
+          }
+        },
+        {
+          "wall_s": 121.92911579995416,
+          "balance": {
+            "passed": true,
+            "force_relative": 1.0328404694753832e-08,
+            "moment_relative": 5.012693106861074e-09,
+            "free_dof_relative": 1.7795173054931805e-10,
+            "force_residual_N": [
+              6.000403984829372e-05,
+              2.987805886853212e-06,
+              3.012774564326026e-06
+            ],
+            "moment_residual_Nm": [
+              1.983140579611426e-07,
+              -5.527958132568907e-07,
+              -3.26914234855067e-07
+            ],
+            "reaction_N": [
+              6.000403984829372e-05,
+              2.987805886853212e-06,
+              1000.0000030127759
+            ],
+            "moment_origin_m": [
+              0.034139736863249025,
+              -2.793406937385139e-05,
+              0.014487608358195118
+            ]
+          }
+        }
+      ],
+      "cpu_gpu_errors": [
+        {
+          "displacements": 1.5741822954955863e-07,
+          "stresses": 1.4139955741382548e-07
+        },
+        {
+          "displacements": 1.5741822954944587e-07,
+          "stresses": 1.4139955741402096e-07
+        },
+        {
+          "displacements": 1.5741822968836223e-07,
+          "stresses": 1.4139955743058313e-07
+        }
+      ],
+      "gpu_cold_s": 21.620604699943215,
+      "reuse": {
+        "backend": "cudss_cuda",
+        "requested_device": "GPU",
+        "executed_device": "CUDA",
+        "array_adapter": "native_cuda",
+        "precision": "float64",
+        "cudss_version": "0.8.0",
+        "devices": [
+          {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_MiB": 24564,
+            "driver": "591.86"
+          }
+        ],
+        "kernel_sha256": "eac5f917ebef10ab353d51bd7926a88ad0e8179d058953634ec4cdd73e363147",
+        "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+        "factorization_reused": true,
+        "gpu_execution_verified": true,
+        "kernel_trace_verified": false,
+        "cudss_ir_status": 0,
+        "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+        "timings_s": {
+          "rhs_transfer": 0.005681399954482913,
+          "solve": 0.03376529994420707,
+          "recovery": 0.07753559993579984
+        },
+        "compute_s": 0.2852212998550385,
+        "relative_residual": 4.9090794533385656e-12,
+        "buffer_peak_bytes": 1024341720,
+        "memory_budget_bytes": 19529518284,
+        "factor_memory_estimates_bytes": [
+          11253916172,
+          11253916172,
+          79462720,
+          718559776,
+          2325067012,
+          9495227616,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析"
+      },
+      "cpu_cold_s": 115.1208954998292,
+      "speedup": 5.697768868497199,
+      "performance_passed": true
+    }
+  ],
+  "target_speedup": 2,
+  "timing_scope": "matrix assembly, transfer, analysis, factorization, solve and raw result recovery; CPU input/output conversion included; mesh/report separate",
+  "precision": "FP64",
+  "all_performance_passed": true,
+  "requested_targets": [
+    500000,
+    1000000
+  ],
+  "complete": true
+}

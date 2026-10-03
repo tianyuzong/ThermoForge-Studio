@@ -1,0 +1,357 @@
+{
+  "product": "ThermoForge Studio 0.8.0",
+  "captured_on": "2026-10-03",
+  "note": "实际平台导出帧和报告渲染；未生成或修改物理结果。该粗步长耦合示例不宣称独立网格/步长验证通过。",
+  "assets": [
+    {
+      "file": "screenshots/01-workbench.png",
+      "kind": "ui_screenshot",
+      "caption": "主工作台：共享 CAD、组件材料与仿真助手",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "999707287aee24e24ffde9f1663d3a848e2a6eed825594287c51bcf3e434af38",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/02-prompt-workflow.png",
+      "kind": "ui_screenshot",
+      "caption": "通用长指令模板：仅草案预览，未提交新求解",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "9782dd2a0e08d318b99d032e5537cbb69df802205bc936ef526c05fd65d15510",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/03-structural-loads.png",
+      "kind": "ui_screenshot",
+      "caption": "原结构工况载荷：作用组件、选区与总力单位",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "8cfb49e14cc53d1514248404cd75c87ad09700bb09269bcbf110604428826d12",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/04-material-library.png",
+      "kind": "ui_screenshot",
+      "caption": "组件材料库与独立工况材料",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "bb180a5ca7d1f96dc0184fd788423801d43153e775293be9b4b14950aa290a7b",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/05-multiphysics-configuration.png",
+      "kind": "ui_screenshot",
+      "caption": "多物理场研究配置与自动恢复草稿",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "94bd7b846899abcaaf24b289c771cb5dc08422502f24110ec9223cc7d2982cb0",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/06-thermal-boundaries.png",
+      "kind": "ui_screenshot",
+      "caption": "热边界与组件总功率：图中为演示值",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "68217f452c4fd46ada189decd11a865e4c2b677da57b3205a93e1830ac7946c7",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/07-transient-temperature.png",
+      "kind": "ui_screenshot",
+      "caption": "瞬态温度 600 s：真实末帧和固定色标",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "9e2f1a5195527e449913bcd09c3c7f71dae13d824b084ecc12db0b322e7f3b0e",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/08-history-and-validation.png",
+      "kind": "ui_screenshot",
+      "caption": "真实温度曲线、节点探针与分开的验证说明",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "517dd6b0f7eb83925717c5b8fd6974389589d7857d7600e598387b8f9d2caada",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/09-case-comparison.png",
+      "kind": "ui_screenshot",
+      "caption": "15 s 与 30 s 两档热结构结果比较",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "f38018bafc7b6bd6b0a9dbdc6c4068ab8267d50ba2ae05b1bb5a83741ed3eaa1",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/10-compute-resources.png",
+      "kind": "ui_screenshot",
+      "caption": "CPU 六线程与 GPU 状态：旧静力资源对话框，本轮 CPU 验收",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "bfa4ee35c7839e0b56f827dd418d6fc7e5cb0e824728858b062fc490e441eb6b",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/11-legacy-import.png",
+      "kind": "ui_screenshot",
+      "caption": "选择性旧项目导入：只查看入口，未执行导入",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "353cc1d55f2bf86e562c5cf85171c47f0e8d63d4891412b73e8abe230c2e8900",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/12-fatigue-cycles.png",
+      "kind": "ui_screenshot",
+      "caption": "高周疲劳应力循环统计：演示曲线下未预测有限寿命",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "8f5ecaa04b1bd6b7778fda9b4f4a42ccf1705378060fb445d92184045aa26f67",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/13-local-contact-pressure.png",
+      "kind": "ui_screenshot",
+      "caption": "600 s 轴承组件局部压力：投影场、全历程色标",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "f12c2ae30b4b55f62583d07bcc976807f8484f7aea19eddfa05c1e03f70b30e2",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/14-local-contact-gap.png",
+      "kind": "ui_screenshot",
+      "caption": "600 s 轴承组件局部间隙：灰色为无可用值",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "abec0301c5b8bc9309a897279c684c5acba2cf5eb2a7c28405fab765cb189e71",
+      "project_id": "c468900b46be494b9d0f95fcd8212737"
+    },
+    {
+      "file": "screenshots/15-bearing-cycle.png",
+      "kind": "ui_screenshot",
+      "caption": "局部滚动体—滚道：65 帧周期的 0.05 s 接触压力",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "c787e2326e15847d73943544e67afa699c83b62d5dcc53c41055f082ae8288b0",
+      "study_id": "25739b108b154e4992c12d9fedfb0cb0"
+    },
+    {
+      "file": "screenshots/16-bearing-damage.png",
+      "kind": "ui_screenshot",
+      "caption": "滚动接触累计疲劳损伤：明确非瞬态、非裂纹生长",
+      "captured_on": "2026-10-03",
+      "source_service": "http://127.0.0.1:8877",
+      "sha256": "be241dc03b0c0a8ef65accaa8bc1766f1dfde29d7dc234bf7ba95f4ee5b828fe",
+      "study_id": "25739b108b154e4992c12d9fedfb0cb0"
+    },
+    {
+      "file": "screenshots/20-static-stress.png",
+      "kind": "platform_export_frame",
+      "caption": "静力应力：视角展示，非瞬态过程",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "e1680fc9e78f4adeadf49eaef5435cdd",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "static/stress-last.png",
+      "sha256": "d93e0351ee9ce0511c265a28923409f9a03bf21f29da39c381b03718dd3c5f10"
+    },
+    {
+      "file": "screenshots/21-steady-temperature.png",
+      "kind": "platform_export_frame",
+      "caption": "稳态温度：非升温过程",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "de7a74e7db16444699484a05d24a7f26",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermal_steady/temperature-last.png",
+      "sha256": "09ed8e23a0348e5e4436c85618d394c106e1769a9a808fcb85a422c34a587c40"
+    },
+    {
+      "file": "screenshots/22-transient-start.png",
+      "kind": "platform_export_frame",
+      "caption": "瞬态温度：初始保存帧",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "587121966d974523b2a9d39d88acb446",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermal_transient/temperature-first.png",
+      "sha256": "551e0b78c67bccce61ea88dec369d64158cc253f83c380207764478dee1abdcc"
+    },
+    {
+      "file": "screenshots/23-transient-middle.png",
+      "kind": "platform_export_frame",
+      "caption": "瞬态温度：中间保存帧",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "587121966d974523b2a9d39d88acb446",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermal_transient/temperature-middle.png",
+      "sha256": "f36290f5b0beb91abc77a21a892f05ec331fee36d72cebf51baaa17ceb450f9c"
+    },
+    {
+      "file": "screenshots/24-transient-end.png",
+      "kind": "platform_export_frame",
+      "caption": "瞬态温度：末保存帧",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "587121966d974523b2a9d39d88acb446",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermal_transient/temperature-last.png",
+      "sha256": "aaaa59a875d97ae42e7cc9bf0e770db1e7afa46466e181495a4a07a4e86b7197"
+    },
+    {
+      "file": "screenshots/25-coupled-stress.png",
+      "kind": "platform_export_frame",
+      "caption": "热结构应力：末保存帧，显示投影与原始极值分开",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "04eace3ebae441b3b3b1d2988951c31f",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermo_mechanical/stress-last.png",
+      "sha256": "540e00060f970a97f457856c1d5c02d0b5d45f0109da203d843a8fcd3a3db8e8"
+    },
+    {
+      "file": "screenshots/26-coupled-pressure.png",
+      "kind": "platform_export_frame",
+      "caption": "接触压力：实际映射的表面场",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "04eace3ebae441b3b3b1d2988951c31f",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermo_mechanical/contact_pressure-last.png",
+      "sha256": "0fe2ea91770cae9d75c058a013b0b1cf0728503b98d2bfa77040379ddf913a79"
+    },
+    {
+      "file": "screenshots/27-coupled-gap.png",
+      "kind": "platform_export_frame",
+      "caption": "接触间隙：末保存帧，灰色区域无可用场",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "04eace3ebae441b3b3b1d2988951c31f",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermo_mechanical/contact_gap-last.png",
+      "sha256": "6d3a1f8bf88785898525fa00093b178ee1ce022f8df0adb66ad8646e7ce98929"
+    },
+    {
+      "file": "screenshots/28-coupled-temperature.png",
+      "kind": "platform_export_frame",
+      "caption": "双向热结构温度：末保存帧",
+      "run_id": "f395a017c3404608bfc15313e659bd6e",
+      "study_id": "04eace3ebae441b3b3b1d2988951c31f",
+      "export_id": "0cb946bf9f2d47ae",
+      "export_file": "thermo_mechanical/temperature-last.png",
+      "sha256": "dba5fe6fac5c5f9bbc34def3cbf50e3faf3787bf20ebf037bbd324e96da08784"
+    },
+    {
+      "file": "screenshots/30-report-cover.png",
+      "kind": "pdf_render",
+      "caption": "汇总报告首页与完成范围",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 1,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "27adddfc74252f23f15e592d3a0b4ff14da689432ee88983d3187c01c0bfc65a"
+    },
+    {
+      "file": "screenshots/31-report-toc.png",
+      "kind": "pdf_render",
+      "caption": "平台自动生成的可点击目录",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 2,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "07bc79cb88a26213fc08313e0b0ac4aab821a6cb9735c8dcec530e2ff97ef33c"
+    },
+    {
+      "file": "screenshots/32-report-materials.png",
+      "kind": "pdf_render",
+      "caption": "材料属性与来源",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 6,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "8e7138e68588fa78c8285f2006f4f3ce869ff772a0a4e4e8dccf5e1a1d18c225"
+    },
+    {
+      "file": "screenshots/33-report-thermal.png",
+      "kind": "pdf_render",
+      "caption": "温度与热流图",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 33,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "9e45a12eec224373574f8a65bc9edd9ee45476424170b8fe2e875d1895a5c68e"
+    },
+    {
+      "file": "screenshots/34-report-history.png",
+      "kind": "pdf_render",
+      "caption": "实际保存温度历程",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 26,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "342a57ffc5b03f666e7b0f5255cc82d0b5b4519d192a2c8588e33ffe67029052"
+    },
+    {
+      "file": "screenshots/35-report-contact.png",
+      "kind": "pdf_render",
+      "caption": "接触与装配间隙",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 38,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "1ee28985ee2fea144682b97836826ba24803f1a413e74fdb82fd3f2a148278e5"
+    },
+    {
+      "file": "screenshots/36-report-verification.png",
+      "kind": "pdf_render",
+      "caption": "平衡、收敛与验证证据",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 41,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "af1464a60ca2239467ab5e0103ba670cc811e1be202758b22734bbe1ea3ea6a6"
+    },
+    {
+      "file": "screenshots/37-report-components.png",
+      "kind": "pdf_render",
+      "caption": "独立组件识别视图",
+      "source_pdf": "media/motor-analysis-report.zh-CN.pdf",
+      "pdf_page": 5,
+      "export_id": "0cb946bf9f2d47ae",
+      "sha256": "47cbdd7381e37f195ae9de1879b698051b12d4245c450fecfd0a64071639cc74"
+    }
+  ],
+  "media": [
+    {
+      "file": "media/contact-gap.mp4",
+      "bytes": 474896,
+      "sha256": "57073287524f727c6475d94295b5f28b1760302eb058f4fd16583d654a1f3c6e",
+      "source_export_id": "0cb946bf9f2d47ae",
+      "note": "GIF is a downsampled encoding preview of the MP4; PDF and MP4 files are unchanged platform outputs."
+    },
+    {
+      "file": "media/contact-pressure.mp4",
+      "bytes": 460339,
+      "sha256": "1d34c830c085fb60877748f95905c8c1541cbf89a198104273eb2486c6c0a9ef",
+      "source_export_id": "0cb946bf9f2d47ae",
+      "note": "GIF is a downsampled encoding preview of the MP4; PDF and MP4 files are unchanged platform outputs."
+    },
+    {
+      "file": "media/motor-analysis-report.zh-CN.pdf",
+      "bytes": 8179651,
+      "sha256": "cba195d867297e587ca4e264589667e82c810c3cef83e37ce3c5f80e847a552c",
+      "source_export_id": "0cb946bf9f2d47ae",
+      "note": "GIF is a downsampled encoding preview of the MP4; PDF and MP4 files are unchanged platform outputs."
+    },
+    {
+      "file": "media/thermo-stress.mp4",
+      "bytes": 610954,
+      "sha256": "538db23db91e2615f70e9a8301c1624209ef5e8b41f27e82b304cec85924b9dd",
+      "source_export_id": "0cb946bf9f2d47ae",
+      "note": "GIF is a downsampled encoding preview of the MP4; PDF and MP4 files are unchanged platform outputs."
+    },
+    {
+      "file": "media/thermo-temperature-preview.gif",
+      "bytes": 355436,
+      "sha256": "ab6b68bbcf7295f10ee2afa1dc5851a5967954c9e0461558280e9a96fef47d6e",
+      "source_export_id": "0cb946bf9f2d47ae",
+      "note": "GIF is a downsampled encoding preview of the MP4; PDF and MP4 files are unchanged platform outputs."
+    },
+    {
+      "file": "media/thermo-temperature.mp4",
+      "bytes": 580384,
+      "sha256": "ca04c1ffc35d8e0b1d0370b82695fb59378a9929fa802939c3e4b73d87cc2bb3",
+      "source_export_id": "0cb946bf9f2d47ae",
+      "note": "GIF is a downsampled encoding preview of the MP4; PDF and MP4 files are unchanged platform outputs."
+    }
+  ]
+}

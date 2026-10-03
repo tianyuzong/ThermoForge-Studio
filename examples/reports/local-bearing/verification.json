@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "study_id": "7f1a8c7cd9114694bc0e718ca421a505",
+  "config_sha256": "0ff206bc190dbdef05508ca18baa036e557b682619e80696218c508de292aac3",
+  "summary_sha256": "fa14dfcaeda8ea1af79859bbca140c32816d2bf6b820b6745911d4b131cb9faf",
+  "raw_fields_sha256": "eb75f8ddfd23e0e9f934155deb4cafe2b488320c791cf85327d5711335825948",
+  "checks": [
+    {
+      "key": "rolling_grid",
+      "label": "滚动接触三档局部网格的压力与寿命",
+      "kind": "three_local_meshes",
+      "status": "verified",
+      "passed": true,
+      "comparisons": [
+        {
+          "pressure": {
+            "relative_change": 0.007540452985812296,
+            "limit": 0.05,
+            "passed": true
+          },
+          "life": {
+            "log10_change": 0.0867453412563517,
+            "limit": 0.1,
+            "passed": true
+          }
+        },
+        {
+          "pressure": {
+            "relative_change": 0.021227888548271734,
+            "limit": 0.05,
+            "passed": true
+          },
+          "life": {
+            "log10_change": 0.017390018494332023,
+            "limit": 0.1,
+            "passed": true
+          }
+        }
+      ],
+      "studies": [
+        "25739b108b154e4992c12d9fedfb0cb0",
+        "2f1c2495592149ff912b92f398b8ff51",
+        "7f1a8c7cd9114694bc0e718ca421a505"
+      ]
+    },
+    {
+      "key": "rolling_step",
+      "label": "滚动接触时间步减半的压力与寿命",
+      "kind": "step_halving",
+      "status": "verified",
+      "passed": true,
+      "comparisons": [
+        {
+          "pressure": {
+            "relative_change": 0.0,
+            "limit": 0.05,
+            "passed": true
+          },
+          "life": {
+            "log10_change": 0.00019182823013089812,
+            "limit": 0.1,
+            "passed": true
+          }
+        }
+      ],
+      "studies": [
+        "7f1a8c7cd9114694bc0e718ca421a505",
+        "dcebc72591b84a10a9925c18d816975a"
+      ]
+    }
+  ]
+}

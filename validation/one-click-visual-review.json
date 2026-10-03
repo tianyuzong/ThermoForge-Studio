@@ -1,0 +1,30 @@
+{
+  "run_id": "b05d815b421c4591bf504ca6c165ae69",
+  "pdf_visual_review": [
+    {
+      "key": "static",
+      "pages": 2,
+      "sha256": "d0337147e6d8e5f5f11d35f58733e7db0b97b157b6a6dc869c66e39a08848500",
+      "passed": true
+    },
+    {
+      "key": "fatigue",
+      "pages": 3,
+      "sha256": "0beb76eb0de751bf2f2cd46b4868bbfdcbf49f5a294257e6919016437520035d",
+      "passed": true
+    },
+    {
+      "key": "thermal_steady",
+      "pages": 2,
+      "sha256": "80c29c77e6091fb7f8e9327ab52d91c007b23eb822f2f34fd33410f27847e978",
+      "passed": true
+    },
+    {
+      "key": "thermal_transient",
+      "pages": 2,
+      "sha256": "ff0fc3ffb45b5db35266eff82becc85862ff53423de6a477fa53401ccdc3e17a",
+      "passed": true
+    }
+  ],
+  "video_review": "首四项实际结果画面，含固定色标、实际时刻和变形倍率；最终完整解码另行自动验收"
+}

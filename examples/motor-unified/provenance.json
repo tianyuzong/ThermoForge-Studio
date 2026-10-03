@@ -1,0 +1,18 @@
+{
+  "source_sha256": "2a0258baddcce437d4c0a2b8d811cc1d1b927b9480d1b73911f7facfaa98a2f0",
+  "original_desktop_sha256": "9d7db92baef9c697738e7b283b630ee0dbb2911ea6f08832d4eee75c74b40d6b",
+  "original_desktop_source": "three-phase-induction-motor-assembled.step",
+  "legacy_job_id": "db45c4882c344bd988fd71e83de433d5",
+  "source_versions": {
+    "strength_studio": {
+      "url": "https://github.com/tianyuzong/strength-studio",
+      "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+    },
+    "thermoforge": {
+      "url": "https://github.com/tianyuzong/ThermoForge",
+      "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+    },
+    "integration_version": "0.6.0"
+  },
+  "note": "全部新增热学和疲劳参数为软件演示假设，非实测电机数据。等效轴承环不能用于滚动接触寿命。"
+}

@@ -1,0 +1,13 @@
+{
+  "source_study_id": "0eddf86dc5634929958fd0f1afc051d0",
+  "files": {
+    "audit.json": "6056d8abe1b0262c69dc19e8e54df2255ab27098e74c30e5b1383611d491ef70",
+    "config.json": "a49ea4da0ad257816d8c359a23dade005738c75251681cf3c4893aa748ff7c2a",
+    "metrics.csv": "0c35ca432dbcdac1bae85ba9b383ab2ef28ba777490173235a1adbbde7a29c59",
+    "raw-fields.sha256.json": "04b36cf3a8599ba48debb2fadcaeded1ee73413ab2c41b93901391d7a6fc5ddd",
+    "report.pdf": "bca758600d375f9c7120b15cf0582f54efeb2af6f4abe7e355aeff21a047ff23",
+    "summary.json": "323ea6e0eedcc047df945672d161db6a9bd007535bdbc4e9067cc5bcdbe5b123",
+    "verification.json": "23b24a3cc084ea289232d20bd819d339860a11da2bd4bd2e177a584c79327212"
+  },
+  "raw_fields": "Complete HDF5 remains in the local study; compact source distribution includes its hash, not the large raw field array."
+}

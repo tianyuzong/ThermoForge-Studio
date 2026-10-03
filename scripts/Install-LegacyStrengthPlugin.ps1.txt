@@ -1,0 +1,36 @@
+param([string]$CodexPath='', [int]$Port=8876, [switch]$SkipEngineInstall)
+$ErrorActionPreference='Stop'
+$root=$PSScriptRoot
+if (!$SkipEngineInstall) {
+    & (Join-Path $root 'Install.ps1')
+    if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) { throw 'Engine installation failed.' }
+}
+$enginePython=Join-Path $root '.venv\Scripts\python.exe'
+if (!(Test-Path -LiteralPath $enginePython)) { throw 'Engine Python missing. Run Install.ps1 first.' }
+$pluginPython=Join-Path $root '.runtime\plugin-env\Scripts\python.exe'
+if (!(Test-Path -LiteralPath $pluginPython)) {
+    & $enginePython -m venv (Join-Path $root '.runtime\plugin-env')
+    if ($LASTEXITCODE -ne 0) { throw 'Could not create plugin environment.' }
+}
+$lockFile=Join-Path $root 'requirements-plugin.lock'
+$deps=if (Test-Path -LiteralPath $lockFile) {$lockFile} else {Join-Path $root 'requirements-plugin.txt'}
+& $pluginPython -m pip install -r $deps
+if ($LASTEXITCODE -ne 0) { throw 'Plugin dependency installation failed.' }
+if (!$CodexPath) {
+    $command=Get-Command codex -ErrorAction SilentlyContinue
+    if ($command) { $CodexPath=$command.Source }
+}
+if (!$CodexPath) {
+    $localSettings=Join-Path $root 'local-settings.json'
+    if (Test-Path -LiteralPath $localSettings) {
+        $CodexPath=(Get-Content -Raw -LiteralPath $localSettings -Encoding UTF8 | ConvertFrom-Json).STRENGTH_CODEX_COMMAND
+    }
+}
+if (!$CodexPath) { throw 'Codex CLI was not found. Rerun with -CodexPath pointing to codex.exe.' }
+$env:PYTHONIOENCODING='utf-8'
+$raw=& $enginePython -X utf8 (Join-Path $root 'scripts\configure_plugin.py') --workspace $root --url "http://127.0.0.1:$Port" --plugin-python $pluginPython
+if ($LASTEXITCODE -ne 0) { throw 'Plugin configuration failed.' }
+$installed=$raw | ConvertFrom-Json
+& $CodexPath plugin add $installed.selector --json
+if ($LASTEXITCODE -ne 0) { throw 'Codex plugin installation failed; inspect the CLI error above.' }
+Write-Output "Plugin installed from $($installed.plugin). Start a new Codex task to use it."

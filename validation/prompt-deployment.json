@@ -1,0 +1,17 @@
+{
+  "service_version": "0.7.1",
+  "old_run_id": "b05d815b421c4591bf504ca6c165ae69",
+  "status": "running",
+  "first_four_results_preserved": true,
+  "solver_signature_unchanged": true,
+  "generation": 2,
+  "active_studies": [
+    {
+      "id": "bc73589e04a74db69555f219eb987429",
+      "status": "solving",
+      "detail": "热结构 t=15s · 界面迭代 5/30"
+    }
+  ],
+  "resume_from": "fd85bacc22a543f6970b4379fa9ead76",
+  "copied_completed_stages": 241
+}

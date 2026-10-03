@@ -1,0 +1,21 @@
+{
+  "name": "thermoforge-studio",
+  "version": "0.6.0",
+  "description": "统一的本地热、结构、疲劳与接触研究接口。",
+  "author": {
+    "name": "TianyuZong"
+  },
+  "interface": {
+    "displayName": "ThermoForge Studio",
+    "shortDescription": "共享模型与工况的本地多物理场工作台",
+    "longDescription": "读取统一配置，校验真实几何，提交 CPU 热、结构、疲劳和耦合研究，查询时间历程及中文报告。",
+    "developerName": "TianyuZong",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": "读取 ThermoForge Studio 项目，核对几何、材料和研究工况。"
+  },
+  "mcpServers": "./.mcp.json"
+}

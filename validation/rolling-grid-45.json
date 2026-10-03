@@ -1,0 +1,2767 @@
+{
+  "id": "25739b108b154e4992c12d9fedfb0cb0",
+  "project_id": "03afb1251b894590ada4352b080fb288",
+  "model_id": "1aa1a69c7baa4be3ad328a7aa2737039",
+  "name": "局部滚动体—滚道 · 往复滚动周期 · 45 μm 网格",
+  "analysis_type": "contact_fatigue",
+  "resume_from": null,
+  "results_from_study": null,
+  "case": {
+    "schema_version": 3,
+    "name": "局部滚动体—滚道 · 往复滚动周期 · 45 μm 网格",
+    "analysis_type": "contact_fatigue",
+    "geometry_sha256": "61ac805f1e73a3b21563bef0d92511e83b635760ea0a5857fea8bbdf02b49f09",
+    "material": {
+      "name": "演示钢材（合成疲劳数据）",
+      "density_kg_m3": 7850.0,
+      "young_modulus_Pa": 2000000000.0,
+      "poisson_ratio": 0.3,
+      "yield_strength_Pa": 1600000000.0,
+      "tensile_strength_Pa": 2000000000.0,
+      "conductivity_W_mK": 45.0,
+      "specific_heat_J_kgK": 470.0,
+      "thermal_expansion_per_K": 1.2e-05,
+      "sn_curve": {
+        "points": [
+          {
+            "x": 1000.0,
+            "y": 600000000.0
+          },
+          {
+            "x": 100000.0,
+            "y": 300000000.0
+          },
+          {
+            "x": 10000000.0,
+            "y": 150000000.0
+          },
+          {
+            "x": 1000000000.0,
+            "y": 75000000.0
+          }
+        ],
+        "endurance_limit_Pa": 75000000.0,
+        "reference_R": -1.0,
+        "life_definition": "initiation",
+        "source": "软件验证合成曲线；不代表该电机实测材料",
+        "demonstration": true
+      },
+      "findley": {
+        "k": 0.2,
+        "curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 12000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 6000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 3000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 1500000.0
+            }
+          ],
+          "endurance_limit_Pa": 1500000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "滚动接触软件流程专用合成 Findley 曲线，非真实轴承试验数据",
+          "demonstration": true
+        },
+        "calibration": "rolling_contact"
+      },
+      "hardness_Pa": 7000000000.0,
+      "wear_coefficient": 1e-08,
+      "valid_temperature_C": null,
+      "phase_change": null,
+      "source": "软件验证演示假设，非实物牌号和认证数据"
+    },
+    "component_materials": {
+      "1": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 2000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 1600000000.0,
+        "tensile_strength_Pa": 2000000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 12000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 6000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 3000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 1500000.0
+              }
+            ],
+            "endurance_limit_Pa": 1500000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "滚动接触软件流程专用合成 Findley 曲线，非真实轴承试验数据",
+            "demonstration": true
+          },
+          "calibration": "rolling_contact"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      },
+      "2": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 2000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 1600000000.0,
+        "tensile_strength_Pa": 2000000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 12000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 6000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 3000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 1500000.0
+              }
+            ],
+            "endurance_limit_Pa": 1500000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "滚动接触软件流程专用合成 Findley 曲线，非真实轴承试验数据",
+            "demonstration": true
+          },
+          "calibration": "rolling_contact"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      }
+    },
+    "mesh": {
+      "size_m": 0.0004,
+      "local_selections": [],
+      "local_size_m": null,
+      "convergence": false,
+      "evaluation_selection": null,
+      "regions": [
+        {
+          "center_m": [
+            0.0,
+            0.0,
+            0.005
+          ],
+          "radius_m": 0.00025,
+          "size_m": 4.4999999999999996e-05,
+          "transition_m": 0.0006
+        }
+      ]
+    },
+    "resources": {
+      "cpu_threads": 6,
+      "max_dofs": 300000,
+      "memory_limit_GiB": null,
+      "time_limit_s": 86400.0
+    },
+    "supports": [
+      {
+        "name": "滚道底面",
+        "selection": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-z",
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "1-y",
+        "selection": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-y",
+          "bounds_m": null
+        },
+        "components": [
+          "y"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "1+y",
+        "selection": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+y",
+          "bounds_m": null
+        },
+        "components": [
+          "y"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "2-y",
+        "selection": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-y",
+          "bounds_m": null
+        },
+        "components": [
+          "y"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "2+y",
+        "selection": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+y",
+          "bounds_m": null
+        },
+        "components": [
+          "y"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "loads": [],
+    "bonded_connections": [],
+    "thermal_connections": [],
+    "contacts": [
+      {
+        "name": "滚动体／滚道",
+        "slave": {
+          "body_id": 1,
+          "kind": "faces",
+          "name": null,
+          "face_ids": [
+            1
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "master": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+z",
+          "bounds_m": null
+        },
+        "friction": 0.0,
+        "penalty_Pa_m": 200000000000000.0,
+        "tangential_stiffness_Pa_m": 100000000000000.0,
+        "search_distance_m": 0.001,
+        "initial_offset_m": 0.0,
+        "thermal": false,
+        "conductance": [],
+        "gap_conductivity_W_mK": null,
+        "minimum_gap_m": 1e-06,
+        "maximum_gap_m": 0.005,
+        "wear": true
+      }
+    ],
+    "thermal": {
+      "initial_C": 25.0,
+      "reference_C": 25.0,
+      "duration_s": 3600.0,
+      "dt_s": 10.0,
+      "save_s": 30.0,
+      "initial_from_study": null,
+      "boundaries": []
+    },
+    "fatigue": {
+      "method": "findley",
+      "body_ids": [],
+      "target_cycles": 1000000.0,
+      "plane_count": 162
+    },
+    "history": {
+      "times_s": [
+        0.0,
+        0.0015625,
+        0.003125,
+        0.004687500000000001,
+        0.00625,
+        0.0078125,
+        0.009375000000000001,
+        0.010937500000000001,
+        0.0125,
+        0.0140625,
+        0.015625,
+        0.0171875,
+        0.018750000000000003,
+        0.0203125,
+        0.021875000000000002,
+        0.0234375,
+        0.025,
+        0.026562500000000003,
+        0.028125,
+        0.029687500000000002,
+        0.03125,
+        0.0328125,
+        0.034375,
+        0.035937500000000004,
+        0.037500000000000006,
+        0.0390625,
+        0.040625,
+        0.0421875,
+        0.043750000000000004,
+        0.045312500000000006,
+        0.046875,
+        0.0484375,
+        0.05,
+        0.051562500000000004,
+        0.053125000000000006,
+        0.0546875,
+        0.05625,
+        0.0578125,
+        0.059375000000000004,
+        0.060937500000000006,
+        0.0625,
+        0.06406250000000001,
+        0.065625,
+        0.0671875,
+        0.06875,
+        0.0703125,
+        0.07187500000000001,
+        0.0734375,
+        0.07500000000000001,
+        0.0765625,
+        0.078125,
+        0.07968750000000001,
+        0.08125,
+        0.08281250000000001,
+        0.084375,
+        0.0859375,
+        0.08750000000000001,
+        0.0890625,
+        0.09062500000000001,
+        0.0921875,
+        0.09375,
+        0.09531250000000001,
+        0.096875,
+        0.09843750000000001,
+        0.1
+      ],
+      "factors": {},
+      "repetitions": 1.0,
+      "cycles_per_history": 1.0,
+      "periodic": true,
+      "stabilization_cycles": 1
+    },
+    "motions": [
+      {
+        "name": "往复滚动",
+        "body_id": 1,
+        "selection": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+z",
+          "bounds_m": null
+        },
+        "center_m": [
+          0.0,
+          0.0,
+          0.007
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "angles_rad": [
+          0.0,
+          0.001960342806591212,
+          0.003901806440322565,
+          0.005805693545089247,
+          0.007653668647301796,
+          0.009427934736519953,
+          0.011111404660392043,
+          0.01268786568327291,
+          0.014142135623730952,
+          0.015460209067254737,
+          0.016629392246050905,
+          0.017638425286967102,
+          0.018477590650225736,
+          0.01913880671464418,
+          0.01961570560806461,
+          0.019903694533443938,
+          0.02,
+          0.019903694533443938,
+          0.01961570560806461,
+          0.01913880671464418,
+          0.018477590650225736,
+          0.017638425286967106,
+          0.0166293922460509,
+          0.015460209067254736,
+          0.014142135623730952,
+          0.012687865683272917,
+          0.01111140466039205,
+          0.009427934736519957,
+          0.007653668647301798,
+          0.005805693545089239,
+          0.003901806440322572,
+          0.0019603428065912165,
+          2.4492935982947064e-18,
+          -0.001960342806591203,
+          -0.0039018064403225673,
+          -0.005805693545089243,
+          -0.0076536686473017935,
+          -0.009427934736519945,
+          -0.01111140466039204,
+          -0.012687865683272912,
+          -0.014142135623730949,
+          -0.015460209067254744,
+          -0.016629392246050895,
+          -0.0176384252869671,
+          -0.018477590650225736,
+          -0.01913880671464418,
+          -0.01961570560806461,
+          -0.019903694533443938,
+          -0.02,
+          -0.019903694533443938,
+          -0.019615705608064613,
+          -0.01913880671464418,
+          -0.01847759065022574,
+          -0.017638425286967102,
+          -0.01662939224605091,
+          -0.01546020906725475,
+          -0.014142135623730954,
+          -0.012687865683272905,
+          -0.011111404660392031,
+          -0.009427934736519959,
+          -0.007653668647301808,
+          -0.0058056935450892504,
+          -0.0039018064403225747,
+          -0.00196034280659121,
+          -4.898587196589413e-18
+        ],
+        "translations_m": [
+          [
+            0.0,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.9206856131824244e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            7.803612880645131e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            1.1611387090178493e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            1.530733729460359e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            1.8855869473039907e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            2.2222809320784087e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            2.537573136654582e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            2.8284271247461906e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.0920418134509475e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.325878449210181e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.527685057393421e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.695518130045147e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.8277613429288356e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.923141121612922e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.980738906688788e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            4e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.980738906688788e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.923141121612922e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.8277613429288356e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.695518130045147e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.5276850573934215e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.3258784492101806e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.0920418134509475e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            2.8284271247461906e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            2.5375731366545834e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            2.22228093207841e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            1.8855869473039914e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            1.5307337294603595e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            1.1611387090178478e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            7.803612880645145e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            3.920685613182433e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            4.898587196589413e-21,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.920685613182406e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            -7.803612880645134e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            -1.1611387090178485e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -1.5307337294603588e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -1.885586947303989e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -2.222280932078408e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -2.5375731366545823e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -2.82842712474619e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.092041813450949e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.325878449210179e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.5276850573934195e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.695518130045147e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.8277613429288356e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.923141121612922e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.980738906688788e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -4e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.980738906688788e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.923141121612923e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.8277613429288356e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.695518130045148e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.527685057393421e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.325878449210182e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.09204181345095e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -2.828427124746191e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -2.537573136654581e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -2.2222809320784064e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -1.8855869473039917e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -1.530733729460362e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -1.1611387090178502e-05,
+            0.0,
+            -5e-06
+          ],
+          [
+            -7.80361288064515e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            -3.92068561318242e-06,
+            0.0,
+            -5e-06
+          ],
+          [
+            -9.797174393178826e-21,
+            0.0,
+            -5e-06
+          ]
+        ],
+        "components": [
+          "x",
+          "z"
+        ]
+      }
+    ],
+    "axles": [],
+    "clearance_probes": [],
+    "coupling": {
+      "transient": true,
+      "temperature_tolerance_K": 0.01,
+      "displacement_relative_tolerance": 0.0001,
+      "heatflow_relative_tolerance": 0.001,
+      "relaxation": 0.5,
+      "max_iterations": 30,
+      "max_cutbacks": 6
+    },
+    "cycles_per_wear_block": 1,
+    "wear_blocks": 1,
+    "assumptions": [
+      "独立的薄截面滚动体和滚道，不使用电机等效轴承环。",
+      "平面应变截面；滚动体顶部按半径2mm、转角±0.02rad往复，压入5μm，时间轴0.1s。",
+      "无摩擦法向接触；磨损由计算得到的相对滑移与演示 Archard 系数评估。名义滚动不等同于所有弹性接触点都无滑移。",
+      "E=2GPa和合成滚动接触曲线仅用于可运行软件示例；必须替换成实物标定材料才能评价轴承。"
+    ]
+  },
+  "dependencies": [],
+  "snapshot_sha256": "708f9750bbbf517bc5463c077b29ab20a24c29ed29f300ea76f0efbcdb1c2577",
+  "status": "completed",
+  "detail": "结果与报告已保存",
+  "created_at": 1790767214.0516925,
+  "cancel_requested": false,
+  "updated_at": 1790772300.0669248,
+  "summary": {
+    "name": "局部滚动体—滚道 · 往复滚动周期 · 45 μm 网格",
+    "analysis_type": "contact_fatigue",
+    "frames": 65,
+    "times_s": [
+      0.0,
+      0.0015625,
+      0.003125,
+      0.004687500000000001,
+      0.00625,
+      0.0078125,
+      0.009375000000000001,
+      0.010937500000000001,
+      0.0125,
+      0.0140625,
+      0.015625,
+      0.0171875,
+      0.018750000000000003,
+      0.0203125,
+      0.021875000000000002,
+      0.0234375,
+      0.025,
+      0.026562500000000003,
+      0.028125,
+      0.029687500000000002,
+      0.03125,
+      0.0328125,
+      0.034375,
+      0.035937500000000004,
+      0.037500000000000006,
+      0.0390625,
+      0.040625,
+      0.0421875,
+      0.043750000000000004,
+      0.045312500000000006,
+      0.046875,
+      0.0484375,
+      0.05,
+      0.051562500000000004,
+      0.053125000000000006,
+      0.0546875,
+      0.05625,
+      0.0578125,
+      0.059375000000000004,
+      0.060937500000000006,
+      0.0625,
+      0.06406250000000001,
+      0.065625,
+      0.0671875,
+      0.06875,
+      0.0703125,
+      0.07187500000000001,
+      0.0734375,
+      0.07500000000000001,
+      0.0765625,
+      0.078125,
+      0.07968750000000001,
+      0.08125,
+      0.08281250000000001,
+      0.084375,
+      0.0859375,
+      0.08750000000000001,
+      0.0890625,
+      0.09062500000000001,
+      0.0921875,
+      0.09375,
+      0.09531250000000001,
+      0.096875,
+      0.09843750000000001,
+      0.1
+    ],
+    "mesh": {
+      "nodes": 11999,
+      "elements": 6322,
+      "dofs": 35997,
+      "size_m": 0.0004,
+      "min_jacobian": 3.662608347730145e-14,
+      "gmsh_version": "4.15.2",
+      "sha256": "0dd208c140abcd25fa7a3dd665a6e6d8aff1a46d19f1c3e490000df8a0afc866",
+      "cache_key": "84c0a5a2a763b97cc061df0dc236f8ec6eee8e32e8c53c151db88e79d5b81729",
+      "cache_reused": false
+    },
+    "resources": {
+      "cpu_threads": 6,
+      "estimated_memory_GiB": 0.3773807845941894,
+      "memory_budget_GiB": 39.137707519531254,
+      "estimated_storage_GiB": 1.4546066522598267,
+      "method": "conservative sparse-factorization estimate, not a measured peak"
+    },
+    "stress_basis": "C3D10 原始积分点；显示场独立投影",
+    "convergence": {
+      "status": "not_verified"
+    },
+    "assumptions": [
+      "独立的薄截面滚动体和滚道，不使用电机等效轴承环。",
+      "平面应变截面；滚动体顶部按半径2mm、转角±0.02rad往复，压入5μm，时间轴0.1s。",
+      "无摩擦法向接触；磨损由计算得到的相对滑移与演示 Archard 系数评估。名义滚动不等同于所有弹性接触点都无滑移。",
+      "E=2GPa和合成滚动接触曲线仅用于可运行软件示例；必须替换成实物标定材料才能评价轴承。"
+    ],
+    "source_versions": {
+      "strength_studio": {
+        "url": "https://github.com/tianyuzong/strength-studio",
+        "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+      },
+      "thermoforge": {
+        "url": "https://github.com/tianyuzong/ThermoForge",
+        "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+      },
+      "integration_version": "0.6.0"
+    },
+    "compute_backend": "calculix_cpu + scipy_fp64",
+    "maximum_displacement_m": 5.9940975126613e-05,
+    "maximum_von_mises_Pa": 11033952.956315493,
+    "reused_native_frames": 0,
+    "mechanical_balance": {
+      "passed": true,
+      "frames": [
+        {
+          "force_relative": 5.402302444901801e-10,
+          "moment_relative": 2.985052987289056e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.1623199166408516e-09,
+          "moment_relative": 2.8928203309199105e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 8.359493224534134e-10,
+          "moment_relative": 2.444497684163932e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 8.526317167858023e-10,
+          "moment_relative": 2.2598126454530087e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.8799260837389056e-09,
+          "moment_relative": 2.1841623448782272e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.7949662553304115e-09,
+          "moment_relative": 1.771583257285589e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 4.075742621615372e-09,
+          "moment_relative": 1.5197784770693056e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.1882333547379642e-09,
+          "moment_relative": 1.2616838328987151e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.2390171434254272e-10,
+          "moment_relative": 1.0506779543154244e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 3.279328234641253e-09,
+          "moment_relative": 7.846701188696067e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 1.3095201503783626e-09,
+          "moment_relative": 6.549904582485083e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 7.298384219977829e-10,
+          "moment_relative": 2.1560961904454585e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 1.902924249535882e-09,
+          "moment_relative": 1.8532312366879061e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 9.56567152029358e-10,
+          "moment_relative": 4.0413749069880665e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 8.856242344457012e-10,
+          "moment_relative": 5.518065886063033e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 2.710830735908202e-09,
+          "moment_relative": 8.317640128424511e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 3.494830887645169e-09,
+          "moment_relative": 1.0986739956407874e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.164145689747165e-09,
+          "moment_relative": 1.2767076029781371e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.4832986038096562e-09,
+          "moment_relative": 1.5595931292269672e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.7939548441510366e-09,
+          "moment_relative": 1.7600055990216634e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.802175811727009e-09,
+          "moment_relative": 1.9282031699688817e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.1131757991294135e-09,
+          "moment_relative": 2.1469923983523113e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.251213817989985e-10,
+          "moment_relative": 2.214063506659981e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.192851720756499e-09,
+          "moment_relative": 2.3030101889172688e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.0431451489541037e-09,
+          "moment_relative": 2.556380289292777e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.2218786772468832e-09,
+          "moment_relative": 2.7010668621190977e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 6.281335440453758e-10,
+          "moment_relative": 2.814581402927749e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 5.521704684583573e-10,
+          "moment_relative": 2.715464943566042e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.6232577504676383e-09,
+          "moment_relative": 2.6263557830444033e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 8.079064611584472e-10,
+          "moment_relative": 2.8219972041907294e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 8.033668451292491e-10,
+          "moment_relative": 2.8568224866813264e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.0035679502571052e-09,
+          "moment_relative": 2.6736357943216632e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.788906043966001e-09,
+          "moment_relative": 2.807097295191811e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 6.735348749058422e-10,
+          "moment_relative": 2.8352071052950823e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.246815715914332e-09,
+          "moment_relative": 2.673802374537864e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.828837638672099e-09,
+          "moment_relative": 2.5655148042561504e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 4.107363489663607e-09,
+          "moment_relative": 2.4121967893363964e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 5.315667879928027e-10,
+          "moment_relative": 2.294488863526906e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 8.210106464061773e-10,
+          "moment_relative": 1.850482880476128e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 3.111447684205806e-09,
+          "moment_relative": 1.641375426557583e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 6.083829826590565e-10,
+          "moment_relative": 1.3105279165637607e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.3623524193377793e-09,
+          "moment_relative": 1.0531488460689578e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 6.491167445510263e-10,
+          "moment_relative": 8.005926750562621e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 1.0015883296206619e-09,
+          "moment_relative": 7.830654740723637e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 6.302114081771887e-10,
+          "moment_relative": 1.0829462115327007e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 5.699466423130235e-10,
+          "moment_relative": 2.113970387081443e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 7.438939703388539e-10,
+          "moment_relative": 6.5657782662389884e-09,
+          "passed": true
+        },
+        {
+          "force_relative": 2.2104171873932345e-07,
+          "moment_relative": 1.103085789163118e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 3.2024948107654038e-09,
+          "moment_relative": 1.058246098120823e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.978532550880487e-09,
+          "moment_relative": 1.5091530903926002e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.2388257689945192e-07,
+          "moment_relative": 4.02752147177785e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.6167131390572453e-09,
+          "moment_relative": 1.9010702401067594e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 3.9100643450311206e-10,
+          "moment_relative": 2.1538439911174952e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.38216371743527e-09,
+          "moment_relative": 2.4136942606802096e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 3.6720945424643855e-09,
+          "moment_relative": 2.498475105258741e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 4.057166379872822e-09,
+          "moment_relative": 2.6957493672648576e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 9.335824169180192e-10,
+          "moment_relative": 2.7718529047218633e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 4.67901221411823e-10,
+          "moment_relative": 2.9707426089254098e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.7347287801508877e-09,
+          "moment_relative": 2.9709430551039166e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 6.891869035846976e-10,
+          "moment_relative": 3.2564050297553287e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 8.452108916982054e-10,
+          "moment_relative": 3.2336712842624254e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 9.438882408978677e-10,
+          "moment_relative": 3.037902317170436e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 2.4412079161649412e-09,
+          "moment_relative": 3.07224303858004e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 1.0237628863269014e-09,
+          "moment_relative": 2.7723323897788088e-08,
+          "passed": true
+        },
+        {
+          "force_relative": 5.40683677478187e-10,
+          "moment_relative": 2.985052712293743e-08,
+          "passed": true
+        }
+      ]
+    },
+    "fatigue": {
+      "hotspot": {
+        "body_id": 2,
+        "element": 2693,
+        "integration_point": 2,
+        "position_m": [
+          -3.441632036934834e-05,
+          3.2208295828786164e-05,
+          0.004959133338028884
+        ],
+        "life_cycles": 2587255.7480928623,
+        "life_status": "finite",
+        "damage": 0.38650991527881523,
+        "fatigue_parameter_Pa": 3677034.7744923085,
+        "history_repetition_damage": 3.8650991527881524e-07,
+        "critical_plane_normal": [
+          -0.894225923434591,
+          -0.00872487525207235,
+          0.44753086419753085
+        ],
+        "stress_cycles": null,
+        "life_definition": "initiation"
+      },
+      "failures": {},
+      "life_definition": "按材料曲线定义；位置为萌生危险区",
+      "status": "evaluated",
+      "last_block_hotspot": {
+        "body_id": 2,
+        "element": 2693,
+        "integration_point": 2,
+        "position_m": [
+          -3.441632036934834e-05,
+          3.2208295828786164e-05,
+          0.004959133338028884
+        ],
+        "life_cycles": 2587255.7480928623,
+        "life_status": "finite",
+        "damage": 0.38650991527881523,
+        "fatigue_parameter_Pa": 3677034.7744923085,
+        "history_repetition_damage": 3.8650991527881524e-07,
+        "critical_plane_normal": [
+          -0.894225923434591,
+          -0.00872487525207235,
+          0.44753086419753085
+        ],
+        "stress_cycles": null,
+        "life_definition": "initiation"
+      },
+      "accumulated_cycles": 1,
+      "life_basis": "single_complete_period",
+      "blocks": [
+        {
+          "block": 1,
+          "cycles": 1,
+          "status": "evaluated",
+          "hotspot": {
+            "body_id": 2,
+            "element": 2693,
+            "integration_point": 2,
+            "position_m": [
+              -3.441632036934834e-05,
+              3.2208295828786164e-05,
+              0.004959133338028884
+            ],
+            "life_cycles": 2587255.7480928623,
+            "life_status": "finite",
+            "damage": 0.38650991527881523,
+            "fatigue_parameter_Pa": 3677034.7744923085,
+            "history_repetition_damage": 3.8650991527881524e-07,
+            "critical_plane_normal": [
+              -0.894225923434591,
+              -0.00872487525207235,
+              0.44753086419753085
+            ],
+            "stress_cycles": null,
+            "life_definition": "initiation"
+          },
+          "failures": {}
+        }
+      ],
+      "accumulated_hotspot": {
+        "body_id": 2,
+        "element": 2693,
+        "integration_point": 2,
+        "position_m": [
+          -3.441632036934834e-05,
+          3.2208295828786164e-05,
+          0.004959133338028884
+        ],
+        "damage": 3.8650991527881524e-07
+      }
+    },
+    "maximum_contact_pressure_Pa": 18396530.0,
+    "contact_projection": "Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.",
+    "contact_history": [
+      {
+        "time_s": 0.0,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0003116802,
+              1.364279e-06,
+              0.3688028
+            ],
+            "moment_Nm": [
+              -3.140336e-09,
+              -1.558207e-06,
+              2.307712e-10
+            ],
+            "area_m2": 2.664239e-08,
+            "normal_force_N": -0.3687888,
+            "shear_force_N": 2.844694e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0015625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0003127467,
+              1.391165e-06,
+              0.3688091
+            ],
+            "moment_Nm": [
+              -6.012912e-09,
+              -3.011344e-06,
+              2.592974e-10
+            ],
+            "area_m2": 2.670216e-08,
+            "normal_force_N": -0.3687951,
+            "shear_force_N": 4.574916e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.003125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.000307464,
+              1.44727e-06,
+              0.3687701
+            ],
+            "moment_Nm": [
+              -5.843309e-09,
+              -4.41309e-06,
+              2.265894e-10
+            ],
+            "area_m2": 2.667737e-08,
+            "normal_force_N": -0.3687561,
+            "shear_force_N": 6.187495e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.004687500000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002992315,
+              1.19887e-06,
+              0.3687211
+            ],
+            "moment_Nm": [
+              -3.422832e-09,
+              -5.774015e-06,
+              1.123253e-10
+            ],
+            "area_m2": 2.667177e-08,
+            "normal_force_N": -0.3687072,
+            "shear_force_N": 3.955516e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.00625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002897629,
+              8.199057e-07,
+              0.3687397
+            ],
+            "moment_Nm": [
+              -2.194099e-09,
+              -7.090757e-06,
+              -7.26636e-11
+            ],
+            "area_m2": 2.661055e-08,
+            "normal_force_N": -0.3687258,
+            "shear_force_N": 2.964776e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0078125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002777274,
+              1.416093e-07,
+              0.3687954
+            ],
+            "moment_Nm": [
+              1.024082e-09,
+              -8.336635e-06,
+              -4.754622e-11
+            ],
+            "area_m2": 2.666332e-08,
+            "normal_force_N": -0.3687814,
+            "shear_force_N": 2.962609e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.009375000000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002643856,
+              -3.512351e-07,
+              0.3688314
+            ],
+            "moment_Nm": [
+              4.487024e-09,
+              -9.511126e-06,
+              -6.399571e-11
+            ],
+            "area_m2": 2.669328e-08,
+            "normal_force_N": -0.3688173,
+            "shear_force_N": 3.957971e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.010937500000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002481607,
+              -8.870355e-07,
+              0.3688533
+            ],
+            "moment_Nm": [
+              7.923546e-09,
+              -1.059372e-05,
+              3.181464e-11
+            ],
+            "area_m2": 2.666825e-08,
+            "normal_force_N": -0.3688392,
+            "shear_force_N": 5.110396e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002304339,
+              -1.23749e-06,
+              0.3688202
+            ],
+            "moment_Nm": [
+              9.182093e-09,
+              -1.158223e-05,
+              -1.150401e-10
+            ],
+            "area_m2": 2.661312e-08,
+            "normal_force_N": -0.3688062,
+            "shear_force_N": 4.317713e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0140625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002092803,
+              -1.537426e-06,
+              0.3687937
+            ],
+            "moment_Nm": [
+              1.020641e-08,
+              -1.244853e-05,
+              -1.981403e-10
+            ],
+            "area_m2": 2.654416e-08,
+            "normal_force_N": -0.3687798,
+            "shear_force_N": 3.791216e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.015625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001865477,
+              -1.768109e-06,
+              0.3687783
+            ],
+            "moment_Nm": [
+              8.90997e-09,
+              -1.320089e-05,
+              -2.440297e-10
+            ],
+            "area_m2": 2.662601e-08,
+            "normal_force_N": -0.3687642,
+            "shear_force_N": 4.648479e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0171875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001609018,
+              -1.752539e-06,
+              0.3687798
+            ],
+            "moment_Nm": [
+              6.355195e-09,
+              -1.381792e-05,
+              -3.242544e-10
+            ],
+            "area_m2": 2.648112e-08,
+            "normal_force_N": -0.3687659,
+            "shear_force_N": 2.869973e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.018750000000000003,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001337362,
+              -1.825456e-06,
+              0.3688053
+            ],
+            "moment_Nm": [
+              3.880086e-09,
+              -1.430077e-05,
+              -3.319359e-10
+            ],
+            "area_m2": 2.654978e-08,
+            "normal_force_N": -0.3687913,
+            "shear_force_N": 2.805535e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0203125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001053366,
+              -1.854924e-06,
+              0.3688156
+            ],
+            "moment_Nm": [
+              2.509557e-09,
+              -1.464486e-05,
+              -3.734465e-10
+            ],
+            "area_m2": 2.650213e-08,
+            "normal_force_N": -0.3688016,
+            "shear_force_N": 2.941037e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.021875000000000002,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -7.622197e-05,
+              -1.790082e-06,
+              0.3688219
+            ],
+            "moment_Nm": [
+              2.160269e-09,
+              -1.484961e-05,
+              -3.884975e-10
+            ],
+            "area_m2": 2.656797e-08,
+            "normal_force_N": -0.3688079,
+            "shear_force_N": 2.819291e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0234375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -4.666128e-05,
+              -1.669347e-06,
+              0.3688271
+            ],
+            "moment_Nm": [
+              9.668589e-10,
+              -1.491423e-05,
+              -3.950695e-10
+            ],
+            "area_m2": 2.657254e-08,
+            "normal_force_N": -0.3688131,
+            "shear_force_N": 2.816095e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.025,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -1.663328e-05,
+              -1.640683e-06,
+              0.3688286
+            ],
+            "moment_Nm": [
+              4.999705e-10,
+              -1.483508e-05,
+              -3.961648e-10
+            ],
+            "area_m2": 2.654518e-08,
+            "normal_force_N": -0.3688146,
+            "shear_force_N": 2.826884e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.026562500000000003,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              1.333038e-05,
+              -1.662485e-06,
+              0.3688273
+            ],
+            "moment_Nm": [
+              9.056102e-10,
+              -1.461464e-05,
+              -3.884172e-10
+            ],
+            "area_m2": 2.657238e-08,
+            "normal_force_N": -0.3688132,
+            "shear_force_N": 2.877587e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.028125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              4.305254e-05,
+              -1.729996e-06,
+              0.3688224
+            ],
+            "moment_Nm": [
+              1.893799e-09,
+              -1.425395e-05,
+              -3.749866e-10
+            ],
+            "area_m2": 2.657144e-08,
+            "normal_force_N": -0.3688084,
+            "shear_force_N": 3.039681e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.029687500000000002,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              7.198095e-05,
+              -1.819164e-06,
+              0.3688168
+            ],
+            "moment_Nm": [
+              2.601391e-09,
+              -1.37592e-05,
+              -3.56796e-10
+            ],
+            "area_m2": 2.650742e-08,
+            "normal_force_N": -0.3688028,
+            "shear_force_N": 3.03092e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.03125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0001000807,
+              -1.933532e-06,
+              0.3688061
+            ],
+            "moment_Nm": [
+              4.458452e-09,
+              -1.313309e-05,
+              -3.194985e-10
+            ],
+            "area_m2": 2.654998e-08,
+            "normal_force_N": -0.3687921,
+            "shear_force_N": 4.004859e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0328125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0001273356,
+              -2.045294e-06,
+              0.3687808
+            ],
+            "moment_Nm": [
+              7.818054e-09,
+              -1.237846e-05,
+              -2.920565e-10
+            ],
+            "area_m2": 2.648164e-08,
+            "normal_force_N": -0.3687668,
+            "shear_force_N": 3.978583e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.034375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0001534762,
+              -2.03366e-06,
+              0.3687792
+            ],
+            "moment_Nm": [
+              1.023513e-08,
+              -1.150282e-05,
+              -1.94275e-10
+            ],
+            "area_m2": 2.662467e-08,
+            "normal_force_N": -0.3687652,
+            "shear_force_N": 2.903291e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.035937500000000004,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0001788951,
+              -2.012109e-06,
+              0.3687948
+            ],
+            "moment_Nm": [
+              1.258271e-08,
+              -1.050997e-05,
+              -1.646342e-10
+            ],
+            "area_m2": 2.654446e-08,
+            "normal_force_N": -0.3687808,
+            "shear_force_N": 3.591254e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.037500000000000006,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002027361,
+              -2.02165e-06,
+              0.3688213
+            ],
+            "moment_Nm": [
+              1.309384e-08,
+              -9.418972e-06,
+              -6.902523e-11
+            ],
+            "area_m2": 2.661334e-08,
+            "normal_force_N": -0.3688072,
+            "shear_force_N": 3.445964e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0390625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002269336,
+              -1.648423e-06,
+              0.3688538
+            ],
+            "moment_Nm": [
+              1.190641e-08,
+              -8.221216e-06,
+              5.438567e-11
+            ],
+            "area_m2": 2.667366e-08,
+            "normal_force_N": -0.3688396,
+            "shear_force_N": 3.075437e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.040625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002477824,
+              -1.297009e-06,
+              0.3688324
+            ],
+            "moment_Nm": [
+              9.213671e-09,
+              -6.953373e-06,
+              3.223506e-11
+            ],
+            "area_m2": 2.667108e-08,
+            "normal_force_N": -0.3688183,
+            "shear_force_N": 4.778821e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0421875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002648588,
+              -8.247725e-07,
+              0.3687972
+            ],
+            "moment_Nm": [
+              5.502954e-09,
+              -5.627198e-06,
+              4.04261e-11
+            ],
+            "area_m2": 2.665596e-08,
+            "normal_force_N": -0.3687832,
+            "shear_force_N": 6.686801e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.043750000000000004,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002783157,
+              -2.350062e-07,
+              0.3687405
+            ],
+            "moment_Nm": [
+              3.049649e-09,
+              -4.25377e-06,
+              -1.103719e-10
+            ],
+            "area_m2": 2.661515e-08,
+            "normal_force_N": -0.3687266,
+            "shear_force_N": 7.351996e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.045312500000000006,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002897897,
+              3.681307e-07,
+              0.3687208
+            ],
+            "moment_Nm": [
+              4.047576e-10,
+              -2.83221e-06,
+              1.665228e-11
+            ],
+            "area_m2": 2.665953e-08,
+            "normal_force_N": -0.3687068,
+            "shear_force_N": 5.869138e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.046875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002968487,
+              9.265715e-07,
+              0.3687698
+            ],
+            "moment_Nm": [
+              -3.457965e-09,
+              -1.395027e-06,
+              1.138747e-10
+            ],
+            "area_m2": 2.669305e-08,
+            "normal_force_N": -0.3687558,
+            "shear_force_N": 3.813012e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0484375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0003012167,
+              1.055393e-06,
+              0.3688092
+            ],
+            "moment_Nm": [
+              -4.344536e-09,
+              5.471992e-08,
+              1.856333e-10
+            ],
+            "area_m2": 2.670339e-08,
+            "normal_force_N": -0.3687952,
+            "shear_force_N": 4.84763e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.05,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0003050849,
+              1.203614e-06,
+              0.3688028
+            ],
+            "moment_Nm": [
+              -2.339562e-09,
+              1.521827e-06,
+              1.580943e-10
+            ],
+            "area_m2": 2.664398e-08,
+            "normal_force_N": -0.3687888,
+            "shear_force_N": 8.130723e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.051562500000000004,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0003073038,
+              1.30182e-06,
+              0.3687708
+            ],
+            "moment_Nm": [
+              -4.202104e-09,
+              2.984067e-06,
+              8.783599e-11
+            ],
+            "area_m2": 2.668137e-08,
+            "normal_force_N": -0.3687568,
+            "shear_force_N": 8.097934e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.053125000000000006,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.000305771,
+              1.362003e-06,
+              0.3687288
+            ],
+            "moment_Nm": [
+              -6.407209e-09,
+              4.409602e-06,
+              -2.087418e-11
+            ],
+            "area_m2": 2.66191e-08,
+            "normal_force_N": -0.3687149,
+            "shear_force_N": 7.527158e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0546875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0003004496,
+              1.302161e-06,
+              0.3687263
+            ],
+            "moment_Nm": [
+              -1.006165e-08,
+              5.787654e-06,
+              -3.436127e-11
+            ],
+            "area_m2": 2.657038e-08,
+            "normal_force_N": -0.3687124,
+            "shear_force_N": 4.868623e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.05625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002914718,
+              1.22243e-06,
+              0.3687642
+            ],
+            "moment_Nm": [
+              -9.946884e-09,
+              7.102488e-06,
+              2.745267e-11
+            ],
+            "area_m2": 2.658909e-08,
+            "normal_force_N": -0.3687503,
+            "shear_force_N": 4.229568e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0578125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002803949,
+              1.121572e-06,
+              0.368812
+            ],
+            "moment_Nm": [
+              -1.025147e-08,
+              8.356836e-06,
+              5.748802e-11
+            ],
+            "area_m2": 2.670059e-08,
+            "normal_force_N": -0.3687978,
+            "shear_force_N": 3.605007e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.059375000000000004,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002670065,
+              1.112348e-06,
+              0.3688105
+            ],
+            "moment_Nm": [
+              -3.794761e-09,
+              9.536772e-06,
+              9.23878e-11
+            ],
+            "area_m2": 2.684472e-08,
+            "normal_force_N": -0.3687962,
+            "shear_force_N": 6.472223e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.060937500000000006,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002498938,
+              1.13873e-06,
+              0.3687995
+            ],
+            "moment_Nm": [
+              -4.672615e-09,
+              1.060964e-05,
+              6.264628e-11
+            ],
+            "area_m2": 2.662032e-08,
+            "normal_force_N": -0.3687854,
+            "shear_force_N": 5.463178e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002323266,
+              1.216874e-06,
+              0.3687708
+            ],
+            "moment_Nm": [
+              -4.416285e-09,
+              1.159525e-05,
+              1.121523e-10
+            ],
+            "area_m2": 2.66621e-08,
+            "normal_force_N": -0.3687566,
+            "shear_force_N": 5.016899e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.06406250000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0002112743,
+              1.305481e-06,
+              0.3687356
+            ],
+            "moment_Nm": [
+              -4.389587e-09,
+              1.246062e-05,
+              1.07293e-10
+            ],
+            "area_m2": 2.661154e-08,
+            "normal_force_N": -0.3687215,
+            "shear_force_N": 5.422245e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.065625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0001877684,
+              1.3252e-06,
+              0.368718
+            ],
+            "moment_Nm": [
+              -2.749949e-09,
+              1.320422e-05,
+              9.711319e-11
+            ],
+            "area_m2": 2.662511e-08,
+            "normal_force_N": -0.3687038,
+            "shear_force_N": 4.213096e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0671875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.0001624507,
+              1.37903e-06,
+              0.3687328
+            ],
+            "moment_Nm": [
+              -8.260104e-10,
+              1.382297e-05,
+              1.082901e-10
+            ],
+            "area_m2": 2.667428e-08,
+            "normal_force_N": -0.3687186,
+            "shear_force_N": 3.238974e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.06875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.00013562,
+              1.379874e-06,
+              0.3687496
+            ],
+            "moment_Nm": [
+              -3.015324e-09,
+              1.430879e-05,
+              5.858442e-11
+            ],
+            "area_m2": 2.663842e-08,
+            "normal_force_N": -0.3687354,
+            "shear_force_N": 2.983883e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0703125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              0.00010765,
+              1.280903e-06,
+              0.3687551
+            ],
+            "moment_Nm": [
+              -2.224597e-09,
+              1.465681e-05,
+              6.134193e-11
+            ],
+            "area_m2": 2.660936e-08,
+            "normal_force_N": -0.3687408,
+            "shear_force_N": 3.235202e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.07187500000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              7.866883e-05,
+              1.264497e-06,
+              0.3687591
+            ],
+            "moment_Nm": [
+              -6.544551e-10,
+              1.486263e-05,
+              6.240105e-11
+            ],
+            "area_m2": 2.653967e-08,
+            "normal_force_N": -0.3687449,
+            "shear_force_N": 3.126215e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0734375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              4.905084e-05,
+              1.250238e-06,
+              0.368764
+            ],
+            "moment_Nm": [
+              -4.112039e-10,
+              1.492624e-05,
+              5.893966e-11
+            ],
+            "area_m2": 2.662026e-08,
+            "normal_force_N": -0.3687497,
+            "shear_force_N": 2.909369e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.07500000000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              1.89837e-05,
+              1.235269e-06,
+              0.3687662
+            ],
+            "moment_Nm": [
+              -4.53952e-10,
+              1.484711e-05,
+              6.357424e-11
+            ],
+            "area_m2": 2.663388e-08,
+            "normal_force_N": -0.3687519,
+            "shear_force_N": 2.9307e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0765625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -1.143374e-05,
+              1.248907e-06,
+              0.3687642
+            ],
+            "moment_Nm": [
+              -4.074822e-10,
+              1.462421e-05,
+              7.461235e-11
+            ],
+            "area_m2": 2.66066e-08,
+            "normal_force_N": -0.36875,
+            "shear_force_N": 3.136331e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.078125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -4.175131e-05,
+              1.279882e-06,
+              0.3687595
+            ],
+            "moment_Nm": [
+              -7.384227e-10,
+              1.426129e-05,
+              8.635735e-11
+            ],
+            "area_m2": 2.655099e-08,
+            "normal_force_N": -0.3687452,
+            "shear_force_N": 2.862357e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.07968750000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -7.188792e-05,
+              1.314685e-06,
+              0.3687557
+            ],
+            "moment_Nm": [
+              -2.387352e-09,
+              1.376026e-05,
+              9.209759e-11
+            ],
+            "area_m2": 2.660922e-08,
+            "normal_force_N": -0.3687415,
+            "shear_force_N": 2.93163e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.08125,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001014807,
+              1.345669e-06,
+              0.3687504
+            ],
+            "moment_Nm": [
+              -2.845643e-09,
+              1.312478e-05,
+              1.068351e-10
+            ],
+            "area_m2": 2.663826e-08,
+            "normal_force_N": -0.3687362,
+            "shear_force_N": 3.517506e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.08281250000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001298815,
+              1.416119e-06,
+              0.3687338
+            ],
+            "moment_Nm": [
+              -9.978469e-10,
+              1.236315e-05,
+              1.350074e-10
+            ],
+            "area_m2": 2.667397e-08,
+            "normal_force_N": -0.3687195,
+            "shear_force_N": 3.619427e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.084375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0001567767,
+              1.629289e-06,
+              0.368719
+            ],
+            "moment_Nm": [
+              -4.245879e-09,
+              1.148365e-05,
+              9.912282e-11
+            ],
+            "area_m2": 2.662372e-08,
+            "normal_force_N": -0.3687049,
+            "shear_force_N": 3.144357e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0859375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.00018202,
+              1.676956e-06,
+              0.3687367
+            ],
+            "moment_Nm": [
+              -6.222936e-09,
+              1.049659e-05,
+              1.078645e-10
+            ],
+            "area_m2": 2.661104e-08,
+            "normal_force_N": -0.3687225,
+            "shear_force_N": 2.868584e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.08750000000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002058817,
+              1.607647e-06,
+              0.3687725
+            ],
+            "moment_Nm": [
+              -6.597673e-09,
+              9.406808e-06,
+              7.721942e-11
+            ],
+            "area_m2": 2.666002e-08,
+            "normal_force_N": -0.3687583,
+            "shear_force_N": 3.246844e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0890625,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002284374,
+              1.492276e-06,
+              0.3688003
+            ],
+            "moment_Nm": [
+              -6.266105e-09,
+              8.221068e-06,
+              4.721206e-11
+            ],
+            "area_m2": 2.662663e-08,
+            "normal_force_N": -0.3687861,
+            "shear_force_N": 3.041518e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.09062500000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002485359,
+              1.528876e-06,
+              0.3688115
+            ],
+            "moment_Nm": [
+              -5.85595e-09,
+              6.962308e-06,
+              9.082587e-11
+            ],
+            "area_m2": 2.684539e-08,
+            "normal_force_N": -0.3687973,
+            "shear_force_N": 3.045691e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.0921875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002675725,
+              1.47901e-06,
+              0.3688131
+            ],
+            "moment_Nm": [
+              -1.203583e-08,
+              5.620441e-06,
+              6.60909e-11
+            ],
+            "area_m2": 2.670132e-08,
+            "normal_force_N": -0.368799,
+            "shear_force_N": 5.237703e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.09375,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002813633,
+              1.327576e-06,
+              0.3687653
+            ],
+            "moment_Nm": [
+              -1.046525e-08,
+              4.241882e-06,
+              5.990374e-11
+            ],
+            "area_m2": 2.658849e-08,
+            "normal_force_N": -0.3687513,
+            "shear_force_N": 4.649417e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.09531250000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0002920072,
+              1.347915e-06,
+              0.3687259
+            ],
+            "moment_Nm": [
+              -1.020482e-08,
+              2.828687e-06,
+              -8.146635e-12
+            ],
+            "area_m2": 2.656348e-08,
+            "normal_force_N": -0.3687119,
+            "shear_force_N": 4.320569e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.096875,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0003001482,
+              1.290838e-06,
+              0.3687299
+            ],
+            "moment_Nm": [
+              -6.069508e-09,
+              1.38392e-06,
+              1.35437e-11
+            ],
+            "area_m2": 2.663663e-08,
+            "normal_force_N": -0.368716,
+            "shear_force_N": 3.028583e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.09843750000000001,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0003066567,
+              1.327225e-06,
+              0.3687711
+            ],
+            "moment_Nm": [
+              -4.324478e-09,
+              -8.191607e-08,
+              1.458908e-10
+            ],
+            "area_m2": 2.668477e-08,
+            "normal_force_N": -0.3687571,
+            "shear_force_N": 2.835525e-05
+          }
+        }
+      },
+      {
+        "time_s": 0.1,
+        "pairs": {
+          "滚动体／滚道": {
+            "force_N": [
+              -0.0003116802,
+              1.364279e-06,
+              0.3688028
+            ],
+            "moment_Nm": [
+              -3.140337e-09,
+              -1.558207e-06,
+              2.307712e-10
+            ],
+            "area_m2": 2.664239e-08,
+            "normal_force_N": -0.3687888,
+            "shear_force_N": 2.844694e-05
+          }
+        }
+      }
+    ],
+    "maximum_wear_depth_m": 2.2187172404592505e-18
+  }
+}

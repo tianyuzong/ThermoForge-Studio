@@ -1,0 +1,7 @@
+# Preserve exact source bytes so clone hashes match BUILD-MANIFEST and release evidence.
+* -text
+*.png binary
+*.pdf binary
+*.gif binary
+*.mp4 binary
+*.npz binary

@@ -1,0 +1,4 @@
+interface:
+  display_name: "结构静力仿真"
+  short_description: "调用本地 CPU 工作台进行模型导入、静力求解、结果查询与中文报告导出"
+  default_prompt: "使用 $structural-simulation 对当前模型进行 CPU 静力分析，先核对材料、支撑与载荷，再求解并给出中文报告。"

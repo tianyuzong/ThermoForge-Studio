@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-09-30T14:35:29.419664+00:00",
+  "method": "Poppler page rasterization and visual inspection of every page",
+  "passed": true,
+  "reports": {
+    "motor-contact-coupling": {
+      "pages": 2,
+      "sha256": "41339a1cf2055a4db36a899679d8ce2514ece277f41262d080c985a7a3b69fee",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering labels and provenance"
+    },
+    "local-bearing": {
+      "pages": 3,
+      "sha256": "2c02c4ce66fd15d4661893b569437d78d1740f1f2d99ab1e30504fad8a85450d",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering labels and provenance"
+    },
+    "motor-fatigue": {
+      "pages": 3,
+      "sha256": "6c2d3f7d14ff2a998a7ee33d29af2e5d6aaeee189ca752d85af6256310a9d47e",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering labels and provenance"
+    },
+    "motor-thermal-assembly": {
+      "pages": 3,
+      "sha256": "af9ff521cfead7045520c2ba3bd258aa16cfeee7ac5d35086929aadaa63e2b0c",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering labels and provenance"
+    },
+    "thermal-opening-closure": {
+      "pages": 2,
+      "sha256": "925cfcf269c02f8b2a022d7855dcd48501150fe35c018985860a347401336b78",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering labels and provenance"
+    },
+    "gear-tooth-engagement": {
+      "pages": 2,
+      "sha256": "3b357c73b8eedc0b4e11e0a3a77b6ecdf27400b9558fa77a06a9002a2569d7b2",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering scope and provenance"
+    },
+    "thermal-gap-coarse": {
+      "pages": 2,
+      "sha256": "1cf35090429069cabb4e3925e7f594f844211c0b223c54fa87f75a5b334f6b4b",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, engineering labels and provenance"
+    },
+    "thermal-gap": {
+      "pages": 2,
+      "sha256": "bca758600d375f9c7120b15cf0582f54efeb2af6f4abe7e355aeff21a047ff23",
+      "checked": "Chinese glyphs, tables, charts, page breaks, footers, temporal convergence, all-step balance and provenance"
+    }
+  }
+}

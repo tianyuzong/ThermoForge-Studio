@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Thermal Studio · CPU 热仿真</title><link rel="stylesheet" href="/cpu.css">
+</head>
+<body>
+  <header><a href="/" class="back">← 返回三维工作区</a><div><strong>CPU 热仿真</strong><small>主板 · CPU · 散热器系统级模型</small></div><span class="local">本地运行</span></header>
+  <main>
+    <aside class="panel">
+      <h1>CPU 工作台</h1><p class="hint">CPU 持续发热，热量经接口传入散热器，同时扩散到主板；运行后可查看达到热平衡的过程。</p>
+      <form id="cpu-form">
+        <label>散热方式<select id="cooler-type"><option value="air">风冷散热器</option><option value="water">水冷散热器</option></select></label>
+        <div class="grid"><label>CPU 功率 <span>W</span><input id="cpu-power" type="number" value="125" min="0" step="1"></label><label>环境温度 <span>°C</span><input id="ambient" type="number" value="25" step="1"></label></div>
+        <div class="grid"><label>仿真时长 <span>s</span><input id="duration" type="number" value="600" min="1" step="10"></label><label>步长 <span>s</span><input id="dt" type="number" value="0.5" min="0.05" max="60" step="0.05"></label></div>
+        <label>CPU 与散热器接口热阻 <span>K/W</span><input id="interface-r" type="number" value="0.08" min="0.001" step="0.001"></label>
+        <section id="air-fields"><h2>风冷参数</h2><div class="grid"><label>换热系数 <span>W/(m²·K)</span><input id="air-h" type="number" value="80" min="0" step="1"></label><label>额定散热 <span>W</span><input id="air-capacity" type="number" value="250" min="0" step="1"></label></div></section>
+        <section id="water-fields" hidden><h2>水冷参数</h2><div class="grid"><label>流量 <span>L/min</span><input id="water-flow" type="number" value="2" min="0.01" step="0.1"></label><label>入口温度 <span>°C</span><input id="water-inlet" type="number" value="25" step="1"></label></div><div class="grid"><label>水冷头 UA <span>W/K</span><input id="water-ua" type="number" value="180" min="0" step="1"></label><label>冷排 UA <span>W/K</span><input id="radiator-ua" type="number" value="120" min="0" step="1"></label></div></section>
+        <button class="run" type="submit">运行 CPU 仿真</button><p id="error" class="error" hidden></p>
+      </form>
+    </aside>
+    <section class="content"><div class="stats"><div><small>CPU 最高</small><strong id="max">—</strong><span>°C</span></div><div><small>最终 CPU</small><strong id="final">—</strong><span>°C</span></div><div><small>最终散热器</small><strong id="cooler">—</strong><span>°C</span></div><div><small>散热功率</small><strong id="removed">—</strong><span>W</span></div></div><div class="viz"><canvas id="board" width="760" height="370"></canvas><div class="legend"><i class="cpu-dot"></i>CPU <i class="cooler-dot"></i>散热器 <i class="board-dot"></i>主板 <i class="water-dot"></i>冷却液</div></div><div class="chart"><canvas id="chart" width="760" height="260"></canvas><label class="time-control">查看过程 <span id="time">0 s</span><input id="timeline" type="range" min="0" max="1" value="0"></label></div><p id="model-note" class="note">填写参数后运行，温度曲线会展示达到热平衡的过程。</p></section>
+  </main><script src="/cpu.js"></script>
+</body></html>

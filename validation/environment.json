@@ -1,0 +1,33 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+  "logical_cpus": 12,
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "gmsh": "4.15.2",
+    "h5py": "3.16.0",
+    "fastapi": "0.142.1",
+    "pydantic": "2.13.5",
+    "reportlab": "4.5.1",
+    "scikit-fem": "12.0.2",
+    "nvidia-cudss-cu12": "0.8.0.10"
+  },
+  "calculix": {
+    "version": "2.23",
+    "executable_sha256": "e18360eb32a5cd48f91a212c57069212cd8e27d2f798a599a78106bd0b3ecc1f"
+  },
+  "gpu_devices": [
+    {
+      "name": "NVIDIA GeForce RTX 3090 Ti",
+      "memory_MiB": 24564,
+      "driver": "591.86"
+    }
+  ],
+  "solver_execution": {
+    "heavy_jobs": 1,
+    "default_cpu_threads": 6
+  },
+  "legacy_cupy_tests": "2 skipped: CuPy absent; native cuDSS thermal adapter independently verified"
+}

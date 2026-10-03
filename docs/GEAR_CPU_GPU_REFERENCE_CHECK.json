@@ -1,0 +1,17 @@
+{
+  "scope": "Independent CalculiX verification of the elastic reference with identical converged contact forces; not independent verification of the contact search/active-set or Hertz accuracy.",
+  "cpu_s": 70.04575943946838,
+  "comparisons": {
+    "displacements": {
+      "relative_L2": 1.0585797340961489e-07,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    "stresses": {
+      "relative_L2": 1.2691488488399161e-07,
+      "tolerance": 1e-05,
+      "passed": true
+    }
+  },
+  "passed": true
+}

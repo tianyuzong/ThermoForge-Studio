@@ -1,0 +1,25 @@
+{
+  "tool_count": 25,
+  "study_tools": [
+    "studio_study_schema",
+    "studio_study_template",
+    "studio_validate_study",
+    "studio_submit_study",
+    "studio_study",
+    "studio_cancel_study"
+  ],
+  "health": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"ok\": true,\n  \"app\": \"ThermoForge Studio\",\n  \"version\": \"0.6.0\",\n  \"pid\": 740,\n  \"solver_available\": true,\n  \"cli_available\": true,\n  \"api_available\": true,\n  \"execution\": {\n    \"parallel_jobs\": 1,\n    \"devices\": [\n      {\n        \"name\": \"NVIDIA GeForce RTX 3090 Ti\",\n        \"memory_MiB\": 24564,\n        \"driver\": \"591.86\"\n      }\n    ],\n    \"cpu_threads\": 6,\n    \"max_dofs\": 300000,\n    \"gpu_diagnostic\": {\n      \"device_detected\": true,\n      \"cuda_initialized\": false,\n      \"cudss_loaded\": false,\n      \"self_test_passed\": false,\n      \"error\": \"GPU 尚未自检；CPU 模式无需 CUDA\"\n    },\n    \"backends\": [\n      {\n        \"id\": \"calculix_cpu\",\n        \"name\": \"CalculiX 2.23 · CPU\",\n        \"available\": true,\n        \"validated\": true,\n        \"detail\": \"已通过本平台解析解和静力平衡回归验证\"\n      },\n      {\n        \"id\": \"cudss_cuda\",\n        \"name\": \"原生 CUDA + cuDSS · FP64\",\n        \"available\": false,\n        \"validated\": false,\n        \"detail\": \"GPU 尚未自检；CPU 模式无需 CUDA\"\n      },\n      {\n        \"id\": \"calculix_cuda\",\n        \"name\": \"CalculiX + PaStiX · CUDA\",\n        \"available\": false,\n        \"validated\": false,\n        \"detail\": \"需配置专门编译的 CalculiX 2.23 + PaStiX/CUDA 可执行文件\"\n      }\n    ]\n  },\n  \"demo_material\": {\n    \"name\": \"演示钢材（假设值）\",\n    \"young_modulus_Pa\": 210000000000.0,\n    \"poisson_ratio\": 0.3,\n    \"density_kg_m3\": 7850.0,\n    \"yield_strength_Pa\": 235000000.0,\n    \"source\": \"内置教学/软件验证假设；不代表特定牌号或认证材料数据\"\n  }\n}",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "schema_success": true
+}

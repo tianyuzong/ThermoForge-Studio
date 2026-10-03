@@ -1,0 +1,26 @@
+{
+  "version": "0.7.1",
+  "regression": {
+    "passed": 78,
+    "failed": 0,
+    "skipped": 0
+  },
+  "real_cli_prompt": true,
+  "real_non_motor_run": "d33fcfe4325f4585b9fb9da40a428afe",
+  "browser_detached": true,
+  "video_decoding_passed": true,
+  "bundle_file_hashes_verified": 42,
+  "pdf_pages_visually_reviewed": 6,
+  "production_workbench_smoke": true,
+  "legacy_run_browser_smoke": true,
+  "mcp_tools": [
+    "studio_analysis_context",
+    "studio_submit_analysis_plan",
+    "studio_analysis_plan",
+    "studio_analysis_run",
+    "studio_cancel_analysis_plan"
+  ],
+  "mcp_current_project_context_passed": true,
+  "old_motor_run_preserved": true,
+  "scope": "通用指令编排、真实杆件静力/瞬态、导出与恢复；不代表任意模型已数值验证"
+}

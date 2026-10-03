@@ -1,0 +1,15 @@
+﻿metric,value
+name,热接触 · 升温闭合与冷却分离
+analysis_type,thermo_mechanical
+frames,17
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+minimum_temperature_C,25.0
+maximum_temperature_C,100.0
+maximum_temperature_rise_K,75.0
+maximum_gradient_K_m,6917.902439382905
+maximum_displacement_m,1.084504545575121e-05
+maximum_von_mises_Pa,407024195.64453715
+reused_native_frames,0
+maximum_contact_pressure_Pa,41138000.0
+contact_projection,Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.

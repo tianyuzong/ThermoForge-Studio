@@ -1,0 +1,45 @@
+.venv/
+data/
+.runtime/
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+*.pyc
+vendor/*.exe
+vendor/*.dll
+
+# Local settings, credentials, generated caches and packaging outputs.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.tsbuildinfo
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+frontend/test-results/
+frontend/playwright-report/
+frontend/build-preview/
+Strength-Studio-Windows-*.zip
+
+# Private imported-model geometry and conversation snapshots.
+docs/GEAR_CONTACT_GEOMETRY.json
+docs/GEAR_STUDY_TASK.json
+local-settings.json
+
+# Local visual backups, private reports and plugin distribution artifacts.
+frontend/.visual-backups/
+screenshots/
+outputs/
+dist-plugin/
+Strength-Studio-Codex-*.zip
+integrations/*/local-connection.json
+ThermoForge-Studio-*.zip
+
+# Documentation captures are intentional public release assets.
+!docs/screenshots/
+!docs/screenshots/**

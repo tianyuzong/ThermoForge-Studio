@@ -1,0 +1,2999 @@
+{
+  "maximum_displacement_m": 3.3087907444911446e-05,
+  "maximum_von_mises_Pa": 43814464.10694046,
+  "minimum_safety_factor": null,
+  "components": [
+    {
+      "body_id": 1,
+      "name": "组件 1",
+      "material": {
+        "name": "机壳、端盖和底脚铸铁（教学假设）",
+        "young_modulus_Pa": 110000000000.0,
+        "poisson_ratio": 0.26,
+        "density_kg_m3": 7200.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 9902493.085591717,
+      "maximum_displacement_m": 2.5117934279818664e-06,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 2,
+      "name": "组件 2",
+      "material": {
+        "name": "机壳、端盖和底脚铸铁（教学假设）",
+        "young_modulus_Pa": 110000000000.0,
+        "poisson_ratio": 0.26,
+        "density_kg_m3": 7200.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 7291119.47424365,
+      "maximum_displacement_m": 3.4938522244474234e-07,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 3,
+      "name": "组件 3",
+      "material": {
+        "name": "机壳、端盖和底脚铸铁（教学假设）",
+        "young_modulus_Pa": 110000000000.0,
+        "poisson_ratio": 0.26,
+        "density_kg_m3": 7200.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 6394886.80165415,
+      "maximum_displacement_m": 3.4978773126681616e-07,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 4,
+      "name": "组件 4",
+      "material": {
+        "name": "机壳、端盖和底脚铸铁（教学假设）",
+        "young_modulus_Pa": 110000000000.0,
+        "poisson_ratio": 0.26,
+        "density_kg_m3": 7200.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 11028618.203974467,
+      "maximum_displacement_m": 3.849098420469044e-06,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 5,
+      "name": "组件 5",
+      "material": {
+        "name": "机壳、端盖和底脚铸铁（教学假设）",
+        "young_modulus_Pa": 110000000000.0,
+        "poisson_ratio": 0.26,
+        "density_kg_m3": 7200.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 10460746.940288777,
+      "maximum_displacement_m": 3.2018775328428304e-06,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 6,
+      "name": "组件 6",
+      "material": {
+        "name": "钢质轴、轴承及紧固件（教学假设）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 30977390.258718353,
+      "maximum_displacement_m": 3.920784853804739e-06,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 7,
+      "name": "组件 7",
+      "material": {
+        "name": "钢质轴、轴承及紧固件（教学假设）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 23502820.399403494,
+      "maximum_displacement_m": 3.2969367670820396e-06,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 8,
+      "name": "组件 8",
+      "material": {
+        "name": "钢质轴、轴承及紧固件（教学假设）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "maximum_von_mises_Pa": 43814464.10694046,
+      "maximum_displacement_m": 3.3087907444911446e-05,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 9,
+      "name": "组件 9",
+      "material": {
+        "name": "转定子铁芯等效各向同性钢（教学假设）",
+        "young_modulus_Pa": 200000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7650.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。忽略叠片各向异性及层间滑移。"
+      },
+      "maximum_von_mises_Pa": 10711388.528449837,
+      "maximum_displacement_m": 1.6412690291178084e-06,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    },
+    {
+      "body_id": 10,
+      "name": "组件 10",
+      "material": {
+        "name": "转子填槽等效各向同性材料（教学假设）",
+        "young_modulus_Pa": 200000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7204.887978142253,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。忽略叠片各向异性及层间滑移。 用户授权填平导条槽；E=200GPa、nu=0.3为均匀刚度假设，不评价槽口局部强度；密度按原铁芯假设质量/简化实体体积折算，避免新增填槽体积增加自重；导条、端环重量另列等效载荷。"
+      },
+      "maximum_von_mises_Pa": 6451922.998004613,
+      "maximum_displacement_m": 9.508999324148711e-07,
+      "minimum_safety_factor": null,
+      "strength_status": "not_evaluated"
+    }
+  ],
+  "principal_max_Pa": 46351276.26293118,
+  "principal_min_Pa": -37784598.35093888,
+  "stress_peak": {
+    "element": 25754,
+    "integration_point": 2,
+    "position_m": [
+      -0.1029002717056969,
+      -0.004138301426440006,
+      0.013108214157352987
+    ]
+  },
+  "displacement_peak": {
+    "node": 34118,
+    "position_m": [
+      -0.155,
+      3.429011037613e-18,
+      0.014
+    ]
+  },
+  "mesh": {
+    "nodes": 73985,
+    "elements": 39431,
+    "dofs": 221955,
+    "size_m": 0.027,
+    "min_jacobian": 2.978936804350159e-10,
+    "gmsh_version": "4.15.2",
+    "sha256": "c79673b1ab6c1740d084de75ee9c77c636381fb33cfbd074371923e0487f3aed",
+    "cache_key": "2beb7801d6ce314770116d5a7f2ac0b9446692f73e21f997fb8dec3cc28b3d82",
+    "cache_reused": false
+  },
+  "checks": {
+    "strength": {
+      "status": "not_evaluated",
+      "value_Pa": 43814464.10694046,
+      "criterion": "von_mises",
+      "limit_Pa": null,
+      "safety_factor": null,
+      "target": 1.5,
+      "critical_element": 25754,
+      "critical_integration_point": 2,
+      "critical_body_id": 8
+    },
+    "displacement": {
+      "status": "not_evaluated",
+      "value_m": 3.3087907444911446e-05,
+      "limit_m": null
+    }
+  },
+  "warnings": [
+    "整体停机理想粘结模型；接口不分离、不滑移、不相对转动。未模拟真实轴承滚动、螺栓预紧、摩擦或连接柔度。"
+  ],
+  "loads": [
+    {
+      "name": "前轴端径向总力1000N",
+      "kind": "force",
+      "area_m2": 0.0005372922066843489,
+      "resultant_N": [
+        0.0,
+        0.0,
+        -1000.0000000000002
+      ],
+      "moment_Nm": [
+        0.0065387856689400475,
+        -184.2050604250297,
+        0.0
+      ],
+      "moment_origin_m": [
+        0.029205060425029614,
+        6.533771795688975e-06,
+        -0.002862175255764173
+      ],
+      "mapping_force_relative": 1.1325733088632393e-16,
+      "mapping_moment_relative": 2.359616345165673e-16,
+      "mapping_passed": true
+    },
+    {
+      "name": "后轴端径向总力1000N",
+      "kind": "force",
+      "area_m2": 0.0004523513334825392,
+      "resultant_N": [
+        0.0,
+        0.0,
+        -999.9999999999994
+      ],
+      "moment_Nm": [
+        0.00653323609736535,
+        175.79493957497033,
+        0.0
+      ],
+      "moment_origin_m": [
+        0.029205060425029614,
+        6.533771795688975e-06,
+        -0.002862175255764173
+      ],
+      "mapping_force_relative": 5.664989920714086e-16,
+      "mapping_moment_relative": 7.868738007500897e-17,
+      "mapping_passed": true
+    }
+  ],
+  "supports": [
+    {
+      "name": "负Y底脚底面固定XYZ",
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "face_ids": [
+        220
+      ],
+      "area_m2": 0.006398103989451206,
+      "reaction_N": [
+        -0.5285867149999959,
+        304.37428168600013,
+        999.7935256200004
+      ],
+      "moment_Nm": [
+        -41.591489371578575,
+        -24.91844833792617,
+        6.754873424742881
+      ],
+      "moment_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shared_dofs_assigned_to_earlier_supports": 0
+    },
+    {
+      "name": "正Y底脚底面固定XYZ",
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "face_ids": [
+        236
+      ],
+      "area_m2": 0.006398103980570241,
+      "reaction_N": [
+        0.5285791613999908,
+        -304.37428234600003,
+        1000.2064652240002
+      ],
+      "moment_Nm": [
+        41.59148507898349,
+        -25.08155199501581,
+        -6.754872342765047
+      ],
+      "moment_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shared_dofs_assigned_to_earlier_supports": 0
+    }
+  ],
+  "balance": {
+    "passed": true,
+    "force_relative": 4.738317702078622e-09,
+    "moment_relative": 3.172841568509748e-09,
+    "free_dof_relative": 7.880284011944948e-08,
+    "force_residual_N": [
+      -7.553600012144557e-06,
+      -6.599998565448573e-07,
+      -9.155999380894286e-06
+    ],
+    "moment_residual_Nm": [
+      1.8557990587916157e-07,
+      -3.329420734665689e-07,
+      1.0819778275550362e-06
+    ],
+    "reaction_N": [
+      -7.553600012144557e-06,
+      -6.599998565448573e-07,
+      1999.9999908440009
+    ],
+    "moment_origin_m": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "maximum_normal_strain": 0.0001983307,
+  "maximum_displacement_gradient": 0.0008643736253721019,
+  "convergence": {
+    "status": "not_verified"
+  },
+  "stress_basis": "C3D10 四个积分点原始应力；显示云图为外推后的体积加权节点平均",
+  "solver": "CalculiX 2.23 / C3D10 / linear static",
+  "units": "SI",
+  "bonding": {
+    "type": "linear_bonded_mpc",
+    "connected_components": 10,
+    "tied_nodes": 4344,
+    "equations": 13032,
+    "compatibility_relative": 3.684125678730858e-08,
+    "maximum_compatibility_error_m": 1.219000094732682e-12,
+    "interfaces": [
+      {
+        "name": "机壳至负Y底脚",
+        "slave_body": 1,
+        "master_body": 2,
+        "slave_face_ids": [
+          164,
+          166
+        ],
+        "master_face_ids": [
+          222,
+          226
+        ],
+        "candidate_slave_nodes": 26,
+        "eligible_nodes": 10,
+        "max_gap_m": 1e-05,
+        "maximum_mapped_distance_m": 3.469446951953614e-18,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 10,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          -0.5285874500000007,
+          304.374279,
+          999.7935899999998
+        ],
+        "transfer_moment_about_origin_Nm": [
+          -41.591493973,
+          -24.91844904165,
+          6.754873669525
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "机壳至正Y底脚",
+        "slave_body": 1,
+        "master_body": 3,
+        "slave_face_ids": [
+          170,
+          173
+        ],
+        "master_face_ids": [
+          238,
+          242
+        ],
+        "candidate_slave_nodes": 26,
+        "eligible_nodes": 10,
+        "max_gap_m": 1e-05,
+        "maximum_mapped_distance_m": 1.3877787807814457e-17,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 10,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          0.5285859999999989,
+          -304.374276,
+          1000.2064620000001
+        ],
+        "transfer_moment_about_origin_Nm": [
+          41.59148545600001,
+          -25.081555179999995,
+          -6.754873156499997
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "前端盖至机壳",
+        "slave_body": 4,
+        "master_body": 1,
+        "slave_face_ids": [
+          249
+        ],
+        "master_face_ids": [
+          129
+        ],
+        "candidate_slave_nodes": 223,
+        "eligible_nodes": 221,
+        "max_gap_m": 1e-05,
+        "maximum_mapped_distance_m": 9.881221020844522e-06,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 221,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          -20.811194849999957,
+          0.14406726200000242,
+          1056.391600544
+        ],
+        "transfer_moment_about_origin_Nm": [
+          -0.0023132532575355063,
+          131.67817449529394,
+          0.002568964038095615
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "后端盖至机壳",
+        "slave_body": 5,
+        "master_body": 1,
+        "slave_face_ids": [
+          295
+        ],
+        "master_face_ids": [
+          139
+        ],
+        "candidate_slave_nodes": 223,
+        "eligible_nodes": 222,
+        "max_gap_m": 1e-05,
+        "maximum_mapped_distance_m": 9.881221020844522e-06,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 222,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          20.811177689999933,
+          -0.14406941899999665,
+          943.6084090089994
+        ],
+        "transfer_moment_about_origin_Nm": [
+          0.002307008978810456,
+          -181.6781737951289,
+          -0.0025699031047218164
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "前轴承外圈等效粘结至前端盖",
+        "slave_body": 6,
+        "master_body": 4,
+        "slave_face_ids": [
+          340
+        ],
+        "master_face_ids": [
+          292
+        ],
+        "candidate_slave_nodes": 204,
+        "eligible_nodes": 204,
+        "max_gap_m": 0.0005,
+        "maximum_mapped_distance_m": 5.689883333359174e-05,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 204,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          -20.811194920000048,
+          0.14406213800000955,
+          1056.3916349499998
+        ],
+        "transfer_moment_about_origin_Nm": [
+          -0.002312516721682322,
+          131.67818029460076,
+          0.0025692064641815136
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "后轴承外圈等效粘结至后端盖",
+        "slave_body": 7,
+        "master_body": 5,
+        "slave_face_ids": [
+          344
+        ],
+        "master_face_ids": [
+          338
+        ],
+        "candidate_slave_nodes": 204,
+        "eligible_nodes": 204,
+        "max_gap_m": 0.0005,
+        "maximum_mapped_distance_m": 5.3680213363806265e-05,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 204,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          20.811156180000005,
+          -0.14406625000001924,
+          943.6084403700002
+        ],
+        "transfer_moment_about_origin_Nm": [
+          0.002307640324432497,
+          -181.6781802449787,
+          -0.0025680943107386327
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "输出轴至前轴承内孔",
+        "slave_body": 8,
+        "master_body": 6,
+        "slave_face_ids": [
+          352
+        ],
+        "master_face_ids": [
+          343
+        ],
+        "candidate_slave_nodes": 560,
+        "eligible_nodes": 291,
+        "max_gap_m": 0.0005,
+        "maximum_mapped_distance_m": 0.0004983096557359347,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 291,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          -20.81116885999989,
+          0.14407870000001677,
+          1056.3915676800004
+        ],
+        "transfer_moment_about_origin_Nm": [
+          -0.002313222595862075,
+          131.6781730871218,
+          0.002568051578392891
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "输出轴至后轴承内孔",
+        "slave_body": 8,
+        "master_body": 7,
+        "slave_face_ids": [
+          351
+        ],
+        "master_face_ids": [
+          347
+        ],
+        "candidate_slave_nodes": 740,
+        "eligible_nodes": 281,
+        "max_gap_m": 0.0005,
+        "maximum_mapped_distance_m": 0.0004891521883003548,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 281,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          20.811225689999894,
+          -0.14405658000003874,
+          943.6084274800007
+        ],
+        "transfer_moment_about_origin_Nm": [
+          0.002308438696236998,
+          -181.67817896473983,
+          -0.002567581081342918
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "转子内孔至输出轴",
+        "slave_body": 10,
+        "master_body": 8,
+        "slave_face_ids": [
+          592
+        ],
+        "master_face_ids": [
+          348
+        ],
+        "candidate_slave_nodes": 2304,
+        "eligible_nodes": 2304,
+        "max_gap_m": 0.0005,
+        "maximum_mapped_distance_m": 4.2490483450551335e-05,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 2304,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          1.3918229997855747e-05,
+          1.1711642007888878e-05,
+          4.277780753625393e-06
+        ],
+        "transfer_moment_about_origin_Nm": [
+          2.913768427838942e-08,
+          -1.5302084266366478e-06,
+          7.229798807961707e-07
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "定子外圆至机壳内孔",
+        "slave_body": 9,
+        "master_body": 1,
+        "slave_face_ids": [
+          370
+        ],
+        "master_face_ids": [
+          130
+        ],
+        "candidate_slave_nodes": 624,
+        "eligible_nodes": 597,
+        "max_gap_m": 0.0005,
+        "maximum_mapped_distance_m": 0.0003512654264944215,
+        "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。",
+        "tied_nodes": 597,
+        "shared_nodes_assigned_to_closest_interface": 0,
+        "transfer_to_slave_N": [
+          -1.2515999841866687e-05,
+          -2.0197000023980394e-05,
+          4.02799953214128e-06
+        ],
+        "transfer_moment_about_origin_Nm": [
+          -3.2146186668274845e-06,
+          -4.7078210307915924e-07,
+          1.9766111848951162e-06
+        ],
+        "moment_origin_m": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "scope": "停机理想粘结；不允许分离、滑移或相对转动；容许微小间隙采用邻近主单元的仿射一致延拓，未移动节点；不代表真实轴承/螺栓/摩擦接触。"
+  },
+  "execution": {
+    "backend": "calculix_cpu",
+    "requested_device": "CPU",
+    "cpu_threads": 6,
+    "executable_sha256": "e18360eb32a5cd48f91a212c57069212cd8e27d2f798a599a78106bd0b3ecc1f",
+    "gpu_execution_verified": false,
+    "note": "CPU 求解",
+    "compute_s": 22.978556900001422,
+    "mesh_s": 241.37339440000142,
+    "host_preparation_s": 2.353174500000023
+  },
+  "material": {
+    "name": "钢质轴、轴承及紧固件（教学假设）",
+    "young_modulus_Pa": 210000000000.0,
+    "poisson_ratio": 0.3,
+    "density_kg_m3": 7850.0,
+    "yield_strength_Pa": null,
+    "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+  },
+  "name": "电机双端受力：前后轴端各向下1000N（仅双力，27mm）",
+  "geometry_sha256": "2a0258baddcce437d4c0a2b8d811cc1d1b927b9480d1b73911f7facfaa98a2f0",
+  "mesh_sha256": "c79673b1ab6c1740d084de75ee9c77c636381fb33cfbd074371923e0487f3aed",
+  "result_schema_version": 2,
+  "strength_criterion": "von_mises",
+  "field_statistics": {
+    "stress": {
+      "status": "ok",
+      "minimum": {
+        "value": 216.04481382381852,
+        "position_m": [
+          0.03957544125282518,
+          -0.07253738353924943,
+          -0.09861803398874988
+        ],
+        "element": 9262,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 43814464.10694046,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 705867.579288532,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "principal_max": {
+      "status": "ok",
+      "minimum": {
+        "value": -9102376.00168366,
+        "position_m": [
+          -0.08775810542045757,
+          -0.0036926169809751268,
+          -0.013637612566260062
+        ],
+        "element": 21101,
+        "integration_point": 1
+      },
+      "maximum": {
+        "value": 46351276.26293118,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 353334.99464503815,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "principal_mid": {
+      "status": "ok",
+      "minimum": {
+        "value": -12349868.889596071,
+        "position_m": [
+          -0.08742323454394287,
+          0.001557029504635618,
+          -0.01547559558770911
+        ],
+        "element": 16219,
+        "integration_point": 1
+      },
+      "maximum": {
+        "value": 15632303.67961196,
+        "position_m": [
+          -0.08721983665740515,
+          0.0032948167336793056,
+          0.01387833000817654
+        ],
+        "element": 18944,
+        "integration_point": 3
+      },
+      "mean": -16088.920364852687,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "principal_min": {
+      "status": "ok",
+      "minimum": {
+        "value": -37784598.35093888,
+        "position_m": [
+          -0.08742323454394287,
+          0.001557029504635618,
+          -0.01547559558770911
+        ],
+        "element": 16219,
+        "integration_point": 1
+      },
+      "maximum": {
+        "value": 10620647.029703408,
+        "position_m": [
+          -0.08827551860836237,
+          0.008472815428900734,
+          0.01154141451462223
+        ],
+        "element": 25287,
+        "integration_point": 3
+      },
+      "mean": -413779.24685762107,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "maximum_shear": {
+      "status": "ok",
+      "minimum": {
+        "value": 122.22335937289411,
+        "position_m": [
+          0.03957544125282518,
+          -0.07253738353924943,
+          -0.09861803398874988
+        ],
+        "element": 9262,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 22503060.027367003,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 383557.1207513296,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_intensity": {
+      "status": "ok",
+      "minimum": {
+        "value": 244.44671874578822,
+        "position_m": [
+          0.03957544125282518,
+          -0.07253738353924943,
+          -0.09861803398874988
+        ],
+        "element": 9262,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 45006120.05473401,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 767114.2415026592,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "hydrostatic": {
+      "status": "ok",
+      "minimum": {
+        "value": -19405903.333333332,
+        "position_m": [
+          -0.08742323454394287,
+          0.001557029504635618,
+          -0.01547559558770911
+        ],
+        "element": 16219,
+        "integration_point": 1
+      },
+      "maximum": {
+        "value": 22274556.666666668,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": -25511.0575258119,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain": {
+      "status": "ok",
+      "minimum": {
+        "value": 1.041238e-09,
+        "position_m": [
+          0.035582959577118524,
+          0.017986705072047162,
+          -0.0005090532219460071
+        ],
+        "element": 37472,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 0.0001983307,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 3.292899466335003e-06,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "principal_strain_max": {
+      "status": "ok",
+      "minimum": {
+        "value": -3.89061822596456e-06,
+        "position_m": [
+          -0.08176200666434388,
+          0.0028155447365943494,
+          0.03682381822246404
+        ],
+        "element": 11341,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 0.00021332066911321186,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 3.0667565273841963e-06,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "principal_strain_mid": {
+      "status": "ok",
+      "minimum": {
+        "value": -5.226965963380497e-05,
+        "position_m": [
+          -0.10383893411913006,
+          -0.004392475898639059,
+          0.012403878712023312
+        ],
+        "element": 25704,
+        "integration_point": 1
+      },
+      "maximum": {
+        "value": 3.271919679269334e-05,
+        "position_m": [
+          -0.10114869206941852,
+          0.00026972723471209084,
+          -0.013143535417983498
+        ],
+        "element": 24016,
+        "integration_point": 2
+      },
+      "mean": 3.2263059696321787e-09,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "principal_strain_min": {
+      "status": "ok",
+      "minimum": {
+        "value": -0.00015385694113172137,
+        "position_m": [
+          -0.08956441072495569,
+          0.0038705905537312953,
+          -0.013630109427975053
+        ],
+        "element": 24778,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 3.0941626298226547e-06,
+        "position_m": [
+          0.1521571314551872,
+          -0.002593050729510195,
+          -0.03686510889410565
+        ],
+        "element": 14440,
+        "integration_point": 4
+      },
+      "mean": -3.341864280756234e-06,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "maximum_shear_strain": {
+      "status": "ok",
+      "minimum": {
+        "value": 2.800026374376326e-09,
+        "position_m": [
+          0.03957544125282518,
+          -0.07253738353924943,
+          -0.09861803398874988
+        ],
+        "element": 9262,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 0.00027860930000508433,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 6.408620808140431e-06,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "equivalent_elastic_strain": {
+      "status": "ok",
+      "minimum": {
+        "value": 1.964043909825524e-09,
+        "position_m": [
+          0.03957544125282518,
+          -0.07253738353924943,
+          -0.09861803398874988
+        ],
+        "element": 9262,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 0.00020864029346356086,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 4.592641995715212e-06,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "energy_density": {
+      "status": "ok",
+      "minimum": {
+        "value": 3.492429741870872e-07,
+        "position_m": [
+          0.03957544125282518,
+          -0.07253738353924943,
+          -0.09861803398874988
+        ],
+        "element": 9262,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 4804.300020141972,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 7.229742049421462,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_xx": {
+      "status": "ok",
+      "minimum": {
+        "value": -33473140.0,
+        "position_m": [
+          -0.08956441072495569,
+          0.0038705905537312953,
+          -0.013630109427975053
+        ],
+        "element": 24778,
+        "integration_point": 3
+      },
+      "maximum": {
+        "value": 43929820.0,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": -3100.4595124538832,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain_xx": {
+      "status": "ok",
+      "minimum": {
+        "value": -0.0001442956,
+        "position_m": [
+          -0.09596879595738016,
+          0.0012038711771709205,
+          -0.013090607484795068
+        ],
+        "element": 22737,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 0.0001983307,
+        "position_m": [
+          -0.1029002717056969,
+          -0.004138301426440005,
+          0.013108214157352987
+        ],
+        "element": 25754,
+        "integration_point": 2
+      },
+      "mean": 1.60487463824345e-07,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_yy": {
+      "status": "ok",
+      "minimum": {
+        "value": -14634260.0,
+        "position_m": [
+          -0.08737732025901851,
+          0.0087670573608878,
+          -0.01285291311353979
+        ],
+        "element": 16187,
+        "integration_point": 4
+      },
+      "maximum": {
+        "value": 14781370.0,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": -14553.232632361656,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain_yy": {
+      "status": "ok",
+      "minimum": {
+        "value": -6.341843e-05,
+        "position_m": [
+          -0.08018483049948039,
+          0.05167954403812017,
+          -0.04624382809257172
+        ],
+        "element": 12189,
+        "integration_point": 1
+      },
+      "maximum": {
+        "value": 3.624848e-05,
+        "position_m": [
+          -0.03699030025141388,
+          -0.03637067959194377,
+          -0.026576468743985216
+        ],
+        "element": 31257,
+        "integration_point": 1
+      },
+      "mean": 1.113325641595611e-08,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_zz": {
+      "status": "ok",
+      "minimum": {
+        "value": -25335680.0,
+        "position_m": [
+          -0.08740301542379864,
+          -0.0003623043737957036,
+          -0.016066648755781343
+        ],
+        "element": 15818,
+        "integration_point": 4
+      },
+      "maximum": {
+        "value": 27750420.0,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": -58879.480432620156,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain_zz": {
+      "status": "ok",
+      "minimum": {
+        "value": -7.986945e-05,
+        "position_m": [
+          -0.08740301542379864,
+          -0.0003623043737957036,
+          -0.016066648755781343
+        ],
+        "element": 15818,
+        "integration_point": 4
+      },
+      "maximum": {
+        "value": 7.632593e-05,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": -4.4350216764270657e-07,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_xy": {
+      "status": "ok",
+      "minimum": {
+        "value": -10240380.0,
+        "position_m": [
+          -0.10164085399999861,
+          0.003595808074149325,
+          0.013254922575286545
+        ],
+        "element": 25755,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 10218110.0,
+        "position_m": [
+          -0.1016428041686684,
+          -0.003584880430364086,
+          0.013252639736794742
+        ],
+        "element": 25754,
+        "integration_point": 1
+      },
+      "mean": 23.27301177732562,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain_xy": {
+      "status": "ok",
+      "minimum": {
+        "value": -6.339285e-05,
+        "position_m": [
+          -0.10164085399999861,
+          0.003595808074149325,
+          0.013254922575286545
+        ],
+        "element": 25755,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 6.325499e-05,
+        "position_m": [
+          -0.1016428041686684,
+          -0.003584880430364086,
+          0.013252639736794742
+        ],
+        "element": 25754,
+        "integration_point": 1
+      },
+      "mean": 2.8681406417927215e-10,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "engineering_shear_xy": {
+      "status": "ok",
+      "minimum": {
+        "value": -0.0001267857,
+        "position_m": [
+          -0.10164085399999861,
+          0.003595808074149325,
+          0.013254922575286545
+        ],
+        "element": 25755,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 0.00012650998,
+        "position_m": [
+          -0.1016428041686684,
+          -0.003584880430364086,
+          0.013252639736794742
+        ],
+        "element": 25754,
+        "integration_point": 1
+      },
+      "mean": 5.736281283585443e-10,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_xz": {
+      "status": "ok",
+      "minimum": {
+        "value": -12132940.0,
+        "position_m": [
+          0.1573773202590185,
+          0.0015447516847116268,
+          -0.015476791917035368
+        ],
+        "element": 16882,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 16511850.0,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": 7.854322063963758e-05,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain_xz": {
+      "status": "ok",
+      "minimum": {
+        "value": -7.510869e-05,
+        "position_m": [
+          0.1573773202590185,
+          0.0015447516847116268,
+          -0.015476791917035368
+        ],
+        "element": 16882,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 0.0001022162,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": -4.0440001363013264e-10,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "engineering_shear_xz": {
+      "status": "ok",
+      "minimum": {
+        "value": -0.00015021738,
+        "position_m": [
+          0.1573773202590185,
+          0.0015447516847116268,
+          -0.015476791917035368
+        ],
+        "element": 16882,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 0.0002044324,
+        "position_m": [
+          -0.08746992771242479,
+          -0.0016454260074782543,
+          0.015449531616034556
+        ],
+        "element": 16230,
+        "integration_point": 2
+      },
+      "mean": -8.088000272602653e-10,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "stress_yz": {
+      "status": "ok",
+      "minimum": {
+        "value": -5859409.0,
+        "position_m": [
+          -0.03688795323991498,
+          -0.002912879037482257,
+          -0.04496445435895417
+        ],
+        "element": 29308,
+        "integration_point": 4
+      },
+      "maximum": {
+        "value": 5587949.0,
+        "position_m": [
+          -0.10095148542596254,
+          -0.0029396836830213225,
+          0.012178375411184082
+        ],
+        "element": 25313,
+        "integration_point": 2
+      },
+      "mean": 2.0847152605267895e-05,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "strain_yz": {
+      "status": "ok",
+      "minimum": {
+        "value": -3.894209e-05,
+        "position_m": [
+          0.1501900454251776,
+          -0.051646753402488484,
+          -0.04624834459087382
+        ],
+        "element": 14957,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 4.121775e-05,
+        "position_m": [
+          -0.08018483049948039,
+          0.05167954403812017,
+          -0.04624382809257172
+        ],
+        "element": 12189,
+        "integration_point": 1
+      },
+      "mean": -2.3919797418642947e-11,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "engineering_shear_yz": {
+      "status": "ok",
+      "minimum": {
+        "value": -7.788418e-05,
+        "position_m": [
+          0.1501900454251776,
+          -0.051646753402488484,
+          -0.04624834459087382
+        ],
+        "element": 14957,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 8.24355e-05,
+        "position_m": [
+          -0.08018483049948039,
+          0.05167954403812017,
+          -0.04624382809257172
+        ],
+        "element": 12189,
+        "integration_point": 1
+      },
+      "mean": -4.7839594837285895e-11,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "triaxiality": {
+      "status": "ok",
+      "minimum": {
+        "value": -23.5095847212677,
+        "position_m": [
+          0.15176200666434383,
+          -0.0028155447365943525,
+          0.03682381822246404
+        ],
+        "element": 14021,
+        "integration_point": 2
+      },
+      "maximum": {
+        "value": 5.480259733055786,
+        "position_m": [
+          0.1521571314551872,
+          -0.002593050729510195,
+          -0.03686510889410565
+        ],
+        "element": 14440,
+        "integration_point": 4
+      },
+      "mean": -0.035487329619439886,
+      "count": 157724,
+      "undefined_count": 0,
+      "mean_basis": "原始积分点体积加权平均"
+    },
+    "safety_factor_von_mises": {
+      "status": "undefined",
+      "reason": "所选区域没有有定义的结果（缺少强度或分母为零）",
+      "count": 0,
+      "undefined_count": 157724
+    },
+    "safety_factor_tresca": {
+      "status": "undefined",
+      "reason": "所选区域没有有定义的结果（缺少强度或分母为零）",
+      "count": 0,
+      "undefined_count": 157724
+    },
+    "safety_factor": {
+      "status": "undefined",
+      "reason": "所选区域没有有定义的结果（缺少强度或分母为零）",
+      "count": 0,
+      "undefined_count": 157724
+    },
+    "stress_ratio": {
+      "status": "undefined",
+      "reason": "所选区域没有有定义的结果（缺少强度或分母为零）",
+      "count": 0,
+      "undefined_count": 157724
+    },
+    "safety_margin": {
+      "status": "undefined",
+      "reason": "所选区域没有有定义的结果（缺少强度或分母为零）",
+      "count": 0,
+      "undefined_count": 157724
+    },
+    "displacement": {
+      "status": "ok",
+      "minimum": {
+        "value": 0.0,
+        "position_m": [
+          -0.054,
+          -0.098,
+          -0.1
+        ],
+        "node": 18067
+      },
+      "maximum": {
+        "value": 3.3087907444911446e-05,
+        "position_m": [
+          -0.155,
+          3.429011037613e-18,
+          0.014
+        ],
+        "node": 34118
+      },
+      "mean": 2.0678902170131948e-06,
+      "count": 73985,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均"
+    },
+    "displacement_x": {
+      "status": "ok",
+      "minimum": {
+        "value": -8.325693e-06,
+        "position_m": [
+          -0.155,
+          3.429011037613e-18,
+          0.014
+        ],
+        "node": 34118
+      },
+      "maximum": {
+        "value": 7.291298e-06,
+        "position_m": [
+          -0.155,
+          7.28925383594592e-17,
+          -0.014
+        ],
+        "node": 34589
+      },
+      "mean": -1.7438508699123245e-07,
+      "count": 73985,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均"
+    },
+    "displacement_y": {
+      "status": "ok",
+      "minimum": {
+        "value": -6.226159e-07,
+        "position_m": [
+          0.11874424944715137,
+          0.05884644406824039,
+          -0.04317455715304265
+        ],
+        "node": 17368
+      },
+      "maximum": {
+        "value": 6.201657e-07,
+        "position_m": [
+          0.11874999999999998,
+          -0.05884385533039774,
+          -0.04318413052906184
+        ],
+        "node": 12014
+      },
+      "mean": 1.0669553230099277e-09,
+      "count": 73985,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均"
+    },
+    "displacement_z": {
+      "status": "ok",
+      "minimum": {
+        "value": -3.202331e-05,
+        "position_m": [
+          -0.155,
+          3.429011037613e-18,
+          0.014
+        ],
+        "node": 34118
+      },
+      "maximum": {
+        "value": 9.023298e-07,
+        "position_m": [
+          0.09,
+          -0.044,
+          -9.500549218860454e-17
+        ],
+        "node": 64485
+      },
+      "mean": -1.6725913880178412e-06,
+      "count": 73985,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均"
+    }
+  },
+  "strain_energy_J": 0.024557764271302407,
+  "energy_basis": "0.5 sigma:epsilon，C3D10 四点积分；张量剪切项计两次",
+  "field_catalog": [
+    {
+      "key": "displacement",
+      "label": "总位移",
+      "group": "位移",
+      "unit": "m",
+      "display_unit": "mm",
+      "factor": 1000.0,
+      "location": "node",
+      "note": "",
+      "storage": {
+        "hdf5": "display_displacement",
+        "vtu_point": "displacement",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "displacement_x",
+      "label": "X 位移",
+      "group": "位移",
+      "unit": "m",
+      "display_unit": "mm",
+      "factor": 1000.0,
+      "location": "node",
+      "note": "",
+      "storage": {
+        "hdf5": "display_displacement_x",
+        "vtu_point": "displacement_x",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "displacement_y",
+      "label": "Y 位移",
+      "group": "位移",
+      "unit": "m",
+      "display_unit": "mm",
+      "factor": 1000.0,
+      "location": "node",
+      "note": "",
+      "storage": {
+        "hdf5": "display_displacement_y",
+        "vtu_point": "displacement_y",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "displacement_z",
+      "label": "Z 位移",
+      "group": "位移",
+      "unit": "m",
+      "display_unit": "mm",
+      "factor": 1000.0,
+      "location": "node",
+      "note": "",
+      "storage": {
+        "hdf5": "display_displacement_z",
+        "vtu_point": "displacement_z",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress",
+      "label": "米塞斯等效应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress",
+        "vtu_point": "stress",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "principal_max",
+      "label": "最大主应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_principal_max",
+        "vtu_point": "principal_max",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "principal_mid",
+      "label": "中间主应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_principal_mid",
+        "vtu_point": "principal_mid",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "principal_min",
+      "label": "最小主应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_principal_min",
+        "vtu_point": "principal_min",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "maximum_shear",
+      "label": "最大剪应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_maximum_shear",
+        "vtu_point": "maximum_shear",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_intensity",
+      "label": "应力强度",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_intensity",
+        "vtu_point": "stress_intensity",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "hydrostatic",
+      "label": "平均正应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_hydrostatic",
+        "vtu_point": "hydrostatic",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_xx",
+      "label": "XX 应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_xx",
+        "vtu_point": "stress_xx",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain_xx",
+      "label": "XX 张量弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain_xx",
+        "vtu_point": "strain_xx",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_yy",
+      "label": "YY 应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_yy",
+        "vtu_point": "stress_yy",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain_yy",
+      "label": "YY 张量弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain_yy",
+        "vtu_point": "strain_yy",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_zz",
+      "label": "ZZ 应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_zz",
+        "vtu_point": "stress_zz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain_zz",
+      "label": "ZZ 张量弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain_zz",
+        "vtu_point": "strain_zz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_xy",
+      "label": "XY 应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_xy",
+        "vtu_point": "stress_xy",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain_xy",
+      "label": "XY 张量弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain_xy",
+        "vtu_point": "strain_xy",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_xz",
+      "label": "XZ 应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_xz",
+        "vtu_point": "stress_xz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain_xz",
+      "label": "XZ 张量弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain_xz",
+        "vtu_point": "strain_xz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_yz",
+      "label": "YZ 应力",
+      "group": "应力",
+      "unit": "Pa",
+      "display_unit": "MPa",
+      "factor": 1e-06,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_stress_yz",
+        "vtu_point": "stress_yz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain_yz",
+      "label": "YZ 张量弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain_yz",
+        "vtu_point": "strain_yz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "engineering_shear_xy",
+      "label": "XY 工程剪应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "gamma = 2 epsilon",
+      "storage": {
+        "hdf5": "ip_engineering_shear_xy",
+        "vtu_point": "engineering_shear_xy",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "engineering_shear_xz",
+      "label": "XZ 工程剪应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "gamma = 2 epsilon",
+      "storage": {
+        "hdf5": "ip_engineering_shear_xz",
+        "vtu_point": "engineering_shear_xz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "engineering_shear_yz",
+      "label": "YZ 工程剪应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "gamma = 2 epsilon",
+      "storage": {
+        "hdf5": "ip_engineering_shear_yz",
+        "vtu_point": "engineering_shear_yz",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "strain",
+      "label": "最大绝对法向应变（旧字段）",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_strain",
+        "vtu_point": "strain",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "equivalent_elastic_strain",
+      "label": "等效弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_equivalent_elastic_strain",
+        "vtu_point": "equivalent_elastic_strain",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "principal_strain_max",
+      "label": "最大主弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_principal_strain_max",
+        "vtu_point": "principal_strain_max",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "principal_strain_mid",
+      "label": "中间主弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_principal_strain_mid",
+        "vtu_point": "principal_strain_mid",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "principal_strain_min",
+      "label": "最小主弹性应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_principal_strain_min",
+        "vtu_point": "principal_strain_min",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "maximum_shear_strain",
+      "label": "最大工程剪应变",
+      "group": "弹性应变",
+      "unit": "",
+      "display_unit": "%",
+      "factor": 100.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_maximum_shear_strain",
+        "vtu_point": "maximum_shear_strain",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "triaxiality",
+      "label": "应力三轴度",
+      "group": "应力",
+      "unit": "",
+      "display_unit": "",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "平均正应力 / 米塞斯等效应力；分母近零时无定义",
+      "storage": {
+        "hdf5": "ip_triaxiality",
+        "vtu_point": "triaxiality",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "energy_density",
+      "label": "弹性应变能密度",
+      "group": "能量",
+      "unit": "J/m³",
+      "display_unit": "J/m³",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "",
+      "storage": {
+        "hdf5": "ip_energy_density",
+        "vtu_point": "energy_density",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "safety_factor",
+      "label": "所选判据安全系数",
+      "group": "强度",
+      "unit": "",
+      "display_unit": "",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "缺少屈服强度时未评估；零应力安全系数无定义",
+      "storage": {
+        "hdf5": "ip_safety_factor",
+        "vtu_point": "safety_factor",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "safety_factor_von_mises",
+      "label": "米塞斯安全系数",
+      "group": "强度",
+      "unit": "",
+      "display_unit": "",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "缺少屈服强度时未评估；零应力安全系数无定义",
+      "storage": {
+        "hdf5": "ip_safety_factor_von_mises",
+        "vtu_point": "safety_factor_von_mises",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "safety_factor_tresca",
+      "label": "特雷斯卡安全系数",
+      "group": "强度",
+      "unit": "",
+      "display_unit": "",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "缺少屈服强度时未评估；零应力安全系数无定义",
+      "storage": {
+        "hdf5": "ip_safety_factor_tresca",
+        "vtu_point": "safety_factor_tresca",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "stress_ratio",
+      "label": "应力比",
+      "group": "强度",
+      "unit": "",
+      "display_unit": "",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "缺少屈服强度时未评估；零应力安全系数无定义",
+      "storage": {
+        "hdf5": "ip_stress_ratio",
+        "vtu_point": "stress_ratio",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    },
+    {
+      "key": "safety_margin",
+      "label": "安全裕度（相对目标）",
+      "group": "强度",
+      "unit": "",
+      "display_unit": "",
+      "factor": 1.0,
+      "location": "integration_point",
+      "note": "缺少屈服强度时未评估；零应力安全系数无定义",
+      "storage": {
+        "hdf5": "ip_safety_margin",
+        "vtu_point": "safety_margin",
+        "csv": "field-statistics.csv"
+      },
+      "applicability": "三维实体、各向同性、线弹性、小变形静力；应力强度统计使用原始积分点"
+    }
+  ],
+  "safety_factor_minimum": null,
+  "elapsed_s": 275.78022399999827,
+  "job_id": "db45c4882c344bd988fd71e83de433d5",
+  "created_at": 1790605335.1008227,
+  "configuration": {
+    "schema_version": 2,
+    "precision": "float64",
+    "solver_revision": 4,
+    "model_id": "40be1715338a451cb3d05805bc60a84a",
+    "geometry_sha256": "2a0258baddcce437d4c0a2b8d811cc1d1b927b9480d1b73911f7facfaa98a2f0",
+    "case": {
+      "schema_version": 2,
+      "name": "电机双端受力：前后轴端各向下1000N（仅双力，27mm）",
+      "material": {
+        "name": "钢质轴、轴承及紧固件（教学假设）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": null,
+        "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+      },
+      "component_materials": {
+        "1": {
+          "name": "机壳、端盖和底脚铸铁（教学假设）",
+          "young_modulus_Pa": 110000000000.0,
+          "poisson_ratio": 0.26,
+          "density_kg_m3": 7200.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "2": {
+          "name": "机壳、端盖和底脚铸铁（教学假设）",
+          "young_modulus_Pa": 110000000000.0,
+          "poisson_ratio": 0.26,
+          "density_kg_m3": 7200.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "3": {
+          "name": "机壳、端盖和底脚铸铁（教学假设）",
+          "young_modulus_Pa": 110000000000.0,
+          "poisson_ratio": 0.26,
+          "density_kg_m3": 7200.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "4": {
+          "name": "机壳、端盖和底脚铸铁（教学假设）",
+          "young_modulus_Pa": 110000000000.0,
+          "poisson_ratio": 0.26,
+          "density_kg_m3": 7200.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "5": {
+          "name": "机壳、端盖和底脚铸铁（教学假设）",
+          "young_modulus_Pa": 110000000000.0,
+          "poisson_ratio": 0.26,
+          "density_kg_m3": 7200.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "6": {
+          "name": "钢质轴、轴承及紧固件（教学假设）",
+          "young_modulus_Pa": 210000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 7850.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "7": {
+          "name": "钢质轴、轴承及紧固件（教学假设）",
+          "young_modulus_Pa": 210000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 7850.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "8": {
+          "name": "钢质轴、轴承及紧固件（教学假设）",
+          "young_modulus_Pa": 210000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 7850.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+        },
+        "9": {
+          "name": "转定子铁芯等效各向同性钢（教学假设）",
+          "young_modulus_Pa": 200000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 7650.0,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。忽略叠片各向异性及层间滑移。"
+        },
+        "10": {
+          "name": "转子填槽等效各向同性材料（教学假设）",
+          "young_modulus_Pa": 200000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 7204.887978142253,
+          "yield_strength_Pa": null,
+          "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。忽略叠片各向异性及层间滑移。 用户授权填平导条槽；E=200GPa、nu=0.3为均匀刚度假设，不评价槽口局部强度；密度按原铁芯假设质量/简化实体体积折算，避免新增填槽体积增加自重；导条、端环重量另列等效载荷。"
+        }
+      },
+      "assembly_mode": "bonded",
+      "bonded_connections": [
+        {
+          "name": "机壳至负Y底脚",
+          "slave": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              164,
+              166
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 2,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              222,
+              226
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 1e-05,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "机壳至正Y底脚",
+          "slave": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              170,
+              173
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 3,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              238,
+              242
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 1e-05,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "前端盖至机壳",
+          "slave": {
+            "body_id": 4,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              249
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              129
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 1e-05,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "后端盖至机壳",
+          "slave": {
+            "body_id": 5,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              295
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              139
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 1e-05,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "前轴承外圈等效粘结至前端盖",
+          "slave": {
+            "body_id": 6,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              340
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 4,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              292
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 0.0005,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "后轴承外圈等效粘结至后端盖",
+          "slave": {
+            "body_id": 7,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              344
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 5,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              338
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 0.0005,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "输出轴至前轴承内孔",
+          "slave": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              352
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 6,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              343
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 0.0005,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "输出轴至后轴承内孔",
+          "slave": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              351
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 7,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              347
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 0.0005,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "转子内孔至输出轴",
+          "slave": {
+            "body_id": 10,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              592
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              348
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 0.0005,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        },
+        {
+          "name": "定子外圆至机壳内孔",
+          "slave": {
+            "body_id": 9,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              370
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "master": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              130
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "max_gap_m": 0.0005,
+          "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+        }
+      ],
+      "gear_contact": null,
+      "supports": [
+        {
+          "name": "负Y底脚底面固定XYZ",
+          "selection": {
+            "body_id": 2,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              220
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "正Y底脚底面固定XYZ",
+          "selection": {
+            "body_id": 3,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              236
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "body_id": null,
+          "name": "前轴端径向总力1000N",
+          "kind": "force",
+          "selection": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              361
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            0.0,
+            -1000.0
+          ],
+          "pressure_Pa": 0.0
+        },
+        {
+          "body_id": null,
+          "name": "后轴端径向总力1000N",
+          "kind": "force",
+          "selection": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              369
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            0.0,
+            -1000.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.027,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "stress_regions": [],
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null,
+      "strength_criterion": "von_mises",
+      "moment_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "result_requests": [
+        {
+          "name": "原P点（保留坐标，在孔内，不吸附）",
+          "kind": "probe",
+          "field": "displacement",
+          "body_id": 8,
+          "selection": null,
+          "node_id": null,
+          "point_m": [
+            -0.155,
+            0.0,
+            0.0
+          ],
+          "end_m": null,
+          "samples": 51,
+          "direction": null,
+          "load_name": null,
+          "moment_origin_m": null
+        },
+        {
+          "name": "底脚总反力与力矩",
+          "kind": "reactions",
+          "field": "stress",
+          "body_id": null,
+          "selection": null,
+          "node_id": null,
+          "point_m": null,
+          "end_m": null,
+          "samples": 51,
+          "direction": null,
+          "load_name": null,
+          "moment_origin_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "输出轴位移统计",
+          "kind": "statistics",
+          "field": "displacement",
+          "body_id": 8,
+          "selection": null,
+          "node_id": null,
+          "point_m": null,
+          "end_m": null,
+          "samples": 51,
+          "direction": null,
+          "load_name": null,
+          "moment_origin_m": null
+        },
+        {
+          "name": "前轴端位移统计",
+          "kind": "statistics",
+          "field": "displacement",
+          "body_id": 8,
+          "selection": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              361
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "node_id": null,
+          "point_m": null,
+          "end_m": null,
+          "samples": 51,
+          "direction": null,
+          "load_name": null,
+          "moment_origin_m": null
+        },
+        {
+          "name": "后轴端位移统计",
+          "kind": "statistics",
+          "field": "displacement",
+          "body_id": 8,
+          "selection": {
+            "body_id": 8,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              369
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "node_id": null,
+          "point_m": null,
+          "end_m": null,
+          "samples": 51,
+          "direction": null,
+          "load_name": null,
+          "moment_origin_m": null
+        }
+      ]
+    },
+    "task_id": "f27b9ab02a724d87bff9750c4ea583d6",
+    "project_id": "1ae057f7b013454f801bf0aef1055873",
+    "config_sha256": "3e1a587654bfa0bbdca9a5ecd9ace30ac5ee49dbeacdffc27080985fdb3f694f",
+    "compute_backend": "calculix_cpu"
+  },
+  "result_queries": [
+    {
+      "name": "原P点（保留坐标，在孔内，不吸附）",
+      "kind": "probe",
+      "field": "displacement",
+      "status": "outside",
+      "position_m": [
+        -0.155,
+        0.0,
+        0.0
+      ],
+      "value": null,
+      "reason": "采样点在模型外，不吸附或外推到模型外"
+    },
+    {
+      "name": "底脚总反力与力矩",
+      "kind": "reactions",
+      "field": "stress",
+      "status": "ok",
+      "reaction_N": [
+        -7.553600012144557e-06,
+        -6.599998565448573e-07,
+        1999.9999908440009
+      ],
+      "moment_Nm": [
+        -4.29259502182644e-06,
+        -50.00000033294199,
+        1.0819778275550362e-06
+      ],
+      "moment_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "basis": "约束自由度反力去重；选面查询包含所选面相邻单元的节点反力"
+    },
+    {
+      "name": "输出轴位移统计",
+      "kind": "statistics",
+      "field": "displacement",
+      "status": "ok",
+      "minimum": {
+        "value": 1.1316166714366e-08,
+        "position_m": [
+          -0.04731569279225642,
+          -0.0033912498751385877,
+          -0.004634303669918467
+        ],
+        "node": 48724
+      },
+      "maximum": {
+        "value": 3.3087907444911446e-05,
+        "position_m": [
+          -0.155,
+          3.429011037613e-18,
+          0.014
+        ],
+        "node": 34118
+      },
+      "mean": 4.7092201246250446e-06,
+      "count": 16117,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均",
+      "unit": "m",
+      "scope": "指定组件"
+    },
+    {
+      "name": "前轴端位移统计",
+      "kind": "statistics",
+      "field": "displacement",
+      "status": "ok",
+      "minimum": {
+        "value": 2.7997641741665962e-05,
+        "position_m": [
+          -0.14818819148757686,
+          0.007295258287538215,
+          -0.005838164196932841
+        ],
+        "node": 41689
+      },
+      "maximum": {
+        "value": 3.3087907444911446e-05,
+        "position_m": [
+          -0.155,
+          3.429011037613e-18,
+          0.014
+        ],
+        "node": 34118
+      },
+      "mean": 3.136650627062302e-05,
+      "count": 288,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均",
+      "unit": "m",
+      "scope": "选面相邻体单元"
+    },
+    {
+      "name": "后轴端位移统计",
+      "kind": "statistics",
+      "field": "displacement",
+      "status": "ok",
+      "minimum": {
+        "value": 1.4318773830965034e-05,
+        "position_m": [
+          0.197911075144118,
+          0.004611604260860753,
+          3.255441082484238e-08
+        ],
+        "node": 41322
+      },
+      "maximum": {
+        "value": 1.8007644547885227e-05,
+        "position_m": [
+          0.20500000000000002,
+          -6.43919298586818e-08,
+          -0.011999999999827237
+        ],
+        "node": 34771
+      },
+      "mean": 1.698461048807225e-05,
+      "count": 213,
+      "undefined_count": 0,
+      "mean_basis": "节点算术平均",
+      "unit": "m",
+      "scope": "选面相邻体单元"
+    }
+  ],
+  "report_and_archive_s": 30.632684000000154,
+  "end_to_end_s": 307.3643754000004
+}

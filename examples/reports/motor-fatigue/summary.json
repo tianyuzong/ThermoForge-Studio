@@ -1,0 +1,85 @@
+{
+  "name": "电机轴 · 0–1000 N 演示疲劳 · 更新评估",
+  "analysis_type": "fatigue",
+  "frames": 5,
+  "times_s": [
+    0.0,
+    0.025,
+    0.05,
+    0.075,
+    0.1
+  ],
+  "mesh": {
+    "nodes": 73985,
+    "elements": 39431,
+    "dofs": 221955,
+    "size_m": 0.027,
+    "min_jacobian": 2.978936804350159e-10,
+    "gmsh_version": "4.15.2",
+    "sha256": "c79673b1ab6c1740d084de75ee9c77c636381fb33cfbd074371923e0487f3aed",
+    "cache_key": "2beb7801d6ce314770116d5a7f2ac0b9446692f73e21f997fb8dec3cc28b3d82",
+    "cache_reused": true
+  },
+  "stress_basis": "C3D10 原始积分点；显示场独立投影",
+  "convergence": {
+    "status": "not_verified",
+    "note": "疲劳评估参数或实现更新；需要重新核对寿命收敛"
+  },
+  "assumptions": [
+    "材料及默认边界为软件演示参数，须按实际工作条件修改"
+  ],
+  "source_versions": {
+    "strength_studio": {
+      "url": "https://github.com/tianyuzong/strength-studio",
+      "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+    },
+    "thermoforge": {
+      "url": "https://github.com/tianyuzong/ThermoForge",
+      "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+    },
+    "integration_version": "0.6.0"
+  },
+  "compute_backend": "calculix_cpu + scipy_fp64",
+  "maximum_displacement_m": 3.308790837406732e-05,
+  "maximum_von_mises_Pa": 43814464.72557142,
+  "fatigue": {
+    "hotspot": {
+      "body_id": 8,
+      "element": 25754,
+      "integration_point": 2,
+      "position_m": [
+        -0.1029002717056969,
+        -0.004138301426440006,
+        0.013108214157352987
+      ],
+      "life_cycles": null,
+      "life_status": "below_defined_endurance_limit",
+      "damage": 0.0,
+      "fatigue_parameter_Pa": 22453788.316194233,
+      "history_repetition_damage": 0.0,
+      "critical_plane_normal": null,
+      "stress_cycles": [
+        {
+          "amplitude_Pa": 21907232.36278571,
+          "mean_Pa": 21907232.36278571,
+          "corrected_Pa": 22453788.316194233,
+          "count": 0.5,
+          "life_cycles": null
+        },
+        {
+          "amplitude_Pa": 21907232.36278571,
+          "mean_Pa": 21907232.36278571,
+          "corrected_Pa": 22453788.316194233,
+          "count": 0.5,
+          "life_cycles": null
+        }
+      ],
+      "life_definition": "initiation"
+    },
+    "failures": {},
+    "life_definition": "按材料曲线定义；位置为萌生危险区",
+    "status": "evaluated"
+  },
+  "derived_from": "motor-fatigue",
+  "postprocess_only": true
+}

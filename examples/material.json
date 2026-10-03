@@ -1,0 +1,8 @@
+{
+  "name": "演示钢材（假设值）",
+  "young_modulus_Pa": 210000000000.0,
+  "poisson_ratio": 0.3,
+  "density_kg_m3": 7850.0,
+  "yield_strength_Pa": 235000000.0,
+  "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+}

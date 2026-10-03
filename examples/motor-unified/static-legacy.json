@@ -1,0 +1,558 @@
+{
+  "schema_version": 2,
+  "name": "电机双端受力：前后轴端各向下1000N（仅双力，27mm）",
+  "material": {
+    "name": "钢质轴、轴承及紧固件（教学假设）",
+    "young_modulus_Pa": 210000000000.0,
+    "poisson_ratio": 0.3,
+    "density_kg_m3": 7850.0,
+    "yield_strength_Pa": null,
+    "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+  },
+  "component_materials": {
+    "1": {
+      "name": "机壳、端盖和底脚铸铁（教学假设）",
+      "young_modulus_Pa": 110000000000.0,
+      "poisson_ratio": 0.26,
+      "density_kg_m3": 7200.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "2": {
+      "name": "机壳、端盖和底脚铸铁（教学假设）",
+      "young_modulus_Pa": 110000000000.0,
+      "poisson_ratio": 0.26,
+      "density_kg_m3": 7200.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "3": {
+      "name": "机壳、端盖和底脚铸铁（教学假设）",
+      "young_modulus_Pa": 110000000000.0,
+      "poisson_ratio": 0.26,
+      "density_kg_m3": 7200.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "4": {
+      "name": "机壳、端盖和底脚铸铁（教学假设）",
+      "young_modulus_Pa": 110000000000.0,
+      "poisson_ratio": 0.26,
+      "density_kg_m3": 7200.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "5": {
+      "name": "机壳、端盖和底脚铸铁（教学假设）",
+      "young_modulus_Pa": 110000000000.0,
+      "poisson_ratio": 0.26,
+      "density_kg_m3": 7200.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "6": {
+      "name": "钢质轴、轴承及紧固件（教学假设）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "7": {
+      "name": "钢质轴、轴承及紧固件（教学假设）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "8": {
+      "name": "钢质轴、轴承及紧固件（教学假设）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。"
+    },
+    "9": {
+      "name": "转定子铁芯等效各向同性钢（教学假设）",
+      "young_modulus_Pa": 200000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7650.0,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。忽略叠片各向异性及层间滑移。"
+    },
+    "10": {
+      "name": "转子填槽等效各向同性材料（教学假设）",
+      "young_modulus_Pa": 200000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7204.887978142253,
+      "yield_strength_Pa": null,
+      "source": "用户授权的新教学试算假设（2026-09-28）；按几何位置和部件用途推定，非STEP内置数据，非实物牌号或认证材料。缺少强度证据，屈服强度留空。忽略叠片各向异性及层间滑移。 用户授权填平导条槽；E=200GPa、nu=0.3为均匀刚度假设，不评价槽口局部强度；密度按原铁芯假设质量/简化实体体积折算，避免新增填槽体积增加自重；导条、端环重量另列等效载荷。"
+    }
+  },
+  "assembly_mode": "bonded",
+  "bonded_connections": [
+    {
+      "name": "机壳至负Y底脚",
+      "slave": {
+        "body_id": 1,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          164,
+          166
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 2,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          222,
+          226
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 1e-05,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "机壳至正Y底脚",
+      "slave": {
+        "body_id": 1,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          170,
+          173
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 3,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          238,
+          242
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 1e-05,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "前端盖至机壳",
+      "slave": {
+        "body_id": 4,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          249
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 1,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          129
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 1e-05,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "后端盖至机壳",
+      "slave": {
+        "body_id": 5,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          295
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 1,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          139
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 1e-05,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "前轴承外圈等效粘结至前端盖",
+      "slave": {
+        "body_id": 6,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          340
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 4,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          292
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 0.0005,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "后轴承外圈等效粘结至后端盖",
+      "slave": {
+        "body_id": 7,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          344
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 5,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          338
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 0.0005,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "输出轴至前轴承内孔",
+      "slave": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          352
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 6,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          343
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 0.0005,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "输出轴至后轴承内孔",
+      "slave": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          351
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 7,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          347
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 0.0005,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "转子内孔至输出轴",
+      "slave": {
+        "body_id": 10,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          592
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          348
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 0.0005,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    },
+    {
+      "name": "定子外圆至机壳内孔",
+      "slave": {
+        "body_id": 9,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          370
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "master": {
+        "body_id": 1,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          130
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "max_gap_m": 0.0005,
+      "assumptions": "用户授权的停机理想粘结，禁止分离、滑移与相对转动，不代表滚动轴承、摩擦或预紧；真实相邻面；微小容差只用于离散曲面映射，不移动节点。"
+    }
+  ],
+  "gear_contact": null,
+  "supports": [
+    {
+      "name": "负Y底脚底面固定XYZ",
+      "selection": {
+        "body_id": 2,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          220
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "正Y底脚底面固定XYZ",
+      "selection": {
+        "body_id": 3,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          236
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "displacement_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "loads": [
+    {
+      "body_id": null,
+      "name": "前轴端径向总力1000N",
+      "kind": "force",
+      "selection": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          361
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "vector": [
+        0.0,
+        0.0,
+        -1000.0
+      ],
+      "pressure_Pa": 0.0
+    },
+    {
+      "body_id": null,
+      "name": "后轴端径向总力1000N",
+      "kind": "force",
+      "selection": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          369
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "vector": [
+        0.0,
+        0.0,
+        -1000.0
+      ],
+      "pressure_Pa": 0.0
+    }
+  ],
+  "mesh": {
+    "size_m": 0.027,
+    "local_selections": [],
+    "local_size_m": null,
+    "convergence": false,
+    "evaluation_selection": null
+  },
+  "stress_regions": [],
+  "target_safety_factor": 1.5,
+  "displacement_limit_m": null,
+  "strength_criterion": "von_mises",
+  "moment_origin_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "result_requests": [
+    {
+      "name": "原P点（保留坐标，在孔内，不吸附）",
+      "kind": "probe",
+      "field": "displacement",
+      "body_id": 8,
+      "selection": null,
+      "node_id": null,
+      "point_m": [
+        -0.155,
+        0.0,
+        0.0
+      ],
+      "end_m": null,
+      "samples": 51,
+      "direction": null,
+      "load_name": null,
+      "moment_origin_m": null
+    },
+    {
+      "name": "底脚总反力与力矩",
+      "kind": "reactions",
+      "field": "stress",
+      "body_id": null,
+      "selection": null,
+      "node_id": null,
+      "point_m": null,
+      "end_m": null,
+      "samples": 51,
+      "direction": null,
+      "load_name": null,
+      "moment_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "输出轴位移统计",
+      "kind": "statistics",
+      "field": "displacement",
+      "body_id": 8,
+      "selection": null,
+      "node_id": null,
+      "point_m": null,
+      "end_m": null,
+      "samples": 51,
+      "direction": null,
+      "load_name": null,
+      "moment_origin_m": null
+    },
+    {
+      "name": "前轴端位移统计",
+      "kind": "statistics",
+      "field": "displacement",
+      "body_id": 8,
+      "selection": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          361
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "node_id": null,
+      "point_m": null,
+      "end_m": null,
+      "samples": 51,
+      "direction": null,
+      "load_name": null,
+      "moment_origin_m": null
+    },
+    {
+      "name": "后轴端位移统计",
+      "kind": "statistics",
+      "field": "displacement",
+      "body_id": 8,
+      "selection": {
+        "body_id": 8,
+        "kind": "faces",
+        "name": null,
+        "face_ids": [
+          369
+        ],
+        "direction": null,
+        "bounds_m": null
+      },
+      "node_id": null,
+      "point_m": null,
+      "end_m": null,
+      "samples": 51,
+      "direction": null,
+      "load_name": null,
+      "moment_origin_m": null
+    }
+  ]
+}

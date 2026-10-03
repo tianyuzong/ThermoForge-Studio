@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="3.226" timestamp="2026-09-30T18:58:50.063278+08:00" hostname="DESKTOP-GNQ5T78"><testcase classname="tests.test_forge_pipeline" name="test_fatigue_complete_archive" time="2.218" /></testsuite></testsuites>

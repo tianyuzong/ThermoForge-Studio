@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "precision": "float64",
+  "solver_revision": 2,
+  "model_id": "f31b7ca051ab4f42984c443e86ba7369",
+  "geometry_sha256": "1ee52edd021a397fd9bfa5dd24e27690ef767dcbfbcad4ad9570cb30832fbf64",
+  "case": {
+    "schema_version": 1,
+    "name": "工况2：顶面向下1500 N",
+    "material": {
+      "name": "演示钢材（假设值）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": 235000000.0,
+      "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+    },
+    "supports": [
+      {
+        "name": "四个安装孔全部孔壁固定",
+        "selection": {
+          "kind": "faces",
+          "name": "安装孔",
+          "face_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "loads": [
+      {
+        "name": "顶面向下1500 N总力",
+        "kind": "force",
+        "selection": {
+          "kind": "faces",
+          "name": "顶面",
+          "face_ids": [
+            4
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "vector": [
+          0.0,
+          0.0,
+          -1500.0
+        ],
+        "pressure_Pa": 0.0
+      }
+    ],
+    "mesh": {
+      "size_m": 0.005,
+      "local_selections": [],
+      "local_size_m": null,
+      "convergence": false,
+      "evaluation_selection": null
+    },
+    "target_safety_factor": 1.5,
+    "displacement_limit_m": null
+  },
+  "task_id": "9adae8fef5fa4032a8161d78c4b636f4",
+  "project_id": "3c984d89e6ae413cbab429b99832613c",
+  "config_sha256": "33573d4be41618066acf8be42a8ae9449b5f7a5965f95d8516a40cad9d3fd0c1",
+  "compute_backend": "cudss_cuda"
+}

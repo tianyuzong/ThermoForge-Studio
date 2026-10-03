@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "page_errors": [],
+  "checks": [
+    "motor load",
+    "shared workbench",
+    "thermal result",
+    "natural-language parameter draft",
+    "selective import dialog"
+  ]
+}

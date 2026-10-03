@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "precision": "float64",
+  "solver_revision": 2,
+  "model_id": "b7ae46a0f26e4f3bb1ea0a014e056a67",
+  "geometry_sha256": "3c5831da4d29d8323156a6925803f16c04aed426a39b0c769771561aebb1efa5",
+  "case": {
+    "schema_version": 1,
+    "name": "双组件独立受拉 · 演示工况",
+    "material": {
+      "name": "演示钢材（假设值）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": 235000000.0,
+      "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+    },
+    "component_materials": {
+      "1": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "2": {
+        "name": "演示铝材（假设值）",
+        "young_modulus_Pa": 70000000000.0,
+        "poisson_ratio": 0.33,
+        "density_kg_m3": 2700.0,
+        "yield_strength_Pa": 150000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      }
+    },
+    "assembly_mode": "independent",
+    "supports": [
+      {
+        "name": "组件 1 左端固定",
+        "selection": {
+          "body_id": 1,
+          "kind": "faces",
+          "name": null,
+          "face_ids": [
+            1
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "组件 2 左端固定",
+        "selection": {
+          "body_id": 2,
+          "kind": "faces",
+          "name": null,
+          "face_ids": [
+            7
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "loads": [
+      {
+        "body_id": null,
+        "name": "组件 1 1000 N 拉力",
+        "kind": "force",
+        "selection": {
+          "body_id": 1,
+          "kind": "faces",
+          "name": null,
+          "face_ids": [
+            2
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "vector": [
+          1000.0,
+          0.0,
+          0.0
+        ],
+        "pressure_Pa": 0.0
+      },
+      {
+        "body_id": null,
+        "name": "组件 2 1000 N 拉力",
+        "kind": "force",
+        "selection": {
+          "body_id": 2,
+          "kind": "faces",
+          "name": null,
+          "face_ids": [
+            8
+          ],
+          "direction": null,
+          "bounds_m": null
+        },
+        "vector": [
+          1000.0,
+          0.0,
+          0.0
+        ],
+        "pressure_Pa": 0.0
+      }
+    ],
+    "mesh": {
+      "size_m": 0.006,
+      "local_selections": [],
+      "local_size_m": null,
+      "convergence": false,
+      "evaluation_selection": null
+    },
+    "target_safety_factor": 1.5,
+    "displacement_limit_m": null
+  },
+  "task_id": "bc9ba045b6de4381ad516544c85b8a6e",
+  "project_id": "cc478d7c6dfc4524b27e7141c6b07503",
+  "config_sha256": "d20da7d81275d604fcb238b79a566bfe93ef903678095d6effb3576c3263e53b",
+  "compute_backend": "cudss_cuda"
+}

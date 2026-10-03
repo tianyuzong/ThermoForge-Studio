@@ -1,0 +1,27 @@
+{
+  "reference_study": "9b47a684286f4578802148a437b3b196",
+  "restart_study": "fc52c4be92de4d188b45350c4458f3d6",
+  "fields": {
+    "temperature_C": {
+      "maximum_absolute_difference": 9.302904402375134e-08,
+      "absolute_limit": 0.01,
+      "passed": true
+    },
+    "displacements": {
+      "maximum_absolute_difference": 1.0000000010863949e-12,
+      "absolute_limit": 8.339260000000001e-09,
+      "passed": true
+    },
+    "stresses": {
+      "maximum_absolute_difference": 100.0,
+      "absolute_limit": 333397.5,
+      "passed": true
+    }
+  },
+  "same_mesh_and_times": true,
+  "replay_native_solver_time_s": 452.709276,
+  "replay_native_stages": 124,
+  "restart_native_solver_time_s": 70.997554,
+  "restart_native_stages": 124,
+  "passed": true
+}

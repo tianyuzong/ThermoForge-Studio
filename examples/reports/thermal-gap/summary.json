@@ -1,0 +1,299 @@
+{
+  "name": "热致间隙闭合 · 0.15625 秒步长验证",
+  "analysis_type": "thermo_mechanical",
+  "frames": 9,
+  "times_s": [
+    0.0,
+    5.0,
+    10.0,
+    15.0,
+    20.0,
+    25.0,
+    30.0,
+    35.0,
+    40.0
+  ],
+  "mesh": {
+    "nodes": 2526,
+    "elements": 1282,
+    "dofs": 7578,
+    "size_m": 0.008,
+    "min_jacobian": 1.5442088178131507e-08,
+    "gmsh_version": "4.15.2",
+    "sha256": "15af7519edc35963791cc400bf5754fecf95a38c6777a69ed6bc328de3f14760",
+    "cache_key": "cc7150d8697a4ebb9ed10dcc1129fe7768a7166f2943d3088f62f9b7dbdf2907",
+    "cache_reused": true
+  },
+  "resources": {
+    "cpu_threads": 6,
+    "estimated_memory_GiB": 0.054904648828052495,
+    "memory_budget_GiB": 40.21088256835938,
+    "estimated_storage_GiB": 0.02057039737701416,
+    "method": "conservative sparse-factorization estimate, not a measured peak"
+  },
+  "stress_basis": "C3D10 原始积分点；显示场独立投影",
+  "convergence": {
+    "status": "not_verified"
+  },
+  "assumptions": [
+    "独立双块体数值示例：真实 CAD 初始间隙10μm；上、下端固定，温升使界面闭合。",
+    "热导表、空气导热与材料均为演示假设，未经过实物标定。"
+  ],
+  "source_versions": {
+    "strength_studio": {
+      "url": "https://github.com/tianyuzong/strength-studio",
+      "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+    },
+    "thermoforge": {
+      "url": "https://github.com/tianyuzong/ThermoForge",
+      "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+    },
+    "integration_version": "0.6.0"
+  },
+  "compute_backend": "calculix_cpu + scipy_fp64",
+  "minimum_temperature_C": 25.0,
+  "maximum_temperature_C": 100.0,
+  "maximum_temperature_rise_K": 75.0,
+  "maximum_gradient_K_m": 5083.335055060273,
+  "thermal_balance": {
+    "maximum_relative_error": 2.8264057760907235e-12,
+    "passed": true
+  },
+  "maximum_displacement_m": 1.105109383672535e-05,
+  "maximum_von_mises_Pa": 411009109.54753673,
+  "reused_native_frames": 0,
+  "mechanical_balance": {
+    "passed": true,
+    "frames": [
+      {
+        "force_relative": 0.0,
+        "moment_relative": 0.0,
+        "passed": true
+      },
+      {
+        "force_relative": 7.70404816730237e-09,
+        "moment_relative": 1.231663437858815e-08,
+        "passed": true
+      },
+      {
+        "force_relative": 8.676011917483243e-09,
+        "moment_relative": 1.4400905044788596e-08,
+        "passed": true
+      },
+      {
+        "force_relative": 6.5349589229923855e-09,
+        "moment_relative": 2.1906056347566627e-09,
+        "passed": true
+      },
+      {
+        "force_relative": 4.712573137875099e-09,
+        "moment_relative": 1.127464764000021e-08,
+        "passed": true
+      },
+      {
+        "force_relative": 8.121109671454517e-09,
+        "moment_relative": 1.3834022745839667e-08,
+        "passed": true
+      },
+      {
+        "force_relative": 7.411283842007375e-09,
+        "moment_relative": 9.63811706749432e-09,
+        "passed": true
+      },
+      {
+        "force_relative": 4.638110394339635e-09,
+        "moment_relative": 2.0224958554618867e-09,
+        "passed": true
+      },
+      {
+        "force_relative": 2.3065267663790183e-09,
+        "moment_relative": 9.27695664439796e-09,
+        "passed": true
+      }
+    ]
+  },
+  "maximum_contact_pressure_Pa": 45219660.0,
+  "contact_projection": "Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.",
+  "contact_history": [
+    {
+      "time_s": 0.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "moment_Nm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "area_m2": 0.0,
+          "normal_force_N": 0.0,
+          "shear_force_N": 0.0
+        }
+      }
+    },
+    {
+      "time_s": 5.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0002309654,
+            -0.0002425529,
+            237.6894
+          ],
+          "moment_Nm": [
+            0.002640348,
+            -0.01394445,
+            3.423281e-08
+          ],
+          "area_m2": 2.428238e-05,
+          "normal_force_N": -237.6894,
+          "shear_force_N": 0.0001006633
+        }
+      }
+    },
+    {
+      "time_s": 10.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0004858502,
+            -0.0001125556,
+            3793.021
+          ],
+          "moment_Nm": [
+            0.02145977,
+            -0.02769678,
+            2.337953e-06
+          ],
+          "area_m2": 0.0001530359,
+          "normal_force_N": -3793.021,
+          "shear_force_N": 0.0006425329
+        }
+      }
+    },
+    {
+      "time_s": 15.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0009605107,
+            -0.001116117,
+            4947.844
+          ],
+          "moment_Nm": [
+            0.02815031,
+            -0.02310189,
+            4.034359e-06
+          ],
+          "area_m2": 0.0001728224,
+          "normal_force_N": -4947.844,
+          "shear_force_N": 0.001191494
+        }
+      }
+    },
+    {
+      "time_s": 20.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0008699028,
+            -0.00140784,
+            5223.522
+          ],
+          "moment_Nm": [
+            0.02187626,
+            -0.01574859,
+            3.688157e-06
+          ],
+          "area_m2": 0.0001784646,
+          "normal_force_N": -5223.522,
+          "shear_force_N": 0.001241104
+        }
+      }
+    },
+    {
+      "time_s": 25.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0008535024,
+            -0.001410172,
+            5287.943
+          ],
+          "moment_Nm": [
+            0.02062908,
+            -0.0150357,
+            3.603669e-06
+          ],
+          "area_m2": 0.0001801038,
+          "normal_force_N": -5287.943,
+          "shear_force_N": 0.001603952
+        }
+      }
+    },
+    {
+      "time_s": 30.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0008331968,
+            -0.001412008,
+            5302.79
+          ],
+          "moment_Nm": [
+            0.02032118,
+            -0.01476534,
+            3.570298e-06
+          ],
+          "area_m2": 0.0001808792,
+          "normal_force_N": -5302.79,
+          "shear_force_N": 0.001912712
+        }
+      }
+    },
+    {
+      "time_s": 35.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0008254084,
+            -0.001419492,
+            5306.204
+          ],
+          "moment_Nm": [
+            0.02025416,
+            -0.01469726,
+            3.562694e-06
+          ],
+          "area_m2": 0.0001808796,
+          "normal_force_N": -5306.204,
+          "shear_force_N": 0.001912249
+        }
+      }
+    },
+    {
+      "time_s": 40.0,
+      "pairs": {
+        "受热开闭界面": {
+          "force_N": [
+            0.0008262474,
+            -0.00142297,
+            5306.988
+          ],
+          "moment_Nm": [
+            0.02023843,
+            -0.01468131,
+            3.561102e-06
+          ],
+          "area_m2": 0.0001808796,
+          "normal_force_N": -5306.988,
+          "shear_force_N": 0.001912236
+        }
+      }
+    }
+  ]
+}

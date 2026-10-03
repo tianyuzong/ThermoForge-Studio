@@ -1,0 +1,24 @@
+{
+  "before": {
+    "run": "b05d815b421c4591bf504ca6c165ae69",
+    "studies": [
+      "91a131a03cde4f78bce4528ed3296208"
+    ],
+    "statuses": [
+      "solving"
+    ]
+  },
+  "passed": true,
+  "after_recovery": {
+    "run_status": "interrupted",
+    "study_statuses": [
+      "interrupted"
+    ]
+  },
+  "resumed_generation": 1,
+  "after_resume_status": "queued",
+  "health_version": "0.7.0",
+  "resumed_study": "04eace3ebae441b3b3b1d2988951c31f",
+  "completed_studies_preserved": true,
+  "native_stages_reused": 48
+}

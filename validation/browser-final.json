@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8877",
+  "project": "motor-demonstration",
+  "checks": [
+    "motor contact preset has two pressure-dependent interfaces",
+    "shared named selections save and reload",
+    "fatigue hotspot, stress cycles and saved PDF agree",
+    "transient timeline and clearance probes",
+    "playback waits for an actual loaded result frame",
+    "rolling mesh and step verification matches the saved raw-field identity"
+  ],
+  "page_errors": []
+}

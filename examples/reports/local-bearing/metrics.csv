@@ -1,0 +1,12 @@
+﻿metric,value
+name,局部滚动体—滚道 · 往复滚动周期
+analysis_type,contact_fatigue
+frames,65
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+maximum_displacement_m,5.994097512661218e-05
+maximum_von_mises_Pa,10322873.170324618
+reused_native_frames,65
+maximum_contact_pressure_Pa,17879310.0
+contact_projection,Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging.
+maximum_wear_depth_m,1.8842705592105528e-18

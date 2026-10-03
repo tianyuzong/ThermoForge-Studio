@@ -1,0 +1,12 @@
+{
+  "teeth": [
+    20,
+    20
+  ],
+  "module_m": 0.001,
+  "pressure_angle_deg": 20,
+  "face_width_m": 0.002,
+  "center_distance_m": 0.02,
+  "initial_driver_preload_rad": 0.0003,
+  "note": "标准齿制渐开线数值基准；齿根径向连接未加入制造刀具圆角，齿根尖角不用于已验证寿命。"
+}

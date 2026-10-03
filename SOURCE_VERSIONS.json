@@ -1,0 +1,11 @@
+{
+  "strength_studio": {
+    "url": "https://github.com/tianyuzong/strength-studio",
+    "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+  },
+  "thermoforge": {
+    "url": "https://github.com/tianyuzong/ThermoForge",
+    "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+  },
+  "integration_version": "0.8.0"
+}

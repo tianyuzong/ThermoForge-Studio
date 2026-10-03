@@ -1,0 +1,6 @@
+# Native CUDA adapter replaces CuPy on Smart App Control protected Windows.
+# CUDA Toolkit 12.6 supplies cudart and NVRTC; no driver/security-policy changes.
+nvidia-cudss-cu12==0.8.0.10
+cuda-toolkit==12.9.2.0
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cuda-nvrtc-cu12==12.9.86

@@ -1,0 +1,6 @@
+{
+  "maximum_displacement_m": 0.0,
+  "maximum_von_mises_Pa": 0.0,
+  "identical_mesh": true,
+  "passed": true
+}

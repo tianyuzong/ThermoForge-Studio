@@ -1,0 +1,22 @@
+{
+  "bar": {
+    "axial_displacement_m": 4.761905e-06,
+    "analytic_displacement_m": 4.7619047619047615e-06,
+    "displacement_error_percent": 4.999999991817106e-06,
+    "stress_error_percent": 3.219646771412954e-12
+  },
+  "cantilever": {
+    "z_displacement_m": 7.57595e-06,
+    "analytic_displacement_m": 7.61904761904762e-06,
+    "displacement_error_percent": 0.5656562500000129,
+    "section_sigma_xx_rms_error_percent": 0.19296129354358302,
+    "three_level_displacement_change_percent": 0.06628316299498475,
+    "mesh_sizes_mm": [
+      9.0,
+      5.999999999999999,
+      4.0
+    ]
+  },
+  "max_force_relative": 1.0452348948070832e-08,
+  "max_moment_relative": 1.930699030670783e-08
+}

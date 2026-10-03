@@ -1,0 +1,12 @@
+{
+  "repository": "tianyuzong/ThermoForge-Studio",
+  "release_only_files": [
+    {
+      "path": "examples/reports/thermal-gap/audit.json",
+      "bytes": 118226066,
+      "sha256": "6056d8abe1b0262c69dc19e8e54df2255ab27098e74c30e5b1383611d491ef70",
+      "distribution": "release source bundle only"
+    }
+  ],
+  "excluded": "Runtime data, credentials, intermediate solver files and installed dependencies are not published."
+}

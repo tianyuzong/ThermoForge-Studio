@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "356cb0048a7543edb382b8593cb2ed11",
+    "name": "工况1：顶面向下1000 N",
+    "stress_MPa": 69.45678325150907,
+    "displacement_mm": 0.021629056968466676,
+    "safety_factor": 3.3833988416803655,
+    "strength": "within_limit",
+    "displacement": "not_evaluated"
+  },
+  {
+    "job_id": "db29c82f955d4852bf16cb2ac5f1945c",
+    "name": "工况2：顶面向下1500 N",
+    "stress_MPa": 104.18518878290855,
+    "displacement_mm": 0.03244358163172416,
+    "safety_factor": 2.2555989267310466,
+    "strength": "within_limit",
+    "displacement": "not_evaluated"
+  },
+  {
+    "job_id": "ce62df80604b4521b7719aa4a1faeba8",
+    "name": "工况3：顶面全局+Y方向300 N",
+    "stress_MPa": 32.38199024014645,
+    "displacement_mm": 0.00784792698590405,
+    "safety_factor": 7.257120339337647,
+    "strength": "within_limit",
+    "displacement": "not_evaluated"
+  },
+  {
+    "job_id": "27d82497d11a472185052c74e6c897e4",
+    "name": "工况4：顶面向下1000 N与全局+Y方向300 N组合",
+    "stress_MPa": 97.62799077748892,
+    "displacement_mm": 0.02602227857422751,
+    "safety_factor": 2.4070965522132446,
+    "strength": "within_limit",
+    "displacement": "not_evaluated"
+  }
+]

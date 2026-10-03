@@ -1,0 +1,27 @@
+{
+  "native_contact_area_m2": 4.084973e-08,
+  "actual_radius_m": 0.00011403014034429046,
+  "radius_error": 0.030800603665116055,
+  "normal_force_N": 0.9917502816770001,
+  "expected_radius_m": 0.00011062288859634418,
+  "expected_peak_Pa": 38694900.08618067,
+  "actual_peak_Pa": 36967310.0,
+  "pressure_error": 0.044646454244177125,
+  "mesh": {
+    "nodes": 81254,
+    "elements": 55459,
+    "dofs": 243762,
+    "size_m": 0.0004,
+    "min_jacobian": 9.607434582373584e-15,
+    "gmsh_version": "4.15.2",
+    "sha256": "2ab2a4218692b1214a7b304657afaf9f67f4abdb12e58a8587a51b02d970f984",
+    "cache_key": "2f0fdeb7102b769bc9e822d14c5f19208a506e7158e7a1f81f9089a0d8038637",
+    "cache_reused": true
+  },
+  "balance": {
+    "force_relative": 3.771317623036363e-09,
+    "moment_relative": 7.370563599016555e-08,
+    "passed": true
+  },
+  "passed": true
+}

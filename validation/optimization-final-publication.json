@@ -1,0 +1,16 @@
+{
+  "app_version": "0.8.0",
+  "generation": "exports/0cb946bf9f2d47ae",
+  "pdf_pages": 42,
+  "figures": 29,
+  "toc_entries": 43,
+  "creator": "ThermoForge Studio 0.8.0 / engineering-report-4",
+  "report_sha256": "cba195d867297e587ca4e264589667e82c810c3cef83e37ce3c5f80e847a552c",
+  "bundle_sha256": "bee265a0d8d664dbbccd75154b92bddb9b8abaa5b8e14d771cab3c10a45f0e48",
+  "zip_members": 177,
+  "all_member_hashes_match": true,
+  "existing_videos_preserved": true,
+  "raw_and_original_report_preserved": true,
+  "visual_cover_toc_footer": "passed; full previous layout visually reviewed",
+  "passed": true
+}

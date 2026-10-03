@@ -1,0 +1,97 @@
+{
+  "run_id": "f395a017c3404608bfc15313e659bd6e",
+  "export_task_id": "32cefd28bac8449bbdec9cd582132c81",
+  "scope": "video",
+  "generation": "exports/32cefd28bac8449b",
+  "videos": [
+    {
+      "path": "static/stress.mp4",
+      "bytes": 2443912,
+      "sha256": "764cd10ee36b9eee08a8a93bb9c277266f3ee2588cb75cbda2c6e59425a5623c",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    },
+    {
+      "path": "thermal_steady/temperature.mp4",
+      "bytes": 2326480,
+      "sha256": "e46ed3fa5b63d87a96222c8358c75bba921f211513222123875fa7398eeea453",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    },
+    {
+      "path": "thermal_transient/temperature.mp4",
+      "bytes": 512816,
+      "sha256": "57f06e42803449e1d5817c15c398c75daa9486c15437dab19ac5e32d804f77fc",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    },
+    {
+      "path": "thermo_mechanical/contact_gap.mp4",
+      "bytes": 474896,
+      "sha256": "57073287524f727c6475d94295b5f28b1760302eb058f4fd16583d654a1f3c6e",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    },
+    {
+      "path": "thermo_mechanical/contact_pressure.mp4",
+      "bytes": 460339,
+      "sha256": "1d34c830c085fb60877748f95905c8c1541cbf89a198104273eb2486c6c0a9ef",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    },
+    {
+      "path": "thermo_mechanical/stress.mp4",
+      "bytes": 610954,
+      "sha256": "538db23db91e2615f70e9a8301c1624209ef5e8b41f27e82b304cec85924b9dd",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    },
+    {
+      "path": "thermo_mechanical/temperature.mp4",
+      "bytes": 580384,
+      "sha256": "ca04c1ffc35d8e0b1d0370b82695fb59378a9929fa802939c3e4b73d87cc2bb3",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": 24,
+      "full_decode_passed": true
+    }
+  ],
+  "zip_members": 177,
+  "checks": {
+    "no_new_studies": true,
+    "raw_unchanged": true,
+    "historical_report_preserved": true,
+    "report_preserved_during_video_only": true,
+    "zip_complete": true,
+    "zip_exact_members": true,
+    "zip_all_hashes": true,
+    "http_delivers_latest_pdf": true
+  },
+  "passed": true
+}

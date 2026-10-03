@@ -1,0 +1,31 @@
+{
+  "export": {
+    "id": "1a1a3d92dc6b4078ba43a29b4b21bdfa",
+    "run_id": "f395a017c3404608bfc15313e659bd6e",
+    "project_id": "c468900b46be494b9d0f95fcd8212737",
+    "scope": "report",
+    "status": "completed",
+    "detail": "报告、媒体和下载包已发布；求解结果未改动",
+    "created_at": 1790913678.1165824,
+    "cancel_requested": false,
+    "raw_sha256": {
+      "e1680fc9e78f4adeadf49eaef5435cdd": "b89974c47a66db1601b090c8eb26c3db024d0237a42a46c772936452f09d8a40",
+      "de7a74e7db16444699484a05d24a7f26": "184fbed6188764430656530fc57b9dd6f32ea4e803fc494225ea8e968e29ef72",
+      "587121966d974523b2a9d39d88acb446": "2782d61469b912c4ef9c00a67c018dde1bde1cb80cbaa457e1f6fa134cc06fc9",
+      "04eace3ebae441b3b3b1d2988951c31f": "b713d065484e4025d86fe90b04101df5c2bcb03d9a231c6e8f5b1b246abb1bc4"
+    },
+    "export_version": "53dc9fe00238128abb46cce1ff60350317e30fdb78877428af5ce3ed46f372e7",
+    "updated_at": 1790913770.729721,
+    "revision": 3,
+    "generation": "exports/1a1a3d92dc6b4078"
+  },
+  "no_new_studies": true,
+  "owned_studies_unchanged": true,
+  "raw_unchanged": {
+    "e1680fc9e78f4adeadf49eaef5435cdd": true,
+    "de7a74e7db16444699484a05d24a7f26": true,
+    "587121966d974523b2a9d39d88acb446": true,
+    "04eace3ebae441b3b3b1d2988951c31f": true
+  },
+  "historical_report_preserved": true
+}

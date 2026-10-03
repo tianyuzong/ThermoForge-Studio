@@ -1,0 +1,14 @@
+export function BondedEditor({value,change,geometry}:{value:any[];change:(v:any[])=>void;geometry:any}){
+ const bodies=geometry.components||[];
+ const selection=(s:any,fn:(v:any)=>void)=>{
+  const body=bodies.find((b:any)=>b.id===s.body_id);
+  return <div className="selection-pair"><select aria-label="连接组件" value={s.body_id} onChange={e=>fn({kind:'named',body_id:Number(e.target.value),name:'全部表面'})}>{bodies.map((b:any)=><option key={b.id} value={b.id}>C{b.id} · {b.name}</option>)}</select><select aria-label="连接选面" value={s.kind==='named'?s.name:'__bound'} onChange={e=>fn({kind:'named',body_id:s.body_id,name:e.target.value})}>{s.kind!=='named'&&<option value="__bound">已绑定面 {s.face_ids?.join(', ')||s.direction}</option>}{Object.keys(body?.named_selections||{}).map(n=><option key={n}>{n}</option>)}</select></div>;
+ };
+ const patch=(i:number,p:any)=>change(value.map((a,j)=>i===j?{...a,...p}:a));
+ return <><p className="muted">理想粘结使接口位移连续并传递力和力矩，不允许分离、滑移或相对转动。它不代表滚动轴承、摩擦接触或螺栓预紧。主从连接按层级定义，不能成环；求解前检查全部组件是否通过真实映射接口连到支撑。容限仅用于匹配已指定接口，不会修改几何。</p><p>{value.length} 个已定义接口</p>{value.map((a,i)=><details className="edit-card" key={i}><summary>{a.name} · C{a.slave.body_id} → C{a.master.body_id}</summary><label className="form-field">接口名称<input value={a.name} onChange={e=>patch(i,{name:e.target.value})}/></label><label className="form-field">从组件 / 从面{selection(a.slave,v=>patch(i,{slave:v}))}</label><label className="form-field">主组件 / 主面{selection(a.master,v=>patch(i,{master:v}))}</label><label className="form-field">最大匹配距离 / mm<input type="number" step="any" min="0.001" max="2" value={a.max_gap_m*1000} onChange={e=>patch(i,{max_gap_m:Number(e.target.value)*.001})}/></label><label className="form-field">连接假设<textarea value={a.assumptions} onChange={e=>patch(i,{assumptions:e.target.value})}/></label><button onClick={()=>change(value.filter((_,j)=>i!==j))}>删除接口</button></details>)}<button disabled={bodies.length<2||value.length>=500} onClick={()=>change([...value,{name:'新粘结接口',slave:{kind:'named',name:'全部表面',body_id:bodies[1]?.id},master:{kind:'named',name:'全部表面',body_id:bodies[0]?.id},max_gap_m:.00001,assumptions:''}])}>添加粘结接口</button></>;
+}
+
+export function BondedResults({bond}:{bond:any}){
+ const n=(v:number)=>v.toLocaleString('zh-CN',{maximumSignificantDigits:5});
+ return <details className="contact-result"><summary>整机粘结传力 · {bond.connected_components} 个组件 · {bond.interfaces.length} 个接口</summary><p>{bond.scope}</p><p>粘结节点 {bond.tied_nodes.toLocaleString()} · 位移兼容相对误差 {bond.compatibility_relative.toExponential(2)}</p><table><thead><tr><th>接口（从 → 主）</th><th>作用于从组件的合力 XYZ / N</th></tr></thead><tbody>{bond.interfaces.map((a:any,i:number)=><tr key={i}><td>{a.name}</td><td>{a.transfer_to_slave_N.map(n).join(', ')}</td></tr>)}</tbody></table><p className="muted">接口传力为理想连接的合力，不是轴承滚动接触载荷或螺栓预紧力。反力矩以报告所列参考原点为准。</p></details>;
+}

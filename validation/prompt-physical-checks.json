@@ -1,0 +1,27 @@
+{
+  "run_id": "d33fcfe4325f4585b9fb9da40a428afe",
+  "checks": [
+    {
+      "label": "静力合计反力 -200 N",
+      "maximum_error_N": 6.8999999882635166e-06,
+      "passed": true
+    },
+    {
+      "label": "39 W 绝热杆 10 s 解析末温 35 C",
+      "maximum_error_K": 1.6342482922482304e-13,
+      "passed": true
+    },
+    {
+      "label": "保存时间",
+      "times_s": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "study_id": "motor-static",
+  "reference_job": "db45c4882c344bd988fd71e83de433d5",
+  "identical_mesh": true,
+  "relative_changes": {
+    "maximum_displacement_m": 0.0,
+    "maximum_von_mises_Pa": 0.0
+  },
+  "limit": 0.001,
+  "passed": true
+}

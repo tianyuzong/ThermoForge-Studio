@@ -1,0 +1,116 @@
+{
+  "task": "fresh CPU installation in independent working directory on existing Windows host",
+  "source_root": "C:\\Users\\zongtianyu\\Documents\\Codex\\2026-09-30\\https-github-com-tianyuzong-thermoforge-https\\outputs\\ThermoForge-Studio",
+  "installation_root": "C:\\Users\\zongtianyu\\Documents\\Codex\\work\\tfs08-install",
+  "started_utc": "2026-10-02T04:14:18.154733+00:00",
+  "copied_files": 661,
+  "copied_bytes": 171209048,
+  "options": {
+    "GPU": false,
+    "DevBuild": false
+  },
+  "selected_root_files": [
+    ".gitattributes",
+    ".gitignore",
+    ".mcp.json",
+    "Diagnose-CPU.bat",
+    "Diagnose-CPU.ps1",
+    "Diagnose-GPU.bat",
+    "Install-CodexPlugin.ps1",
+    "Install-GPU.ps1",
+    "Install.ps1",
+    "local-settings.example.json",
+    "ONE_CLICK_VALIDATION.md",
+    "Prepare-MCP.ps1",
+    "PROMPT_VALIDATION.md",
+    "README.en.md",
+    "README.md",
+    "requirements-gpu.lock",
+    "requirements-plugin.lock",
+    "requirements-plugin.txt",
+    "requirements-windows-py314.lock",
+    "requirements.txt",
+    "SOURCE_VERSIONS.json",
+    "Start.bat",
+    "Start.ps1",
+    "Stop.bat",
+    "Stop.ps1",
+    "THIRD_PARTY.md",
+    "VALIDATION.md"
+  ],
+  "status": "passed",
+  "existing_host_not_fresh_os": true,
+  "runtime": {
+    "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\zongtianyu\\Documents\\Codex\\work\\tfs08-install\\.venv\\Scripts\\python.exe",
+    "base_python": "D:\\Users\\zongtianyu\\anaconda3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "locked_dependency_count": 50,
+    "locked_dependency_mismatches": {},
+    "pip_check": {
+      "exit_code": 0,
+      "output": "No broken requirements found."
+    },
+    "edge_version": "153.0.4234.48",
+    "ffmpeg_version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+    "official_calculix_archive_sha256": "87fc4e1721df37370ec67d0a244bb14f9bf804b0a95df49e2ae7369d30ec72e8",
+    "installed_calculix_sha256": "e18360eb32a5cd48f91a212c57069212cd8e27d2f798a599a78106bd0b3ecc1f",
+    "had_no_existing_venv": true,
+    "pip_cache_reused": true
+  },
+  "initial_health": {
+    "ok": true,
+    "app": "ThermoForge Studio",
+    "version": "0.8.0",
+    "pid": 18156,
+    "solver_available": true
+  },
+  "checks": {
+    "fresh_virtual_environment": true,
+    "Install_ps1_exit_code": 0,
+    "official_calculix_sha256_match": true,
+    "pinned_dependencies_match": true,
+    "pip_check": true,
+    "dependency_smoke": true,
+    "ffmpeg_available": true,
+    "headless_edge_smoke": true,
+    "build_manifest_verify": true,
+    "alternate_health": true,
+    "owned_process_stopped": true,
+    "alternate_port_released": true,
+    "final_source_refresh_match": true,
+    "final_alternate_health": true,
+    "final_owned_process_stopped": true,
+    "final_alternate_port_released": true
+  },
+  "alternate_port": 8878,
+  "notes": [
+    "This is a new directory and virtual environment on the existing Windows host, not a fresh operating system.",
+    "Existing host Python, Edge and pip wheel cache were reused; no GPU installation or frontend rebuild was requested.",
+    "Original project data and caches were not copied. The source package selection includes public example models and compact validation evidence.",
+    "No production solver job was started. Installer artifacts and all diagnostic logs are preserved."
+  ],
+  "updated_utc": "2026-10-02T04:17:50.024115+00:00",
+  "final_health": {
+    "ok": true,
+    "app": "ThermoForge Studio",
+    "version": "0.8.0",
+    "pid": 14300,
+    "solver_available": true
+  },
+  "source_refreshed_after_freeze": [
+    "forge/exports.py",
+    "forge/run_exports.py",
+    "forge/reporting/document.py"
+  ],
+  "source_manifest_compared_to_release": {
+    "solver_sources": 159,
+    "frontend_sources": 30,
+    "frontend_dist": 5,
+    "mismatches": []
+  },
+  "build_manifest_sha256": "29eedffc761b0694832579a6f0001e82349871ce49dbcc2e27705aff96f3908a",
+  "completed_utc": "2026-10-02T04:22:05.772484+00:00",
+  "transcript": "validation/optimization-clean-install.log"
+}

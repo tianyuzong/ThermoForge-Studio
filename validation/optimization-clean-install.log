@@ -1,0 +1,96 @@
+**********************
+PowerShell transcript start
+Start time: 20261002121439
+Username: DESKTOP-GNQ5T78\zongtianyu
+RunAs User: DESKTOP-GNQ5T78\zongtianyu
+Configuration Name: 
+Machine: DESKTOP-GNQ5T78 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Users\zongtianyu\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$installLog = 'C:/Users/zongtianyu/Documents/Codex/2026-09-30/https-github-com-tianyuzong-thermoforge-https/outputs/ThermoForge-Studio/validation/optimization-clean-install.log'; Start-Transcript -LiteralPath $installLog -Force | Out-Null; try { & '.\Install.ps1'; if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {throw "Installer returned exit code $LASTEXITCODE"} } finally { Stop-Transcript | Out-Null }
+Process ID: 20668
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+
+
+
+Downloading official CalculiX 2.23 Windows distribution...
+
+
+
+Installation complete. Double-click Start.bat.
+**********************
+PowerShell transcript end
+End time: 20261002121542
+**********************
+**********************
+PowerShell transcript start
+Start time: 20261002121617
+Username: DESKTOP-GNQ5T78\zongtianyu
+RunAs User: DESKTOP-GNQ5T78\zongtianyu
+Configuration Name: 
+Machine: DESKTOP-GNQ5T78 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Users\zongtianyu\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$ErrorActionPreference='Stop'; $installRoot=(Resolve-Path -LiteralPath '.').Path; $evidenceRoot='C:/Users/zongtianyu/Documents/Codex/2026-09-30/https-github-com-tianyuzong-thermoforge-https/outputs/ThermoForge-Studio/validation'; $installLog=Join-Path $evidenceRoot 'optimization-clean-install.log'; if (Get-NetTCPConnection -LocalPort 8878 -State Listen -ErrorAction SilentlyContinue) {throw 'Alternate port 8878 is already in use; no server started.'}; Start-Transcript -LiteralPath $installLog -Append | Out-Null; $startedOwned=$false; try { & '.\Start.ps1' -Port 8878 -NoBrowser; $serverRecord=Get-Content -LiteralPath '.runtime/server.json' -Raw | ConvertFrom-Json; if ($serverRecord.python -ne (Join-Path $installRoot '.venv\Scripts\python.exe') -or $serverRecord.port -ne 8878) {throw 'Unexpected server ownership metadata'}; $startedOwned=$true; $health=Invoke-RestMethod 'http://127.0.0.1:8878/api/v1/health' -TimeoutSec 20; $health | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath '.runtime/installation-health.json' -Encoding utf8; if (!$health.ok -or $health.app -ne 'ThermoForge Studio' -or $health.version -ne '0.8.0' -or !$health.solver_available) {throw 'Health acceptance failed'}; & '.venv/Scripts/python.exe' scripts/build_manifest.py --verify; if ($LASTEXITCODE -ne 0) {throw 'Fresh installation build manifest verification failed'}; Write-Output ('Health passed: version '+$health.version+', solver available '+$health.solver_available+', pid '+$health.pid) } finally { if ($startedOwned) { & '.\Stop.ps1'; Start-Sleep -Milliseconds 500; if (Get-NetTCPConnection -LocalPort 8878 -State Listen -ErrorAction SilentlyContinue) {throw 'Owned server did not release port 8878'}; Write-Output 'Owned test service stopped and port 8878 released.' }; Stop-Transcript | Out-Null }
+Process ID: 19036
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+PS>TerminatingError(Invoke-RestMethod): "The request was canceled due to the configured HttpClient.Timeout of 2 seconds elapsing."
+PS>TerminatingError(Invoke-RestMethod): "The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing."
+PS>TerminatingError(Invoke-RestMethod): "The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing."
+ThermoForge Studio is ready: http://127.0.0.1:8878
+
+Health passed: version 0.8.0, solver available True, pid 18156
+ThermoForge Studio and its compute workers stopped.
+Owned test service stopped and port 8878 released.
+**********************
+PowerShell transcript end
+End time: 20261002121624
+**********************
+**********************
+PowerShell transcript start
+Start time: 20261002122136
+Username: DESKTOP-GNQ5T78\zongtianyu
+RunAs User: DESKTOP-GNQ5T78\zongtianyu
+Configuration Name: 
+Machine: DESKTOP-GNQ5T78 (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Users\zongtianyu\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\pwsh.dll -Command try { [Console]::OutputEncoding=[System.Text.Encoding]::UTF8 } catch {}
+$ErrorActionPreference='Stop'; $installRoot=(Resolve-Path -LiteralPath '.').Path; $evidenceRoot='C:/Users/zongtianyu/Documents/Codex/2026-09-30/https-github-com-tianyuzong-thermoforge-https/outputs/ThermoForge-Studio/validation'; $installLog=Join-Path $evidenceRoot 'optimization-clean-install.log'; if (Get-NetTCPConnection -LocalPort 8878 -State Listen -ErrorAction SilentlyContinue) {throw 'Alternate port 8878 is already in use; no server started.'}; Start-Transcript -LiteralPath $installLog -Append | Out-Null; $startedOwned=$false; try { & '.venv/Scripts/python.exe' scripts/build_manifest.py; if ($LASTEXITCODE -ne 0) {throw 'Final installation build manifest generation failed'}; & '.\Start.ps1' -Port 8878 -NoBrowser; $serverRecord=Get-Content -LiteralPath '.runtime/server.json' -Raw | ConvertFrom-Json; if ($serverRecord.python -ne (Join-Path $installRoot '.venv\Scripts\python.exe') -or $serverRecord.port -ne 8878) {throw 'Unexpected server ownership metadata'}; $startedOwned=$true; $health=Invoke-RestMethod 'http://127.0.0.1:8878/api/v1/health' -TimeoutSec 20; $health | ConvertTo-Json -Depth 12 | Set-Content -LiteralPath '.runtime/installation-final-health.json' -Encoding utf8; if (!$health.ok -or $health.app -ne 'ThermoForge Studio' -or $health.version -ne '0.8.0' -or !$health.solver_available) {throw 'Final health acceptance failed'}; & '.venv/Scripts/python.exe' scripts/build_manifest.py --verify; if ($LASTEXITCODE -ne 0) {throw 'Final installation build manifest verification failed'}; Write-Output ('Final health passed: version '+$health.version+', solver available '+$health.solver_available+', pid '+$health.pid) } finally { if ($startedOwned) { & '.\Stop.ps1'; Start-Sleep -Milliseconds 500; if (Get-NetTCPConnection -LocalPort 8878 -State Listen -ErrorAction SilentlyContinue) {throw 'Owned server did not release port 8878'}; Write-Output 'Owned final test service stopped and port 8878 released.' }; Stop-Transcript | Out-Null }
+Process ID: 20600
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26200
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+
+PS>TerminatingError(Invoke-RestMethod): "The request was canceled due to the configured HttpClient.Timeout of 2 seconds elapsing."
+PS>TerminatingError(Invoke-RestMethod): "The request was canceled due to the configured HttpClient.Timeout of 1 seconds elapsing."
+ThermoForge Studio is ready: http://127.0.0.1:8878
+
+Final health passed: version 0.8.0, solver available True, pid 14300
+ThermoForge Studio and its compute workers stopped.
+Owned final test service stopped and port 8878 released.
+**********************
+PowerShell transcript end
+End time: 20261002122142
+**********************

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "工况1：顶面向下1000 N",
+    "stress_MPa": 69.45678325150907,
+    "displacement_mm": 0.021629056968466676,
+    "safety_factor": 3.3833988416803655,
+    "force_residual": 2.893980567201888e-09,
+    "moment_residual": 2.2686353437577972e-09,
+    "mesh_sha256": "4464426a10a7dfaf6e4f2a3b4e6dc24f9d9f593c8584001503d4c980c354d4c4",
+    "nodes": 38508,
+    "elements": 22929
+  },
+  {
+    "name": "工况2：顶面向下1500 N",
+    "stress_MPa": 104.18518878290855,
+    "displacement_mm": 0.03244358163172416,
+    "safety_factor": 2.2555989267310466,
+    "force_residual": 6.32610635330271e-09,
+    "moment_residual": 6.261578087675816e-09,
+    "mesh_sha256": "4464426a10a7dfaf6e4f2a3b4e6dc24f9d9f593c8584001503d4c980c354d4c4",
+    "nodes": 38508,
+    "elements": 22929
+  },
+  {
+    "name": "工况3：顶面全局+Y方向300 N",
+    "stress_MPa": 32.38199024014645,
+    "displacement_mm": 0.00784792698590405,
+    "safety_factor": 7.257120339337647,
+    "force_residual": 5.986303561394495e-09,
+    "moment_residual": 8.026311754168763e-10,
+    "mesh_sha256": "4464426a10a7dfaf6e4f2a3b4e6dc24f9d9f593c8584001503d4c980c354d4c4",
+    "nodes": 38508,
+    "elements": 22929
+  },
+  {
+    "name": "工况4：顶面向下1000 N与全局+Y方向300 N组合",
+    "stress_MPa": 97.62799077748892,
+    "displacement_mm": 0.02602227857422751,
+    "safety_factor": 2.4070965522132446,
+    "force_residual": 4.7052070519221e-09,
+    "moment_residual": 5.7185420538037464e-09,
+    "mesh_sha256": "4464426a10a7dfaf6e4f2a3b4e6dc24f9d9f593c8584001503d4c980c354d4c4",
+    "nodes": 38508,
+    "elements": 22929
+  }
+]

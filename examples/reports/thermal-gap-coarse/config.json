@@ -1,0 +1,404 @@
+{
+  "case": {
+    "schema_version": 3,
+    "name": "热致闭合 · 10 μm 初始空气间隙",
+    "analysis_type": "thermo_mechanical",
+    "geometry_sha256": "3ba3b0a1acaa760edfa81d7c70fb11506c404a79dc82261c64c10d97cf8a88a5",
+    "material": {
+      "name": "演示钢材（合成疲劳数据）",
+      "density_kg_m3": 7850.0,
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "yield_strength_Pa": 1600000000.0,
+      "tensile_strength_Pa": 2000000000.0,
+      "conductivity_W_mK": 45.0,
+      "specific_heat_J_kgK": 470.0,
+      "thermal_expansion_per_K": 1.2e-05,
+      "sn_curve": {
+        "points": [
+          {
+            "x": 1000.0,
+            "y": 600000000.0
+          },
+          {
+            "x": 100000.0,
+            "y": 300000000.0
+          },
+          {
+            "x": 10000000.0,
+            "y": 150000000.0
+          },
+          {
+            "x": 1000000000.0,
+            "y": 75000000.0
+          }
+        ],
+        "endurance_limit_Pa": 75000000.0,
+        "reference_R": -1.0,
+        "life_definition": "initiation",
+        "source": "软件验证合成曲线；不代表该电机实测材料",
+        "demonstration": true
+      },
+      "findley": {
+        "k": 0.2,
+        "curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "calibration": "rolling_contact"
+      },
+      "hardness_Pa": 7000000000.0,
+      "wear_coefficient": 1e-08,
+      "valid_temperature_C": null,
+      "phase_change": null,
+      "source": "软件验证演示假设，非实物牌号和认证数据"
+    },
+    "component_materials": {
+      "1": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 1600000000.0,
+        "tensile_strength_Pa": 2000000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 600000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 300000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 150000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 75000000.0
+              }
+            ],
+            "endurance_limit_Pa": 75000000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "软件验证合成曲线；不代表该电机实测材料",
+            "demonstration": true
+          },
+          "calibration": "rolling_contact"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      },
+      "2": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 1600000000.0,
+        "tensile_strength_Pa": 2000000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 600000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 300000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 150000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 75000000.0
+              }
+            ],
+            "endurance_limit_Pa": 75000000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "软件验证合成曲线；不代表该电机实测材料",
+            "demonstration": true
+          },
+          "calibration": "rolling_contact"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      }
+    },
+    "mesh": {
+      "size_m": 0.008,
+      "local_selections": [],
+      "local_size_m": null,
+      "convergence": false,
+      "evaluation_selection": null,
+      "regions": []
+    },
+    "resources": {
+      "cpu_threads": 6,
+      "max_dofs": 300000,
+      "memory_limit_GiB": null,
+      "time_limit_s": 86400
+    },
+    "supports": [
+      {
+        "name": "底面固定",
+        "selection": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-z",
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "上端固定",
+        "selection": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+z",
+          "bounds_m": null
+        },
+        "components": [
+          "x",
+          "y",
+          "z"
+        ],
+        "displacement_m": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "loads": [],
+    "bonded_connections": [],
+    "thermal_connections": [],
+    "contacts": [
+      {
+        "name": "受热开闭界面",
+        "slave": {
+          "body_id": 1,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "-z",
+          "bounds_m": null
+        },
+        "master": {
+          "body_id": 2,
+          "kind": "direction",
+          "name": null,
+          "face_ids": [],
+          "direction": "+z",
+          "bounds_m": null
+        },
+        "friction": 0.0,
+        "penalty_Pa_m": 1000000000000000.0,
+        "tangential_stiffness_Pa_m": 100000000000000.0,
+        "search_distance_m": 0.001,
+        "initial_offset_m": 0.0,
+        "thermal": true,
+        "conductance": [
+          {
+            "pressure_Pa": 0.0,
+            "conductance_W_m2K": 26000.0,
+            "temperature_C": null
+          },
+          {
+            "pressure_Pa": 100000000.0,
+            "conductance_W_m2K": 36000.0,
+            "temperature_C": null
+          }
+        ],
+        "gap_conductivity_W_mK": 0.026,
+        "minimum_gap_m": 1e-06,
+        "maximum_gap_m": 0.005,
+        "wear": false
+      }
+    ],
+    "thermal": {
+      "initial_C": 25.0,
+      "reference_C": 25.0,
+      "duration_s": 40.0,
+      "dt_s": 5.0,
+      "save_s": 5.0,
+      "initial_from_study": null,
+      "boundaries": [
+        {
+          "name": "上部升温",
+          "kind": "temperature",
+          "selection": {
+            "body_id": 1,
+            "kind": "direction",
+            "name": null,
+            "face_ids": [],
+            "direction": "+z",
+            "bounds_m": null
+          },
+          "body_id": null,
+          "value": 100.0,
+          "ambient_C": 25.0,
+          "profile": [],
+          "ambient_profile": [],
+          "thermostat": null,
+          "start_s": 0.0,
+          "end_s": null
+        },
+        {
+          "name": "下部恒温",
+          "kind": "temperature",
+          "selection": {
+            "body_id": 2,
+            "kind": "direction",
+            "name": null,
+            "face_ids": [],
+            "direction": "-z",
+            "bounds_m": null
+          },
+          "body_id": null,
+          "value": 25.0,
+          "ambient_C": 25.0,
+          "profile": [],
+          "ambient_profile": [],
+          "thermostat": null,
+          "start_s": 0.0,
+          "end_s": null
+        }
+      ]
+    },
+    "fatigue": {
+      "method": "sn_goodman",
+      "body_ids": [],
+      "target_cycles": 1000000.0,
+      "plane_count": 162
+    },
+    "history": null,
+    "motions": [],
+    "axles": [],
+    "clearance_probes": [],
+    "coupling": {
+      "transient": true,
+      "temperature_tolerance_K": 0.01,
+      "displacement_relative_tolerance": 0.0001,
+      "heatflow_relative_tolerance": 0.001,
+      "relaxation": 0.5,
+      "max_iterations": 30,
+      "max_cutbacks": 6
+    },
+    "cycles_per_wear_block": 1,
+    "wear_blocks": 1,
+    "assumptions": [
+      "独立双块体数值示例：真实 CAD 初始间隙10μm；上、下端固定，温升使界面闭合。",
+      "热导表、空气导热与材料均为演示假设，未经过实物标定。"
+    ]
+  },
+  "model_id": "bc9665519868483f84b29c7ca3215ac7",
+  "project_id": "20ce2c6d36be4a408708ac5c6b58b0b9",
+  "schema_version": 3,
+  "dependencies": [],
+  "sha256": "cab9c462ca6a8d1372efa20aa9524a9aec4d3e4ed8d0db793e509ca68cfc8899"
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>__TITLE__</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef3f8;color:#102a43;font-family:"Microsoft YaHei","Segoe UI",sans-serif}main{max-width:1480px;margin:auto;padding:25px 30px 18px}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}.eyebrow{font-size:11px;color:#337daa;letter-spacing:2px;font-weight:700}h1{font-size:27px;margin:5px 0 7px;letter-spacing:.3px}.subtitle{font-size:13px;color:#52697e}.tag{border:1px solid #b9d4e4;color:#176887;border-radius:100px;padding:8px 14px;font-size:12px;background:#e8f5fb}.metrics{display:grid;grid-template-columns:1.35fr repeat(3,1fr);gap:12px;margin:16px 0}.metric{border:1px solid #d6e2eb;background:#fff;border-radius:12px;padding:12px 18px}.label{font-size:12px;color:#587185}.value{font-size:29px;font-weight:700;line-height:1.25;margin:4px 0 0;font-variant-numeric:tabular-nums}.value small{font-size:13px;font-weight:400;color:#5d7284}.time-card{background:#113b57;color:#fff;border-color:#113b57}.time-card .label,.time-card small{color:#bdd7e7}.views{display:grid;grid-template-columns:1fr 1fr;gap:16px}.panel{background:white;border:1px solid #d6e2eb;border-radius:14px;overflow:hidden;position:relative}.panel-head{padding:14px 18px 0;display:flex;justify-content:space-between;align-items:center;gap:8px}.panel-head b{font-size:15px}.panel-head span{font-size:11px;color:#667e90}.view{height:328px;cursor:grab;position:relative}.view:active{cursor:grabbing}.view canvas{display:block;width:100%;height:100%}.view-note{position:absolute;bottom:14px;left:18px;color:#73899a;font-size:11px;pointer-events:none}.legend-wrap{padding:0 20px 14px}.legend-title{font-size:11px;color:#556f83;margin-bottom:6px;display:flex;justify-content:space-between}.legend{height:10px;border-radius:4px}.ticks{display:flex;justify-content:space-between;font-size:11px;color:#647d91;margin-top:5px;font-variant-numeric:tabular-nums}.chart-box{background:#fff;border:1px solid #d6e2eb;border-radius:12px;margin-top:14px;padding:12px 18px 4px}.chart-top{display:flex;justify-content:space-between;align-items:center;font-size:13px}.keys{display:flex;gap:18px;font-size:11px;color:#5d7386}.key:before{content:"";display:inline-block;width:14px;height:3px;background:var(--c);margin:0 6px 3px 0}.chart{width:100%;height:150px;display:block}.controls{display:flex;gap:13px;align-items:center;margin:14px 0 10px}.controls button{background:#1463a0;border:0;color:white;border-radius:7px;min-width:90px;padding:9px 15px;font:inherit;font-size:13px;cursor:pointer}.controls button.secondary{background:#dfeaf3;color:#23475f;min-width:70px}.controls input[type=range]{flex:1;accent-color:#1463a0}.controls select{border:1px solid #b8cddd;border-radius:5px;padding:7px;color:#274960;background:#fff;font:inherit;font-size:12px}.frame{font-size:12px;color:#4c697f;width:110px;white-space:nowrap}.foot{font-size:11px;line-height:1.8;color:#5d7488;display:flex;justify-content:space-between;gap:25px}.foot strong{color:#294d65}.source{font-size:10px;color:#8295a5;margin-top:9px}.limit{color:#bd4435}.status{font-size:11px;color:#1d7192}#loading{position:fixed;inset:0;display:grid;place-items:center;background:#eef3f8;z-index:5;color:#34546b;font-size:18px}body.capture .controls{pointer-events:none}body.capture .source{display:none}
+@media(max-width:850px){main{padding:16px}h1{font-size:22px}.metrics{grid-template-columns:1fr 1fr}.views{grid-template-columns:1fr}.tag{display:none}.keys{gap:7px;font-size:9px}.foot{display:block}.view{height:310px}}
+</style></head><body><div id="loading">正在载入实际温度场…</div><main>
+<header><div><div class="eyebrow">THERMAL STUDIO / TRANSIENT RESULTS</div><h1>__TITLE__</h1><div class="subtitle">__SUBTITLE__</div></div><div class="tag">实际有限元结果</div></header>
+<section class="metrics"><div class="metric time-card"><div class="label">仿真时间</div><div class="value"><span id="time">0</span><small> / <span id="duration"></span> s</small></div></div><div class="metric"><div class="label">工件最高温度</div><div class="value"><span id="maximum">—</span><small> ℃</small></div></div><div class="metric"><div class="label">工件体积平均温度</div><div class="value"><span id="average">—</span><small> ℃</small></div></div><div class="metric"><div class="label" id="evaluation-label"></div><div class="value"><span id="contact">—</span><small> ℃　<span id="target"></span></small></div></div></section>
+<section class="views"><div class="panel"><div class="panel-head"><b>整体温度分布</b><span>视角一 · 真实温度</span></div><div class="view" id="absolute"><div class="view-note">拖动旋转 / 滚轮缩放　·　原始几何，无变形放大</div></div><div class="legend-wrap"><div class="legend-title"><span>固定色标 · 温度 / ℃</span><span id="absolute-range"></span></div><div class="legend"></div><div class="ticks" id="absolute-ticks"></div></div></div>
+<div class="panel"><div class="panel-head"><b>局部热点与温差</b><span>视角二 · 相对温差</span></div><div class="view" id="relative"><div class="view-note">温差 = 此位置温度 − 当帧工件最低温度</div></div><div class="legend-wrap"><div class="legend-title"><span>固定色标 · 相对当帧最低温的温差 / ℃</span><span id="relative-range"></span></div><div class="legend"></div><div class="ticks" id="relative-ticks"></div></div></div></section>
+<section class="chart-box"><div class="chart-top"><b>温度随时间变化</b><div class="keys"><span class="key" id="high-key" style="--c:#d55239"></span><span class="key" style="--c:#28679c">工件体积均温</span><span class="key" style="--c:#31a08f">工件最低温</span><span class="key" id="target-key" style="--c:#b29260"></span></div></div><canvas class="chart" id="chart"></canvas></section>
+<div class="controls"><button id="play">播放过程</button><button class="secondary" id="reset">重置视角</button><input id="timeline" type="range" min="0" max="60" value="0" step="1" aria-label="真实保存帧时间轴"><span class="frame" id="frame">第 1 / 61 帧</span><select id="speed" aria-label="播放速度"><option value="15" selected>15秒播放全程</option><option value="30">30秒播放全程</option><option value="60">60秒播放全程</option></select></div>
+<div class="foot"><div><strong>初始条件：</strong>__INITIAL_NOTE__<br>__PHYSICS_NOTE__</div><div><strong>数据说明：</strong>__SAVE_NOTE__<br>右侧温差图用于辨认空间差异；两视图色标全程固定。<span id="status" class="status"></span></div></div>
+<div class="source">结果来源：<span id="source"></span>　·　表面云图使用原始有限元外表面节点温度。内部节点参与整体统计。</div>
+</main>
+<script type="module">
+const meta=__META__,packed=__BINARY__;
+const $=id=>document.getElementById(id);
+try{
+const from64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function unpack(s,Type){const ds=new Blob([from64(s)]).stream().pipeThrough(new DecompressionStream('gzip'));return new Type(await new Response(ds).arrayBuffer());}
+const threeURL=URL.createObjectURL(new Blob([from64('__THREE__')],{type:'text/javascript'}));
+const THREE=await import(threeURL);
+const orbitText=new TextDecoder().decode(from64('__ORBIT__')).replace("from 'three'",`from '${threeURL}'`);
+const {OrbitControls}=await import(URL.createObjectURL(new Blob([orbitText],{type:'text/javascript'})));
+const [p,faces,fields]=await Promise.all([unpack(packed.points,Float32Array),unpack(packed.faces,Uint32Array),unpack(packed.temperatures,Float32Array)]);
+if(fields.length!==meta.nodes*meta.times.length||p.length!==meta.nodes*3)throw Error('温度场或几何数据不完整');
+const lut=new Float32Array(256*3),color=new THREE.Color();
+for(let i=0;i<256;i++){color.setRGB(...meta.colormap[i]).convertSRGBToLinear();color.toArray(lut,i*3);}
+const stops=meta.colormap.filter((_,i)=>i%8===0||i===255).map(rgb=>`rgb(${rgb.map(v=>Math.round(v*255)).join(',')})`).join(',');
+document.querySelectorAll('.legend').forEach(e=>e.style.background=`linear-gradient(to right,${stops})`);
+function ticks(id,lo,hi){$(id).innerHTML=Array.from({length:6},(_,i)=>`<span>${(lo+(hi-lo)*i/5).toFixed(0)}</span>`).join('');}
+ticks('absolute-ticks',...meta.temperature_limits);ticks('relative-ticks',0,meta.delta_limit);
+$('absolute-range').textContent=meta.temperature_limits.join(' — ')+' ℃';$('relative-range').textContent='0 — '+meta.delta_limit+' ℃';$('source').textContent=meta.job_id;
+const base=new THREE.BufferGeometry();base.setAttribute('position',new THREE.BufferAttribute(p,3));base.setIndex(new THREE.BufferAttribute(faces,1));base.computeBoundingBox();
+const center=base.boundingBox.getCenter(new THREE.Vector3());
+const span=Math.max(...base.boundingBox.getSize(new THREE.Vector3()).toArray(),1e-6);
+const scenes=[];
+function createView(id,relative,position){
+ const host=$(id),renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,preserveDrawingBuffer:true});
+ renderer.setPixelRatio(Math.min(window.devicePixelRatio,1.5));renderer.setClearColor(0xffffff);renderer.outputColorSpace=THREE.SRGBColorSpace;
+ host.prepend(renderer.domElement);
+ const scene=new THREE.Scene(),geometry=base.clone(),values=new Float32Array(p.length);geometry.setAttribute('color',new THREE.BufferAttribute(values,3));
+ const material=new THREE.MeshBasicMaterial({vertexColors:true,side:THREE.DoubleSide,toneMapped:false});
+ const mesh=new THREE.Mesh(geometry,material);mesh.position.copy(center).multiplyScalar(-1);scene.add(mesh);
+ const edge=new THREE.LineSegments(new THREE.EdgesGeometry(base,35),new THREE.LineBasicMaterial({color:0x243f54,transparent:true,opacity:.20}));edge.position.copy(mesh.position);scene.add(edge);
+ const camera=new THREE.OrthographicCamera(-130,130,95,-95,.1,2000);camera.up.set(0,0,1);camera.position.set(...position).multiplyScalar(span/180);camera.lookAt(0,0,0);
+ const controls=new OrbitControls(camera,renderer.domElement);controls.enablePan=false;controls.minZoom=.65;controls.maxZoom=3;controls.addEventListener('change',()=>renderer.render(scene,camera));controls.saveState();
+ const view={host,renderer,scene,camera,controls,geometry,values,relative,position};scenes.push(view);
+ const resize=()=>{const w=host.clientWidth,h=host.clientHeight;renderer.setSize(w,h);const extent=span*.57;camera.left=-extent*w/h;camera.right=extent*w/h;camera.top=extent;camera.bottom=-extent;camera.near=Math.max(span/10000,1e-9);camera.far=span*100;camera.updateProjectionMatrix();renderer.render(scene,camera);};
+ new ResizeObserver(resize).observe(host);resize();
+}
+createView('absolute',false,[220,-245,185]);createView('relative',true,[200,-235,-170]);
+let frame=0,playing=false,timer=null;
+const first=meta.times[0],last=meta.times.at(-1),spanTime=last-first,hasContact=Array.isArray(meta.contact);
+const hasLimit=hasContact&&typeof meta.temperature_limit==='number'&&Number.isFinite(meta.temperature_limit);
+$('duration').textContent=Number(last.toPrecision(8));
+$('timeline').max=meta.times.length-1;
+$('evaluation-label').textContent=hasContact?meta.evaluation_name+'最高温度':'工件最低温度';
+$('high-key').textContent=hasContact?meta.evaluation_name+'最高温':'工件最高温';
+$('target-key').hidden=!hasLimit;
+if(hasLimit)$('target-key').textContent=meta.evaluation_name+'目标 '+meta.temperature_limit+' ℃';
+const curveSeries=[{rows:hasContact?meta.contact:meta.stats,key:'maximum_C',color:'#d55239'},{rows:meta.stats,key:'average_C',color:'#28679c'},{rows:meta.stats,key:'minimum_C',color:'#31a08f'}];
+function drawChart(){
+ const c=$('chart'),w=c.clientWidth,h=c.clientHeight,ratio=Math.min(devicePixelRatio,2);c.width=w*ratio;c.height=h*ratio;const ctx=c.getContext('2d');ctx.scale(ratio,ratio);
+ const l=47,r=w-22,t=16,b=h-30,lo=Math.min(meta.temperature_limits[0],hasLimit?meta.temperature_limit:Infinity),hi=Math.max(meta.temperature_limits[1],hasLimit?meta.temperature_limit:-Infinity);const x=v=>l+(v-first)/spanTime*(r-l),y=v=>b-(v-lo)/(hi-lo)*(b-t);
+ ctx.font='11px Microsoft YaHei, sans-serif';ctx.lineWidth=1;ctx.textBaseline='middle';
+ for(let j=0;j<=4;j++){const v=lo+(hi-lo)*j/4;ctx.strokeStyle='#e7eef4';ctx.beginPath();ctx.moveTo(l,y(v));ctx.lineTo(r,y(v));ctx.stroke();ctx.fillStyle='#637d91';ctx.textAlign='right';ctx.fillText(Number(v.toPrecision(4)),l-10,y(v));}
+ for(let j=0;j<=6;j++){const v=first+spanTime*j/6;ctx.fillStyle='#637d91';ctx.textAlign='center';ctx.fillText(Number(v.toPrecision(5))+' s',x(v),h-12);}
+ ctx.fillStyle='#637d91';ctx.textAlign='left';ctx.fillText('℃',5,12);if(hasLimit){ctx.setLineDash([5,5]);ctx.strokeStyle='#b29260';ctx.beginPath();ctx.moveTo(l,y(meta.temperature_limit));ctx.lineTo(r,y(meta.temperature_limit));ctx.stroke();ctx.setLineDash([]);}
+ for(const s of curveSeries){ctx.strokeStyle=s.color;ctx.lineWidth=2;ctx.beginPath();s.rows.forEach((v,i)=>{const px=x(v.time_s),py=y(v[s.key]);i?ctx.lineTo(px,py):ctx.moveTo(px,py)});ctx.stroke();}
+ ctx.fillStyle='#246fa410';ctx.fillRect(x(meta.times[frame]),t,r-x(meta.times[frame]),b-t);ctx.strokeStyle='#7699b1';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x(meta.times[frame]),t);ctx.lineTo(x(meta.times[frame]),b);ctx.stroke();
+ for(const s of curveSeries){ctx.fillStyle=s.color;ctx.strokeStyle='white';ctx.lineWidth=2;ctx.beginPath();ctx.arc(x(meta.times[frame]),y(s.rows[frame][s.key]),4,0,2*Math.PI);ctx.fill();ctx.stroke();}
+}
+function setFrame(index){
+ frame=Math.max(0,Math.min(meta.times.length-1,Math.round(index)));const s=meta.stats[frame],contact=hasContact?meta.contact[frame]:null;
+ $('time').textContent=Number(meta.times[frame].toPrecision(8));$('maximum').textContent=s.maximum_C.toFixed(1);$('average').textContent=s.average_C.toFixed(1);$('contact').textContent=(hasContact?contact.maximum_C:s.minimum_C).toFixed(1);
+ $('target').textContent=hasLimit?(contact.maximum_C>meta.temperature_limit?'超过 ':'目标 ≤')+meta.temperature_limit+' ℃':'';$('target').className=hasLimit&&contact.maximum_C>meta.temperature_limit?'limit':'';
+ $('timeline').value=frame;$('frame').textContent=`第 ${frame+1} / ${meta.times.length} 帧`;
+ for(const v of scenes){const lo=v.relative?0:meta.temperature_limits[0],hi=v.relative?meta.delta_limit:meta.temperature_limits[1];
+  for(let i=0;i<meta.nodes;i++){const raw=fields[frame*meta.nodes+i]-(v.relative?s.minimum_C:0),q=Math.max(0,Math.min(255,(raw-lo)/(hi-lo)*255)),j=Math.min(254,Math.floor(q)),f=q-j;for(let k=0;k<3;k++)v.values[i*3+k]=lut[j*3+k]*(1-f)+lut[(j+1)*3+k]*f;}
+  v.geometry.attributes.color.needsUpdate=true;v.renderer.render(v.scene,v.camera);
+ }
+ drawChart();window.currentFrame=frame;
+}
+function stop(){clearTimeout(timer);timer=null;playing=false;$('play').textContent=frame===meta.times.length-1?'从头播放':'播放过程';}
+function schedule(){clearTimeout(timer);if(frame>=meta.times.length-1){stop();return;}const delay=(meta.times[frame+1]-meta.times[frame])/spanTime*Number($('speed').value)*1000;timer=setTimeout(()=>{setFrame(frame+1);schedule()},delay);}
+function start(){if(frame===meta.times.length-1)setFrame(0);playing=true;$('play').textContent='暂停';schedule();}
+$('play').onclick=()=>playing?stop():start();$('timeline').oninput=e=>{stop();setFrame(Number(e.target.value));};$('speed').onchange=()=>{if(playing)start()};$('reset').onclick=()=>scenes.forEach(v=>{v.controls.reset();v.renderer.render(v.scene,v.camera)});
+new ResizeObserver(drawChart).observe($('chart'));document.addEventListener('visibilitychange',()=>{if(document.hidden)stop()});
+window.setThermalFrame=setFrame;window.thermalMeta={times:meta.times,stats:meta.stats,contact:meta.contact,absoluteLimits:meta.temperature_limits,relativeLimit:meta.delta_limit,jobId:meta.job_id};
+setFrame(0);$('loading').remove();window.thermalReady=true;
+}catch(error){$('loading').textContent='载入失败：'+error.message;console.error(error);window.thermalError=error.message;window.parent.postMessage({type:'thermal-animation-error',message:error.message},location.origin);}
+</script></body></html>

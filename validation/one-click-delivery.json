@@ -1,0 +1,1559 @@
+{
+  "run_id": "b05d815b421c4591bf504ca6c165ae69",
+  "updated_utc": "2026-09-30T17:17:14.229186+00:00",
+  "stage": "calculation_pending",
+  "run_status": "running",
+  "nodes": [
+    {
+      "key": "static",
+      "status": "completed",
+      "study_id": "e1680fc9e78f4adeadf49eaef5435cdd"
+    },
+    {
+      "key": "fatigue",
+      "status": "completed",
+      "study_id": "93e5887301ac4c7dac40347a2f7a629f"
+    },
+    {
+      "key": "thermal_steady",
+      "status": "completed",
+      "study_id": "de7a74e7db16444699484a05d24a7f26"
+    },
+    {
+      "key": "thermal_transient",
+      "status": "completed",
+      "study_id": "587121966d974523b2a9d39d88acb446"
+    },
+    {
+      "key": "thermo_mechanical",
+      "status": "running",
+      "study_id": "04eace3ebae441b3b3b1d2988951c31f"
+    },
+    {
+      "key": "contact_fatigue",
+      "status": "pending",
+      "study_id": null
+    }
+  ],
+  "regression": {
+    "counts": {
+      "passed": 376,
+      "failed": 0,
+      "skipped": 2
+    },
+    "tests": {
+      "tests.test_agent_api.test_sentence_runs_two_real_cases_and_followup": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_agent_api.test_clarification_resumes_automatically": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_agent_api.test_draft_start_and_message_idempotency": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_agent_api.test_cancel_queued_task_does_not_launch_solver": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_agent_api.test_empty_selection_and_cross_site_write": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_analysis_runs.test_idempotency_and_active_dedup": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_prompt_does_not_ignore_custom_conditions": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_cancel_only_owned_studies": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_recovery_and_resume_generation": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_resume_rejects_changed_solver": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_study_failure_keeps_independent_nodes": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_result_integrity_and_configuration": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_file_path_cannot_escape_run": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_bonding.test_real_calculix_bonded_series_bar": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_bonded_model_rejects_missing_interface_and_cycles": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_interface_gap_does_not_silently_attach_remote_faces": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_bond_extension_preserves_rigid_motion_and_moment": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_real_calculix_bonded_bending_transfers_moments": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_slave_spc_overlap_is_explicit_error": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_bond_selections_are_bound_in_immutable_snapshot": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_bonding.test_large_assembly_hotspot_figures_preserve_body_identity": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_components.test_component_materials_cpu_gpu": {
+        "status": "passed",
+        "source": "one-click-gpu-extra.xml"
+      },
+      "tests.test_components.test_component_gravity_and_missing_connection": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_components.test_library_saved_case_snapshots": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_components.test_shared_cad_face_is_not_silently_bonded": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_components.test_agent_component_assignment_schema": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_native_affine_patch_and_chinese_path[uniaxial]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_native_affine_patch_and_chinese_path[shear]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_native_affine_patch_and_chinese_path[hydrostatic]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_cpu_component_strength_uses_controlling_material": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_cpu_resource_rejection_retains_case": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_cancel_running_cpu_worker": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_curve_groups_do_not_merge_different_other_loads": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_cpu_acceptance.test_real_cli_timeout_cleans_process": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_feedback_context.test_saved_paths_are_compact_and_raw_results_are_unchanged": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_feedback_context.test_all_outside_path_does_not_invent_extrema": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_axles.test_torque_driven_free_axle_reaction_and_rotation": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_axles.test_free_uniform_thermal_expansion": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_heat_switches_preserve_energy_between_output_frames": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_pressure_temperature_table_and_open_gap": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_snapshot_idempotency_and_cancel_dependency": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_selective_import_preserves_source_and_records_hashes": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_queued_named_selection_is_frozen_before_geometry_labels_change": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_explicit_motor_contact_variant_overrides_generic_example": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_local_parameter_units_are_converted_and_unknown_units_rejected": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_concurrent_cad_imports_have_independent_model_state": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_contracts.test_thermal_import_preserves_original_and_creates_scaled_native_geometry": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_domains.test_material_temperature_domain_stops_life_but_preserves_stress_assessment": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_domains.test_findley_cycle_basis_cannot_silently_be_a_multilevel_spectrum": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_interfaces.test_rigid_pure_rolling_material_velocity": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_interfaces.test_archard_excludes_reversible_stick": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_interfaces.test_batched_projection_preserves_curved_quadratic_surface": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_interfaces.test_archard_projection_and_surface_update": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_mechanics.test_uniform_restrained_thermal_stress": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_mechanics.test_flat_contact_pressure": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_mechanics.test_contact_cycle_and_thermal_interface": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_mechanics.test_bonded_group_can_be_supported_through_mechanical_contact": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_mechanics.test_coulomb_sliding_transmits_friction_and_accumulates_wear": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_multimaterial.test_dissimilar_bonded_bar_thermal_resistance_and_expansion": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_numerics.test_rainflow_phase_and_miner": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_numerics.test_enclosing_circle_and_archard": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_numerics.test_quadratic_heat_patch_and_capacity": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_numerics.test_findley_uniaxial_reference": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_numerics.test_multiaxial_circle_batch_matches_independent_scalar": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_numerics.test_batched_findley_matches_independent_point_evaluation": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_pipeline.test_unsaved_unbalanced_physical_step_marks_result_partial": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_pipeline.test_steady_and_transient_analytic": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_pipeline.test_fatigue_complete_archive": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_pipeline.test_phase_change_energy_crossing": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_pipeline.test_transient_slab_diffusion": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_recovery.test_completed_stage_requires_identical_input_and_intact_raw_file": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_recovery.test_native_nonconvergence_is_distinct_from_input_or_installation_error": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_recovery.test_coupled_cutback_replays_only_committed_physical_steps": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_recovery.test_reprocessing_cannot_change_physics": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_recovery.test_endurance_hotspot_uses_cycle_parameter_and_constant_stress_has_no_cycles": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_recovery.test_actual_free_axle_midpoint_rolling_velocity": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_restart.test_native_restart_matches_replayed_friction_history_and_isolates_trials": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_verification.test_independent_evidence_is_invalid_after_summary_or_field_identity_changes": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_wear_blocks.test_blocks_accumulate_identity_and_report_latest_geometry": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_wear_blocks.test_unassessed_earlier_block_cannot_be_erased_by_later_success": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_wear_blocks.test_later_block_failure_is_retained": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_wear_blocks.test_actual_two_block_contact_preserves_identity_and_recomputes_geometry": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_forge_wear_blocks.test_unsupported_wear_or_offset_is_rejected_before_submitting": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gear_contact.test_compression_open_gap_and_torque": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gear_contact.test_two_faces_compression_and_infeasible_sign": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gear_contact.test_quadratic_projection_preserves_geometry": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gear_contact.test_cudss_multiple_rhs": {
+        "status": "passed",
+        "source": "one-click-gpu-extra.xml"
+      },
+      "tests.test_gear_contact.test_large_gear_context_keeps_bound_evidence": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gear_contact.test_nonfinite_contact_system_is_rejected": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_geometry.test_stl_units_and_mesh": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_geometry.test_unsealed_stl_rejected": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_geometry.test_bracket_holes_and_surface_load_mapping": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gpu_cache.test_clear_cache_without_contact_import": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gpu_cache.test_clear_cache_includes_loaded_contact_module": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_material_library.test_catalogue_si_and_independent_copies": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_material_library.test_presets_custom_cards_and_saved_sources": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_material_library.test_planner_receives_same_builtin_and_custom_catalogue": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_material_library.test_real_cpu_bar_uses_preset_units_and_optional_yield[builtin-abs-gp22]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_material_library.test_real_cpu_bar_uses_preset_units_and_optional_yield[builtin-al6061-t6]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_material_library.test_real_cpu_bar_uses_preset_units_and_optional_yield[builtin-cu-c11000]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_bar_exact_and_artifacts": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_pressure_on_constrained_face_reaction_correction": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_gravity_bar_matches_analytic_solution": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_prescribed_displacement": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_cantilever_displacement_and_section_stress": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_underconstraint_and_conflict_are_rejected": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_physics.test_three_level_convergence_and_missing_yield": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_variants_inherit_conditions_and_modify_only_named_force": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_invalid_load_updates_are_rejected[unknown]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_invalid_load_updates_are_rejected[ambiguous]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_invalid_load_updates_are_rejected[gravity]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_invalid_load_updates_are_rejected[duplicate]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_variants_cannot_mix_formats_or_invent_a_base": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plan_variants.test_context_removes_only_exact_duplicates": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[https://127.0.0.1:8876]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[http://example.com:80]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[http://127.0.0.1:8876@evil.com:80]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[http://127.0.0.1:8876/x]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[http://localhost:8876?host=evil]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[http://user@localhost:8876]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_rejects_nonlocal_or_ambiguous_destinations[http://127.0.0.1]": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_client_refuses_redirect_and_ignores_proxy": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_model_and_export_guardrails": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_plugin.test_package_and_install_exclude_private_data_and_preserve_catalog": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_format_repair_is_bounded": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_ambiguous_candidates_are_evidence_bound": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_cancel_during_planning_cannot_submit": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_concurrent_duplicate_requests_create_one_task": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_gpu_unavailable_never_silently_uses_cpu": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_api_adapter_uses_strict_schema_without_tools": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reliability.test_missing_direction_and_inactive_displacement_rejected": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reports.test_report_evidence_uses_raw_fields_and_includes_figures": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reports.test_report_rejects_summary_field_mismatch": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reports.test_report_never_converts_missing_checks_into_approval": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reports.test_report_routes_and_task_pdf": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reports.test_contents_descriptions_distinguish_checks_from_completed_simulations": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_reports.test_long_contents_converges_with_unique_links_and_final_pages": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_tensor_fields_shear_hydrostatic_and_nulls": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_real_bar_energy_probe_path_and_reaction_origin": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_v2_routes_and_legacy_query_immutability": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_cpu_health_does_not_initialize_cuda": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_legacy_hdf5_can_derive_new_fields_without_rewriting": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_result_feedback_references_and_bounded_failure": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_results_v2.test_bonded_feedback_uses_host_compatibility_and_interface_facts": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_run_frames.test_wear_frames_and_legacy_final_only": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_run_frames.test_time_comparison_checks_all_balances_and_gap": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_stress_regions.test_signed_tensor_projection_and_principal_invariance": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_stress_regions.test_definition_rejects_ambiguous_body_and_zero_direction": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_stress_regions.test_region_report_matches_analytic_tension_and_raw_location": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_stress_regions.test_region_refuses_unknown_faces_and_other_component": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_stress_regions.test_region_selection_validation_rejects_unknown_component": {
+        "status": "passed",
+        "source": "one-click-regression.xml"
+      },
+      "tests.test_gpu.test_gpu_selftest": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[force]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[pressure]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[constrained_pressure]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[gravity]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[displacement]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[beam]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_matches_calculix[bracket]": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_memory_budget_rejects": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_singular_matrix_is_not_regularized": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_agent_auto_clarify_draft_reuse_and_cancel": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_unavailable_native_gpu_does_not_fallback": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_cache_invalidation": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_gpu_convergence_and_section_stress": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_gpu.test_cancel_running_gpu_worker": {
+        "status": "passed",
+        "source": "one-click-gpu.xml"
+      },
+      "tests.test_forge_gpu.test_native_heat_preserves_cpu_temperature": {
+        "status": "passed",
+        "source": "one-click-gpu-extra.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_schema_bounds_and_single_word_replies": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_only_unresolved_user_messages_are_replayed": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_pending_center_and_time_survive_reply_without_accepting_assistant_suggestion": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_successful_checkpoint_prevents_duplicate_add_and_repeated_delete": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_local_followup_updates_other_parameter_groups": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_api_conversation_can_ask_and_then_compile_answer": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_conversation.test_invalid_manual_configuration_can_be_repaired_but_not_submitted": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_named_top_selection_resolves_to_actual_outward_faces": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_selection_excludes_cavity_faces": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_skill_prompt_has_rule_candidate_and_omits_raw_face_lists": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_new_heat_and_cooling_resolve_separately_from_empty_config": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_missing_heat_is_rejected_during_planning[returned0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_missing_heat_is_rejected_during_planning[returned1]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_partial_update_keeps_existing_heat_and_binds_model": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_unknown_or_conflicting_selection_and_invalid_ids_are_rejected": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat.test_api_provider_also_resolves_named_heat": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_add_center_heat_preserves_existing_sources[\\u5355\\u72ec\\u52a0\\u4e00\\u4e2a]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_add_center_heat_preserves_existing_sources[\\u53e6\\u5916\\u6dfb\\u52a0\\u4e00\\u4e2a]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_add_center_heat_preserves_existing_sources[\\u518d\\u52a0\\u4e00\\u4e2a]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_add_center_heat_preserves_existing_sources[\\u589e\\u52a0\\u4e00\\u4e2a]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_add_center_heat_preserves_existing_sources[\\u65b0\\u589e\\u4e00\\u4e2a]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_missing_new_heat_power_asks_specifically_and_preserves_current": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_position_only_edit_preserves_power_and_other_sources": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_ambiguous_position_edit_asks_which_heat": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_negated_add_does_not_append": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_surface_center_does_not_select_entire_surface": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_skill_receives_center_and_compiles_add_without_old_heat_changes": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_center_in_void_is_identified_but_not_silently_moved": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_two_sources_across_sentences_with_later_corrections": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_non_power_or_named_edits_touch_only_requested_parameter[\\u628a\\u7b2c\\u4e8c\\u4e2a\\u70ed\\u6e90\\u6539\\u4e3a\\u7b2c90\\u79d2\\u5173\\u95ed-end_s-90]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_non_power_or_named_edits_touch_only_requested_parameter[\\u628a\\u7b2c\\u4e8c\\u4e2a\\u70ed\\u6e90\\u6539\\u4e3a\\u7b2c40\\u79d2\\u5f00\\u542f-start_s-40]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_non_power_or_named_edits_touch_only_requested_parameter[\\u628a\\u7b2c\\u4e8c\\u4e2a\\u70ed\\u6e90\\u534a\\u5f84\\u6539\\u4e3a3mm-radius_m-0.003]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_non_power_or_named_edits_touch_only_requested_parameter[\\u628a\\u201c\\u5df2\\u6709\\u4fa7\\u9762\\u70ed\\u6e90\\u201d\\u7684\\u529f\\u7387\\u6539\\u4e3a18W-power_W-18]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_remove_specific_heat_keeps_the_other[\\u5220\\u9664\\u7b2c\\u4e8c\\u4e2a\\u70ed\\u6e90]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_remove_specific_heat_keeps_the_other[\\u79fb\\u9664\\u201c\\u5df2\\u6709\\u4fa7\\u9762\\u70ed\\u6e90\\u201d]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_negated_removal_preserves_both_sources": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_append_two_sources_with_distinct_scopes": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_component_center_is_not_whole_model_center": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_point_movement_preserves_unmentioned_coordinates[\\u628a\\u7b2c\\u4e8c\\u4e2a\\u70ed\\u6e90\\u5f80\\u5de6\\u632a5mm-position0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_point_movement_preserves_unmentioned_coordinates[\\u628a\\u7b2c\\u4e8c\\u4e2a\\u70ed\\u6e90\\u4f4d\\u7f6e\\u6539\\u4e3ax=50mm-position1]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_unknown_named_target_never_changes_first_heat": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_heat_name_is_not_a_location_instruction": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_explicit_time_fields_without_repeating_power": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_heat_intent.test_surface_center_point_is_on_requested_surface": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_agent_request_mode_defaults_to_local": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_codex_mode_reports_missing_key_without_local_fallback": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_extract_structured_response_json": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_extract_cli_jsonl_agent_message": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_uses_only_last_completed_message": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_inherits_system_proxy_only_in_child": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_preserves_explicit_proxy": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_rejects_invalid_timeout[0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_rejects_invalid_timeout[601]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_rejects_invalid_timeout[nan]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_rejects_invalid_timeout[10.5]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_timeout_reports_upstream_failure_and_keeps_config": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_startup_error_is_distinct": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_success_still_returns_validated_config": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_modes.test_cli_diagnostics_redact_credentials": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_followup_repairs_missing_thermostat_hysteresis[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90\\u7684\\u6e29\\u63a7\\u56de\\u5dee\\u8bbe\\u4e3a2\\u6444\\u6c0f\\u5ea6-0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_followup_repairs_missing_thermostat_hysteresis[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90\\u7684\\u6e29\\u63a7\\u56de\\u5dee\\u8bbe\\u4e3a2\\u6444\\u6c0f\\u5ea6-2]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_followup_repairs_missing_thermostat_hysteresis[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90 thermostat\\uff1atarget_C=60\\u3001hysteresis_C=2\\u3001min_power_W=0\\u3001max_power_W=5-0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_followup_repairs_missing_thermostat_hysteresis[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90 thermostat\\uff1atarget_C=60\\u3001hysteresis_C=2\\u3001min_power_W=0\\u3001max_power_W=5-2]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_followup_repairs_missing_thermostat_hysteresis[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90\\u6e29\\u63a7\\u8bbe\\u7f6e\\u4e3a {\"target_C\":60,\"hysteresis_C\":2,\"min_power_W\":0,\"max_power_W\":5}-0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_followup_repairs_missing_thermostat_hysteresis[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90\\u6e29\\u63a7\\u8bbe\\u7f6e\\u4e3a {\"target_C\":60,\"hysteresis_C\":2,\"min_power_W\":0,\"max_power_W\":5}-2]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_initial_thermostat_accepts_huicha": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_contract_exposes_every_field_including_empty_optional_structures": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_material_properties_phase_change_and_units": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_global_numerical_boundary_and_coupling_fields": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_local_boundaries_do_not_overwrite_global_values": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_component_property_changes_preserve_other_materials": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_profile_and_thermostat_are_distinct_from_nominal_power": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_material_region_can_be_compiled_with_all_properties": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_changes_show_optional_fields_and_their_removal": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_last_corrections_win_across_categories": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_partial_boundary_disable_and_delete_preserve_other_zones": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_component_override_removal_is_scoped": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_contact_resistance_unit_mismatch_is_not_silently_accepted": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_unlocated_local_boundary_does_not_modify_global_value": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_region_description_cannot_change_base_material_in_local_mode": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_invalid_phase_value_is_reported_with_field_path": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_kelvin_power_units_and_scoped_control_disable": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_missing_or_unsupported_physics_requires_clarification[\\u57fa\\u7840\\u6750\\u6599\\u542f\\u7528\\u76f8\\u53d8-\\u6f5c\\u70ed]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_missing_or_unsupported_physics_requires_clarification[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90\\u542f\\u7528\\u6e29\\u63a7-\\u6700\\u5927\\u529f\\u7387]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_missing_or_unsupported_physics_requires_clarification[\\u7b2c\\u4e00\\u4e2a\\u70ed\\u6e90\\u542f\\u7528\\u529f\\u7387\\u66f2\\u7ebf-\\u91c7\\u6837\\u70b9]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_missing_or_unsupported_physics_requires_clarification[\\u5e95\\u90e8\\u65bd\\u52a080\\xb0C\\u56fa\\u5b9a\\u6e29\\u5ea6\\u8fb9\\u754c-\\u56fa\\u5b9a\\u6e29\\u5ea6\\u8fb9\\u754c]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_missing_or_unsupported_physics_requires_clarification[\\u8026\\u5408CFD\\u6d41\\u573a\\uff0c\\u6d41\\u901f1m/s-CFD]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_combined_clear_and_from_to_corrections_across_subsystems": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_parameters.test_preserve_control_request_does_not_disable_it": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_heating_selection_is_independent_of_cooling_and_negated_flags": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_component_material_sentences_do_not_target_the_heater_or_change_base": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_point_coordinates_and_explicit_mesh_are_preserved": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_power_only_edit_preserves_windows_selection_and_other_heat": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_heat_transfer_coefficient_is_not_heat_power": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_negative_power_is_rejected_instead_of_losing_its_sign": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_power_replacement_targets_the_requested_existing_heater": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_last_explicit_feature_setting_wins[\\u542f\\u7528\\u8f90\\u5c04\\uff0c\\u968f\\u540e\\u5173\\u95ed\\u8f90\\u5c04\\u3002-False]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_last_explicit_feature_setting_wins[\\u5173\\u95ed\\u8f90\\u5c04\\uff0c\\u7136\\u540e\\u5f00\\u542f\\u8f90\\u5c04\\u3002-True]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_coordinate_selection_and_component_direction_use_shared_real_faces": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_skill_can_correct_rule_candidate_and_add_local_cooling": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_empty_review_still_checks_heat_and_preserves_input": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_bad_model_or_geometry_edits_are_rejected[/model_id-\"another\"]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_bad_model_or_geometry_edits_are_rejected[/heat_sources/0/faces-[999]]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_bad_model_or_geometry_edits_are_rejected[/heat_sources-[{\"power_W\":20,\"faces\":[0]}]]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_bad_model_or_geometry_edits_are_rejected[/heat_sources/5/power_W-25]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_bad_model_or_geometry_edits_are_rejected[/heat_sources/0/surface_selection-\"invented-region\"]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_existing_arbitrary_selection_is_kept_out_of_prompt": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_clarification_does_not_produce_a_runnable_draft": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_skill.test_diff_summary_includes_boundary_changes": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_conversation_sets_mechanics_and_environment_without_heat": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_support_does_not_move_existing_heat_source": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_missing_modulus_and_support_not_guessed": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_codex_support_selector_roundtrip_and_environment": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_component_mechanical_properties_remain_scoped": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_directional_support_is_preserved": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_agent_structural.test_followup_resolves_missing_mechanics_and_scope": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_cpu.test_cpu_workbench_returns_transient_heat_balance_for_air_and_water": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_cuda_runtime.test_builtins_are_loaded_beside_actual_compiler_and_retained": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_cuda_runtime.test_missing_matching_builtins_does_not_load_another_version": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_cuda_runtime.test_compile_failure_falls_back_only_in_auto_mode": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_cuda_runtime.test_two_fresh_workers_compile_before_and_after_gmsh": {
+        "status": "skipped",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_cuda_solver.test_cuda_repeated_rhs_and_zero_rhs_match_direct_solution": {
+        "status": "skipped",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_engineering_pipeline.test_agent_to_thermal_stress_export_and_report[85-constrained]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_engineering_pipeline.test_agent_to_thermal_stress_export_and_report[-40-free]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_extended.test_extended_simulation_schema_and_calibration": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_extended.test_radiation_transient_keeps_energy_audit_consistent": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_extended.test_refrigeration_cycle_returns_cop_and_power": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_geometry_quality.test_closed_stl_quality_is_clean": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_geometry_quality.test_open_stl_reports_hole_boundary_and_normal_state": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_material_engineering.test_all_presets_are_valid_and_nonmetals_are_not_metals": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_material_engineering.test_agent_scoped_material_limits_and_strength_do_not_change_design_limits": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_material_engineering.test_brittle_hydrostatic_tension_is_detected_even_when_von_mises_is_zero": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_material_engineering.test_polymer_tg_is_review_not_automatic_failure_and_validity_is_separate": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_material_engineering.test_invalid_material_range_and_ceramic_mises_rejected": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_parallel_execution.test_memory_and_slot_limits_are_enforced": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_parallel_execution.test_worker_thread_limits_preserve_other_environment": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_parallel_execution.test_independent_jobs_overlap_and_children_wait_for_verified_parent": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_parallel_execution.test_cancellation_stops_all_parallel_jobs": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_parallel_execution.test_busy_admission_retries_without_submitting_duplicates": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_parallel_execution.test_server_admission_applies_global_limit_across_workflows": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_physics.test_uniform_adiabatic_heating_and_nondivisible_time_grid": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_physics.test_equal_temperature_and_ambient_stays_constant": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_physics.test_cut_preserves_a_linear_temperature_field": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_physics.test_rejects_nonfinite_and_oversized_runs": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_physics.test_air_gap_coupling_connects_nearby_components_and_conserves_constant_field": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_scenario_cases.test_rectangle_clipping_exact_area_and_linear_moment[float64]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_scenario_cases.test_rectangle_clipping_exact_area_and_linear_moment[float32]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_scenario_cases.test_continuation_and_ambient_ramp_energy_conservation": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_scenario_cases.test_surface_metrics_area_mean_and_rigid_rotation_invariance": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_scenario_cases.test_agent_patch_controls_and_codex_roundtrip": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_scenario_cases.test_clipped_heat_load_integrates_exact_power": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_preview_keeps_original_nodes_and_handles_environment_without_contact": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_preview_embeds_lossless_float32_and_escapes_script_text": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_invalid_or_nontransient_results_are_rejected[steady]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_invalid_or_nontransient_results_are_rejected[pending]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_invalid_or_nontransient_results_are_rejected[time_order]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_invalid_or_nontransient_results_are_rejected[frame_count]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_invalid_or_nontransient_results_are_rejected[nonfinite]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_invalid_or_nontransient_results_are_rejected[contact_times]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_nonuniform_export_preserves_relative_time_and_final_hold": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_changed_result_invalidates_cached_video": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_export_submission_is_deduplicated": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermal_animation.test_steady_preview_endpoint_returns_clear_error": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_free_uniform_expansion_and_contraction[50]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_free_uniform_expansion_and_contraction[-60]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_fully_restrained_hydrostatic_stress[50]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_fully_restrained_hydrostatic_stress[-60]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_bar_axial_restraint_matches_exact_solution": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_stiffness_matches_independent_skfem_assembly": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_disconnected_bodies_each_have_independent_free_modes": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_inadequate_support_is_rejected": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_heterogeneous_free_expansion_same_cte": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_risk_checks_do_not_claim_safe_when_limits_missing": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_large_thermal_strain_flagged": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_structural_progress_distinguishes_assembly_factorization_and_frames": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_free_nonuniform_gauges_match_dense_pseudoinverse": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_thermoelastic.test_nonuniform_temperature_displacement_converges_to_plane_strain_solution": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_activity.test_activity_records_real_agent_request_and_returned_changes": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_activity.test_agent_questions_are_preserved_without_false_success": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_activity.test_agent_error_is_recorded_as_failure_not_a_completed_call": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_activity.test_old_task_is_read_without_fabricating_event_timestamps": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_activity.test_events_do_not_replace_case_configuration": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_activity.test_planning_clears_stale_result_ids_without_cancelling_temperature_dependencies": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_hardening.test_deferred_result_binding_is_provided_to_config_agent": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_hardening.test_double_start_does_not_create_duplicate_execution_threads": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_hardening.test_unready_geometry_is_not_mistaken_for_a_busy_job": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_hardening.test_cycle_range_compares_identical_cells_not_unrelated_global_maxima": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_hardening.test_report_input_basis_preserves_actual_profile_and_contact_area": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflow_hardening.test_completed_report_retains_physics_limits_without_stale_planning_notice": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_orientation_repairs_closed_shell_preserving_face_identity": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_open_surface_is_not_claimed_verified": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_agent_gets_real_selection_area_and_capabilities": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_invalid_plan_dependencies_rejected[refs0]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_invalid_plan_dependencies_rejected[refs1]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_invalid_plan_dependencies_rejected[refs2]": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_workflow_executes_dependent_case_with_agent_binding_and_reuses_baseline": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_failed_result_skips_temperature_dependency_but_not_independent_cycle": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_mismatching_initial_field_fails_verification": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_missing_profile_turning_point_fails_verification": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_restart_retains_cases_and_marks_interrupted": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_signature_reuse_does_not_ignore_physics": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_incomplete_plan_cannot_run": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_cancel_preserves_completed_jobs_and_prevents_new_work": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_workflow_identifier_cannot_escape_storage": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_forward_dependencies_are_topologically_ordered": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "thermal_legacy.tests.test_workflows.test_current_is_a_configuration_baseline_not_a_fabricated_result": {
+        "status": "passed",
+        "source": "one-click-legacy-thermal.xml"
+      },
+      "tests.test_analysis_runs.test_derived_results_do_not_upgrade_old_solver_provenance": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_interrupted_refinement_resumes_its_child": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_analysis_runs.test_fresh_fine_result_requires_its_own_comparison": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_run_frames.test_video_reuse_checks_version_integrity_and_scope": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      },
+      "tests.test_run_frames.test_damaged_report_is_regenerated_without_solving": {
+        "status": "passed",
+        "source": "one-click-contract-final.xml"
+      }
+    }
+  }
+}

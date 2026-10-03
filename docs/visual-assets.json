@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "published_on": "2026-09-29",
+  "asset_count": 39,
+  "assets": [
+    {
+      "path": "docs/component-case-editor.png",
+      "bytes": 266981,
+      "sha256": "69a35477c2cbe60132845dac48e7eb5e3d33e0183b1d2d6c091bc8614ffc553c",
+      "width": 1500,
+      "height": 1000,
+      "source_group": "historical-workbench"
+    },
+    {
+      "path": "docs/component-material-editor.png",
+      "bytes": 275506,
+      "sha256": "8f6cd3cb6a39e50b2f9e525da30abc4eae0c232f82e1445bff3208ca66335814",
+      "width": 1500,
+      "height": 1000,
+      "source_group": "historical-workbench"
+    },
+    {
+      "path": "docs/component-workbench.png",
+      "bytes": 442218,
+      "sha256": "825db203e6c3bbd003c9b2cdf2f379d527fb79311a0997d1939e9efdf96c0d9b",
+      "width": 1500,
+      "height": 1000,
+      "source_group": "historical-workbench"
+    },
+    {
+      "path": "docs/gpu-resources.png",
+      "bytes": 317757,
+      "sha256": "301e0ea1a6488670465c5fb344cef95b9dfedf0c7d54d0a54d3c184e5ed1fa65",
+      "width": 1440,
+      "height": 960,
+      "source_group": "historical-workbench"
+    },
+    {
+      "path": "docs/gpu-workbench.png",
+      "bytes": 515958,
+      "sha256": "e952929eb7d720d83bc6f1b23490ef4845e44a3790ec35216d97d161a6eee509",
+      "width": 1600,
+      "height": 1100,
+      "source_group": "historical-workbench"
+    },
+    {
+      "path": "docs/images/motor-double/00-workbench.png",
+      "bytes": 76218,
+      "sha256": "ec31362cd45af3b3af1862af323379885a8d1767109fe8e8bd6cadd1753d9cf7",
+      "width": 1360,
+      "height": 822,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/01-model.png",
+      "bytes": 95356,
+      "sha256": "23677be928e218ccb8e56d4f0ec5a1c8a2f6b47679fdb3e20271373f790f2fee",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/02-mesh.png",
+      "bytes": 335467,
+      "sha256": "f80fcba81aa4e086884ec0040044a5336a15fd06e98d45ad17ce2055a22e1db8",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/03-boundary.png",
+      "bytes": 102061,
+      "sha256": "114b07c54db90990efa5c9d9a9996ac0ee4e99906707d979d583f7afd8e26a65",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/04-displacement.png",
+      "bytes": 210345,
+      "sha256": "12fa969b4c626b40bc3082650a28f623b07f4a47f6c90ff22cf3b3899015e533",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/06-stress.png",
+      "bytes": 260015,
+      "sha256": "da448dc852ec4472bcaa41631c2cdedf95c6e547bac2a46927fc1e7f91613b14",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-1.png",
+      "bytes": 173984,
+      "sha256": "9e11b4f70234b2e714758fd6204a59f5b62d4d1e296aa3d1be63bf3546250027",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-2.png",
+      "bytes": 134498,
+      "sha256": "254ef16ae5f92d0eb971893009d147030731a97e7ad2ca6be4fb18964f80b3b8",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-4.png",
+      "bytes": 104273,
+      "sha256": "cf100c0ef173118dac68e9f48d3109fabb50b055defbc1140dc8767d3f521293",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-5.png",
+      "bytes": 103278,
+      "sha256": "c8c407cb5d617df4faef1f1c2a90e0e907a112785eb9b1a90d29e15de300cc6b",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-6.png",
+      "bytes": 137321,
+      "sha256": "2b00f5307cfbb81bb7ceae9ee13209cda16450dc650d94bcc8585cc3b5765eae",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-7.png",
+      "bytes": 167669,
+      "sha256": "d80dd286bc37602be8158458b9a2ed6fa409e15599b8ba44b05c06a797848742",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-8.png",
+      "bytes": 257286,
+      "sha256": "0feaefcdcdb9257305b6bc60f62b028e1d912dcf84989981dc75a28f6fe6ce2d",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/07-hotspot-9.png",
+      "bytes": 225508,
+      "sha256": "030322f45e11d414ffd083dcecc23ce252170e726986c6b954c3c50f2ee030be",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/08-safety.png",
+      "bytes": 96658,
+      "sha256": "89e4015dc6fdf1750406294ed2515ffc513663ca899bfef7d05ddb1496060584",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/09-report-contents.png",
+      "bytes": 90786,
+      "sha256": "bb5f5843497c1795eda0951515e873cf20ec803f5b97950daa201df96107e646",
+      "width": 910,
+      "height": 1287,
+      "source_group": "motor-double"
+    },
+    {
+      "path": "docs/images/motor-double/10-deformation.gif",
+      "bytes": 859457,
+      "sha256": "1a34b6f34d2f3481225305cb5cd82d7ac7e37a94ae5970ea1fc93667c7812e7c",
+      "width": 1360,
+      "height": 822,
+      "source_group": "motor-double",
+      "frames": 37,
+      "duration_ms": 3880
+    },
+    {
+      "path": "docs/images/motor/01-model.png",
+      "bytes": 130500,
+      "sha256": "67b69f1775729780a141d31c6256a3494860d1649cd43c7b5e3b78f0774efb37",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/02-mesh-stress.png",
+      "bytes": 101034,
+      "sha256": "d1e7268e471c7d31aae3331551eca5f3f2af28e6a535cb514bde5b57989a2344",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/03-displacement-real.png",
+      "bytes": 97532,
+      "sha256": "50c24819e5fd5e64c26ed260485e8cbf17f46070d042b5d32e03a51edfb79098",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/04-deformation.gif",
+      "bytes": 1059513,
+      "sha256": "9b5cd5bd9f3b699c8c6ba2daa5abd27626374063062f8d543f1130b278e89b8e",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor",
+      "frames": 46,
+      "duration_ms": 4000
+    },
+    {
+      "path": "docs/images/motor/05-stress-hotspot.png",
+      "bytes": 98255,
+      "sha256": "90cabef2694c8ea6d1dcdcc289f8cde171dd0a32b1b6f0e0e8cef5a5fae6d06e",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/06-section.png",
+      "bytes": 108966,
+      "sha256": "2db34ffa94fe45d5c647871f63b2395118df934088841e0cfb425ac2614a4832",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/07-probe.png",
+      "bytes": 48656,
+      "sha256": "b3bbdaa5c86751c489c8b9e6802f965447793a8b27d8a0cd6d4d66e07c97fd50",
+      "width": 860,
+      "height": 675,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/08-path.png",
+      "bytes": 29266,
+      "sha256": "c1af0b6dd4449c56ac598d7631103c8e39b0cef88ac88be68cf66ed66435b4cd",
+      "width": 860,
+      "height": 520,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/09-comparison.png",
+      "bytes": 39066,
+      "sha256": "4c4bffe1971162069d738d0957c5249786aedfc7c87132e4e0aa1d09cce7428a",
+      "width": 913,
+      "height": 500,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/10-load-displacement.png",
+      "bytes": 30250,
+      "sha256": "9add6afda0c4fe6b8578b2a8779b9b74a7da2ca672c510325b61cbeafc4a8d4d",
+      "width": 913,
+      "height": 420,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/11-convergence.png",
+      "bytes": 29830,
+      "sha256": "a8ace24879fbe1d3a754522641103655b4d32c457536599ad5b7d1e26f503393",
+      "width": 950,
+      "height": 280,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/12-report-contents.png",
+      "bytes": 239666,
+      "sha256": "5b228919d5e592132e682bac9e16241e68aa02106b6bafbbfb3152ee87a7e5f2",
+      "width": 1132,
+      "height": 1600,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/13-report-boundary.png",
+      "bytes": 133689,
+      "sha256": "5d0d2de977d0220bf6497fff24c66cec2d8617553edccac8f9deab9246765284",
+      "width": 3200,
+      "height": 2160,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/14-materials.png",
+      "bytes": 53555,
+      "sha256": "6f1c447f4cc1ebfea6aef17acabc47f10ec520acce97fd86e8f48a190294362c",
+      "width": 860,
+      "height": 810,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/15-elastic-strain.png",
+      "bytes": 101209,
+      "sha256": "337a96f019de16989f6702555a735bf6abbf1e965838744d4919594493463e70",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/16-energy.png",
+      "bytes": 99064,
+      "sha256": "8aafabdc4880c7d03f88981eb0c64ebca14cf3a5fa8ccbded71a2bd9cbf3a27e",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    },
+    {
+      "path": "docs/images/motor/17-principal-stress.png",
+      "bytes": 97050,
+      "sha256": "0b72984a8839a94920fe1d0c768edac947faa83c01a6852440659360b8c74b28",
+      "width": 1600,
+      "height": 900,
+      "source_group": "historical-motor"
+    }
+  ]
+}

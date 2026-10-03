@@ -1,0 +1,376 @@
+{
+  "passed": true,
+  "health": {
+    "ok": true,
+    "app": "ThermoForge Studio",
+    "version": "0.6.0",
+    "pid": 15208,
+    "solver_available": true,
+    "cli_available": true,
+    "api_available": true,
+    "execution": {
+      "parallel_jobs": 1,
+      "devices": [
+        {
+          "name": "NVIDIA GeForce RTX 3090 Ti",
+          "memory_MiB": 24564,
+          "driver": "591.86"
+        }
+      ],
+      "cpu_threads": 6,
+      "max_dofs": 300000,
+      "gpu_diagnostic": {
+        "device_detected": true,
+        "cuda_initialized": false,
+        "cudss_loaded": false,
+        "self_test_passed": false,
+        "error": "GPU 尚未自检；CPU 模式无需 CUDA"
+      },
+      "backends": [
+        {
+          "id": "calculix_cpu",
+          "name": "CalculiX 2.23 · CPU",
+          "available": true,
+          "validated": true,
+          "detail": "已通过本平台解析解和静力平衡回归验证"
+        },
+        {
+          "id": "cudss_cuda",
+          "name": "原生 CUDA + cuDSS · FP64",
+          "available": false,
+          "validated": false,
+          "detail": "GPU 尚未自检；CPU 模式无需 CUDA"
+        },
+        {
+          "id": "calculix_cuda",
+          "name": "CalculiX + PaStiX · CUDA",
+          "available": false,
+          "validated": false,
+          "detail": "需配置专门编译的 CalculiX 2.23 + PaStiX/CUDA 可执行文件"
+        }
+      ]
+    },
+    "demo_material": {
+      "name": "演示钢材（假设值）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": 235000000.0,
+      "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+    }
+  },
+  "smoke_study": {
+    "id": "135ef5b813c9468696d76a60446a09d5",
+    "project_id": "382127c101d54f6388f476d54a052e45",
+    "model_id": "82b3a0a512ec4b6a95c7378098dc2ef0",
+    "name": "稳态温度",
+    "analysis_type": "thermal_steady",
+    "resume_from": null,
+    "results_from_study": null,
+    "case": {
+      "schema_version": 3,
+      "name": "稳态温度",
+      "analysis_type": "thermal_steady",
+      "geometry_sha256": "784ea30be826a32884d2aaf6fc529c156d0adc1a4287a7876c57585d6e66033a",
+      "material": {
+        "name": "演示钢材（合成疲劳数据）",
+        "density_kg_m3": 7850.0,
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "yield_strength_Pa": 600000000.0,
+        "tensile_strength_Pa": 900000000.0,
+        "conductivity_W_mK": 45.0,
+        "specific_heat_J_kgK": 470.0,
+        "thermal_expansion_per_K": 1.2e-05,
+        "sn_curve": {
+          "points": [
+            {
+              "x": 1000.0,
+              "y": 600000000.0
+            },
+            {
+              "x": 100000.0,
+              "y": 300000000.0
+            },
+            {
+              "x": 10000000.0,
+              "y": 150000000.0
+            },
+            {
+              "x": 1000000000.0,
+              "y": 75000000.0
+            }
+          ],
+          "endurance_limit_Pa": 75000000.0,
+          "reference_R": -1.0,
+          "life_definition": "initiation",
+          "source": "软件验证合成曲线；不代表该电机实测材料",
+          "demonstration": true
+        },
+        "findley": {
+          "k": 0.2,
+          "curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 600000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 300000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 150000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 75000000.0
+              }
+            ],
+            "endurance_limit_Pa": 75000000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "软件验证合成曲线；不代表该电机实测材料",
+            "demonstration": true
+          },
+          "calibration": "bulk"
+        },
+        "hardness_Pa": 7000000000.0,
+        "wear_coefficient": 1e-08,
+        "valid_temperature_C": null,
+        "phase_change": null,
+        "source": "软件验证演示假设，非实物牌号和认证数据"
+      },
+      "component_materials": {
+        "1": {
+          "name": "演示钢材（合成疲劳数据）",
+          "density_kg_m3": 7850.0,
+          "young_modulus_Pa": 210000000000.0,
+          "poisson_ratio": 0.3,
+          "yield_strength_Pa": 600000000.0,
+          "tensile_strength_Pa": 900000000.0,
+          "conductivity_W_mK": 45.0,
+          "specific_heat_J_kgK": 470.0,
+          "thermal_expansion_per_K": 1.2e-05,
+          "sn_curve": {
+            "points": [
+              {
+                "x": 1000.0,
+                "y": 600000000.0
+              },
+              {
+                "x": 100000.0,
+                "y": 300000000.0
+              },
+              {
+                "x": 10000000.0,
+                "y": 150000000.0
+              },
+              {
+                "x": 1000000000.0,
+                "y": 75000000.0
+              }
+            ],
+            "endurance_limit_Pa": 75000000.0,
+            "reference_R": -1.0,
+            "life_definition": "initiation",
+            "source": "软件验证合成曲线；不代表该电机实测材料",
+            "demonstration": true
+          },
+          "findley": {
+            "k": 0.2,
+            "curve": {
+              "points": [
+                {
+                  "x": 1000.0,
+                  "y": 600000000.0
+                },
+                {
+                  "x": 100000.0,
+                  "y": 300000000.0
+                },
+                {
+                  "x": 10000000.0,
+                  "y": 150000000.0
+                },
+                {
+                  "x": 1000000000.0,
+                  "y": 75000000.0
+                }
+              ],
+              "endurance_limit_Pa": 75000000.0,
+              "reference_R": -1.0,
+              "life_definition": "initiation",
+              "source": "软件验证合成曲线；不代表该电机实测材料",
+              "demonstration": true
+            },
+            "calibration": "bulk"
+          },
+          "hardness_Pa": 7000000000.0,
+          "wear_coefficient": 1e-08,
+          "valid_temperature_C": null,
+          "phase_change": null,
+          "source": "软件验证演示假设，非实物牌号和认证数据"
+        }
+      },
+      "mesh": {
+        "size_m": 0.005555566666666668,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null,
+        "regions": []
+      },
+      "resources": {
+        "cpu_threads": 6,
+        "max_dofs": 300000,
+        "memory_limit_GiB": null,
+        "time_limit_s": 86400.0
+      },
+      "supports": [],
+      "loads": [],
+      "bonded_connections": [],
+      "thermal_connections": [],
+      "contacts": [],
+      "thermal": {
+        "initial_C": 25.0,
+        "reference_C": 25.0,
+        "duration_s": 3600.0,
+        "dt_s": 10.0,
+        "save_s": 30.0,
+        "initial_from_study": null,
+        "boundaries": [
+          {
+            "name": "外表面对流",
+            "kind": "convection",
+            "selection": {
+              "body_id": null,
+              "kind": "faces",
+              "name": null,
+              "face_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "direction": null,
+              "bounds_m": null
+            },
+            "body_id": null,
+            "value": 10.0,
+            "ambient_C": 25.0,
+            "profile": [],
+            "ambient_profile": [],
+            "thermostat": null,
+            "start_s": 0,
+            "end_s": null
+          },
+          {
+            "name": "组件发热",
+            "kind": "body_power",
+            "selection": null,
+            "body_id": 1,
+            "value": 10.0,
+            "ambient_C": 25,
+            "profile": [],
+            "ambient_profile": [],
+            "thermostat": null,
+            "start_s": 0,
+            "end_s": null
+          }
+        ]
+      },
+      "fatigue": {
+        "method": "sn_goodman",
+        "body_ids": [],
+        "target_cycles": 1000000.0,
+        "plane_count": 162
+      },
+      "history": null,
+      "motions": [],
+      "axles": [],
+      "clearance_probes": [],
+      "coupling": {
+        "transient": true,
+        "temperature_tolerance_K": 0.01,
+        "displacement_relative_tolerance": 0.0001,
+        "heatflow_relative_tolerance": 0.001,
+        "relaxation": 0.5,
+        "max_iterations": 30,
+        "max_cutbacks": 6
+      },
+      "cycles_per_wear_block": 1,
+      "wear_blocks": 1,
+      "assumptions": [
+        "材料及默认边界为软件演示参数，须按实际工作条件修改"
+      ]
+    },
+    "dependencies": [],
+    "snapshot_sha256": "cfa36bcaacb2fb680f0532b5dd72674343cc5c025b432474ef12ac0077f59e3b",
+    "status": "completed",
+    "detail": "结果与报告已保存",
+    "created_at": 1790767325.355252,
+    "cancel_requested": false,
+    "updated_at": 1790767327.8762424,
+    "summary": {
+      "name": "稳态温度",
+      "analysis_type": "thermal_steady",
+      "frames": 1,
+      "times_s": [
+        0.0
+      ],
+      "mesh": {
+        "nodes": 867,
+        "elements": 369,
+        "dofs": 2601,
+        "size_m": 0.005555566666666668,
+        "min_jacobian": 3.3386791389144376e-08,
+        "gmsh_version": "4.15.2",
+        "sha256": "ba5165741c6d1243edd66b7c6e912abfb29ab0f8bf82706f272e773529b3c1c5",
+        "cache_key": "b14b3ed034a88e56e1352d099d401084bfb5689676a724e7135a6ea35c96f417",
+        "cache_reused": false
+      },
+      "resources": {
+        "cpu_threads": 6,
+        "estimated_memory_GiB": 0.014650851719536957,
+        "memory_budget_GiB": 35.15570983886719,
+        "estimated_storage_GiB": 0.0826297402381897,
+        "method": "conservative sparse-factorization estimate, not a measured peak"
+      },
+      "stress_basis": "C3D10 原始积分点；显示场独立投影",
+      "convergence": {
+        "status": "not_verified"
+      },
+      "assumptions": [
+        "材料及默认边界为软件演示参数，须按实际工作条件修改"
+      ],
+      "source_versions": {
+        "strength_studio": {
+          "url": "https://github.com/tianyuzong/strength-studio",
+          "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+        },
+        "thermoforge": {
+          "url": "https://github.com/tianyuzong/ThermoForge",
+          "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+        },
+        "integration_version": "0.6.0"
+      },
+      "compute_backend": "calculix_cpu + scipy_fp64",
+      "minimum_temperature_C": 262.1784254056654,
+      "maximum_temperature_C": 263.73724859311847,
+      "maximum_temperature_rise_K": 238.73724859311847,
+      "maximum_gradient_K_m": 84.48716102730141,
+      "thermal_balance": {
+        "maximum_relative_error": 5.122204743690517e-15,
+        "passed": true
+      }
+    }
+  },
+  "python_dependencies": "fresh venv from CPU lock",
+  "solver": "official CalculiX archive downloaded and checksum verified",
+  "port": 8878,
+  "windows_path_check": "long unconfigured Windows paths rejected; short extraction installs successfully"
+}

@@ -1,0 +1,133 @@
+{
+  "checked_at": "2026-09-30T14:36:00.253319+00:00",
+  "url": "http://127.0.0.1:8877",
+  "health": {
+    "ok": true,
+    "app": "ThermoForge Studio",
+    "version": "0.6.0",
+    "pid": 16336,
+    "solver_available": true,
+    "cli_available": true,
+    "api_available": true,
+    "execution": {
+      "parallel_jobs": 1,
+      "devices": [
+        {
+          "name": "NVIDIA GeForce RTX 3090 Ti",
+          "memory_MiB": 24564,
+          "driver": "591.86"
+        }
+      ],
+      "cpu_threads": 6,
+      "max_dofs": 300000,
+      "gpu_diagnostic": {
+        "device_detected": true,
+        "cuda_initialized": true,
+        "cudss_loaded": true,
+        "self_test_passed": true,
+        "kernels_compiled": true,
+        "details": {
+          "passed": true,
+          "backend": "cudss_cuda",
+          "cudss": "0.8.0",
+          "array_adapter": "native_cuda",
+          "solution": [
+            0.09090909090909088,
+            0.6363636363636366
+          ],
+          "free_bytes": 24369954816,
+          "kernel_trace_verified": false
+        }
+      },
+      "backends": [
+        {
+          "id": "calculix_cpu",
+          "name": "CalculiX 2.23 · CPU",
+          "available": true,
+          "validated": true,
+          "detail": "已通过本平台解析解和静力平衡回归验证"
+        },
+        {
+          "id": "cudss_cuda",
+          "name": "原生 CUDA + cuDSS · FP64",
+          "available": true,
+          "validated": true,
+          "detail": "CUDA 初始化、cuDSS 加载和真实方程自检通过；性能以计算记录为准"
+        },
+        {
+          "id": "calculix_cuda",
+          "name": "CalculiX + PaStiX · CUDA",
+          "available": false,
+          "validated": false,
+          "detail": "需配置专门编译的 CalculiX 2.23 + PaStiX/CUDA 可执行文件"
+        }
+      ]
+    },
+    "demo_material": {
+      "name": "演示钢材（假设值）",
+      "young_modulus_Pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7850.0,
+      "yield_strength_Pa": 235000000.0,
+      "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+    }
+  },
+  "gpu_diagnostic": {
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 3090 Ti",
+        "memory_MiB": 24564,
+        "driver": "591.86"
+      }
+    ],
+    "cpu_threads": 6,
+    "max_dofs": 300000,
+    "gpu_diagnostic": {
+      "device_detected": true,
+      "cuda_initialized": true,
+      "cudss_loaded": true,
+      "self_test_passed": true,
+      "kernels_compiled": true,
+      "details": {
+        "passed": true,
+        "backend": "cudss_cuda",
+        "cudss": "0.8.0",
+        "array_adapter": "native_cuda",
+        "solution": [
+          0.09090909090909088,
+          0.6363636363636366
+        ],
+        "free_bytes": 24369954816,
+        "kernel_trace_verified": false
+      }
+    },
+    "backends": [
+      {
+        "id": "calculix_cpu",
+        "name": "CalculiX 2.23 · CPU",
+        "available": true,
+        "validated": true,
+        "detail": "已通过本平台解析解和静力平衡回归验证"
+      },
+      {
+        "id": "cudss_cuda",
+        "name": "原生 CUDA + cuDSS · FP64",
+        "available": true,
+        "validated": true,
+        "detail": "CUDA 初始化、cuDSS 加载和真实方程自检通过；性能以计算记录为准"
+      },
+      {
+        "id": "calculix_cuda",
+        "name": "CalculiX + PaStiX · CUDA",
+        "available": false,
+        "validated": false,
+        "detail": "需配置专门编译的 CalculiX 2.23 + PaStiX/CUDA 可执行文件"
+      }
+    ]
+  },
+  "old_service": {
+    "app": "Strength Studio",
+    "pid": 7484,
+    "port": 8876
+  }
+}

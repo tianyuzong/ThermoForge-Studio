@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "patch": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "path": {"type": "string"},
+          "value_json": {"type": "string"}
+        },
+        "required": ["path", "value_json"],
+        "additionalProperties": false
+      }
+    },
+    "questions": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": ["patch", "questions"],
+  "additionalProperties": false
+}

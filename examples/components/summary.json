@@ -1,0 +1,430 @@
+{
+  "maximum_displacement_m": 1.4228824409686429e-05,
+  "maximum_von_mises_Pa": 10438798.204954289,
+  "minimum_safety_factor": 14.36947022587423,
+  "components": [
+    {
+      "body_id": 1,
+      "name": "组件 1",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "maximum_von_mises_Pa": 10348362.647789257,
+      "maximum_displacement_m": 4.74649411513778e-06,
+      "minimum_safety_factor": 22.708906519641886,
+      "strength_status": "within_limit"
+    },
+    {
+      "body_id": 2,
+      "name": "组件 2",
+      "material": {
+        "name": "演示铝材（假设值）",
+        "young_modulus_Pa": 70000000000.0,
+        "poisson_ratio": 0.33,
+        "density_kg_m3": 2700.0,
+        "yield_strength_Pa": 150000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "maximum_von_mises_Pa": 10438798.204954289,
+      "maximum_displacement_m": 1.4228824409686429e-05,
+      "minimum_safety_factor": 14.36947022587423,
+      "strength_status": "within_limit"
+    }
+  ],
+  "principal_max_Pa": 13091318.951549252,
+  "principal_min_Pa": -1796502.27421524,
+  "stress_peak": {
+    "element": 425,
+    "integration_point": 2,
+    "position_m": [
+      0.005698889912438812,
+      0.0337341820354669,
+      0.003472647867658315
+    ]
+  },
+  "displacement_peak": {
+    "node": 849,
+    "position_m": [
+      0.1,
+      0.04,
+      0.0
+    ]
+  },
+  "mesh": {
+    "nodes": 1710,
+    "elements": 734,
+    "dofs": 5130,
+    "size_m": 0.006,
+    "min_jacobian": 3.262115411061328e-08,
+    "gmsh_version": "4.15.2",
+    "sha256": "3772e6c1d20565c3ad43309f6e30788d5d213f0ad0c762fae877f7b85be93536",
+    "cache_key": "518934160dede2637c7ed563a67f81674880ab05d37a75d8f319530bed761859",
+    "cache_reused": false
+  },
+  "checks": {
+    "strength": {
+      "status": "within_limit",
+      "value_Pa": 10438798.204954289,
+      "limit_Pa": 100000000.0,
+      "safety_factor": 14.36947022587423,
+      "target": 1.5
+    },
+    "displacement": {
+      "status": "not_evaluated",
+      "value_m": 1.4228824409686429e-05,
+      "limit_m": null
+    }
+  },
+  "warnings": [
+    "组件按独立结构计算，互不传力；不代表粘结、接触或螺栓连接的组合件整体响应"
+  ],
+  "loads": [
+    {
+      "name": "组件 1 1000 N 拉力",
+      "kind": "force",
+      "area_m2": 0.0001,
+      "resultant_N": [
+        999.9999999999997,
+        0.0,
+        0.0
+      ],
+      "moment_Nm": [
+        0.0,
+        0.002866512341177074,
+        15.22684861072205
+      ],
+      "moment_origin_m": [
+        0.050011524276150125,
+        0.02022684861072205,
+        0.004997133487658823
+      ],
+      "mapping_force_relative": 6.821210263296958e-16,
+      "mapping_moment_relative": 3.2395960913866852e-18,
+      "mapping_passed": true
+    },
+    {
+      "name": "组件 2 1000 N 拉力",
+      "kind": "force",
+      "area_m2": 0.00010000000000000003,
+      "resultant_N": [
+        999.9999999999997,
+        0.0,
+        0.0
+      ],
+      "moment_Nm": [
+        0.0,
+        0.0028665123411780874,
+        -14.773151389277945
+      ],
+      "moment_origin_m": [
+        0.050011524276150125,
+        0.02022684861072205,
+        0.004997133487658823
+      ],
+      "mapping_force_relative": 2.27373675443232e-16,
+      "mapping_moment_relative": 1.8240001256944686e-17,
+      "mapping_passed": true
+    }
+  ],
+  "supports": [
+    {
+      "name": "组件 1 左端固定",
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "face_ids": [
+        1
+      ],
+      "area_m2": 9.999999999999999e-05,
+      "reaction_N": [
+        -1000.00000000003,
+        -2.3354651546014793e-12,
+        -6.211475778172826e-12
+      ],
+      "moment_Nm": [
+        9.803182571266333e-14,
+        -0.0028665123410293696,
+        -15.226848610722442
+      ]
+    },
+    {
+      "name": "组件 2 左端固定",
+      "components": [
+        "x",
+        "y",
+        "z"
+      ],
+      "face_ids": [
+        7
+      ],
+      "area_m2": 0.00010000000000000005,
+      "reaction_N": [
+        -1000.0000000000906,
+        -2.474909166494399e-12,
+        -5.168754313444879e-12
+      ],
+      "moment_Nm": [
+        -5.043014617012176e-14,
+        -0.0028665123410845927,
+        14.773151389279283
+      ]
+    }
+  ],
+  "balance": {
+    "passed": true,
+    "force_relative": 5.660310996040955e-14,
+    "moment_relative": 2.5458077618360307e-14,
+    "free_dof_relative": 2.8152195397607667e-14,
+    "force_residual_N": [
+      -1.2095568990844185e-10,
+      -4.8125947671451286e-12,
+      -1.1378897823988154e-11
+    ],
+    "moment_residual_Nm": [
+      4.749152460181705e-14,
+      2.410432964339293e-13,
+      9.460210392830959e-13
+    ],
+    "reaction_N": [
+      -2000.0000000001203,
+      -4.8125947671451286e-12,
+      -1.1378897823988154e-11
+    ],
+    "moment_origin_m": [
+      0.050011524276150125,
+      0.02022684861072205,
+      0.004997133487658823
+    ]
+  },
+  "maximum_normal_strain": 0.00015000570383315594,
+  "maximum_displacement_gradient": 0.00016142329443012807,
+  "convergence": {
+    "status": "not_verified"
+  },
+  "stress_basis": "C3D10 四个积分点原始应力；显示云图为外推后的体积加权节点平均",
+  "solver": "Native CUDA + NVIDIA cuDSS 0.8 / C3D10 / FP64 linear static",
+  "units": "SI",
+  "execution": {
+    "backend": "cudss_cuda",
+    "requested_device": "GPU",
+    "executed_device": "CUDA",
+    "array_adapter": "native_cuda",
+    "precision": "float64",
+    "cudss_version": "0.8.0",
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 3090 Ti",
+        "memory_MiB": 24564,
+        "driver": "591.86"
+      }
+    ],
+    "kernel_sha256": "d4229f019640bc5259547bd742d88d246bf93de66e05bf7d89b565dfd2a4748d",
+    "cudss_sha256": "90adfaa79cb8ba95bb34cae9dc6f9348f4c0ee206d572b0fdd897806f19e2909",
+    "factorization_reused": false,
+    "gpu_execution_verified": true,
+    "kernel_trace_verified": false,
+    "cudss_ir_status": 0,
+    "verification_basis": "CUDA kernels and cuDSS GPU mode completed; independent force residual checked; trace evidence is separate",
+    "timings_s": {
+      "structure": 0.011423200136050582,
+      "transfer": 0.0036335999611765146,
+      "assembly": 0.11696940008550882,
+      "analysis": 0.03832739987410605,
+      "factorization": 0.014402099885046482,
+      "rhs_transfer": 0.00025969999842345715,
+      "solve": 0.0048825000412762165,
+      "recovery": 0.0021156000439077616
+    },
+    "compute_s": 0.5155587999615818,
+    "relative_residual": 2.0627691257677698e-13,
+    "buffer_peak_bytes": 5036880,
+    "memory_budget_bytes": 19529518284,
+    "factor_memory_estimates_bytes": [
+      25758796,
+      25758796,
+      388512,
+      2863120,
+      22599156,
+      3941472,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "note": "原生 Windows CUDA / cuDSS · FP64；GPU 组装、分解、回代和结果恢复；CPU 符号分析",
+    "mesh_s": 0.13502970011904836,
+    "host_preparation_s": 0.11824739980511367
+  },
+  "material": {
+    "name": "演示钢材（假设值）",
+    "young_modulus_Pa": 210000000000.0,
+    "poisson_ratio": 0.3,
+    "density_kg_m3": 7850.0,
+    "yield_strength_Pa": 235000000.0,
+    "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+  },
+  "name": "双组件独立受拉 · 演示工况",
+  "geometry_sha256": "3c5831da4d29d8323156a6925803f16c04aed426a39b0c769771561aebb1efa5",
+  "mesh_sha256": "3772e6c1d20565c3ad43309f6e30788d5d213f0ad0c762fae877f7b85be93536",
+  "elapsed_s": 1.5607175999321043,
+  "job_id": "d15ab6e705dd4651ad9e7d88510d4306",
+  "created_at": 1789997260.2563045,
+  "configuration": {
+    "schema_version": 2,
+    "precision": "float64",
+    "solver_revision": 2,
+    "model_id": "b7ae46a0f26e4f3bb1ea0a014e056a67",
+    "geometry_sha256": "3c5831da4d29d8323156a6925803f16c04aed426a39b0c769771561aebb1efa5",
+    "case": {
+      "schema_version": 1,
+      "name": "双组件独立受拉 · 演示工况",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "component_materials": {
+        "1": {
+          "name": "演示钢材（假设值）",
+          "young_modulus_Pa": 210000000000.0,
+          "poisson_ratio": 0.3,
+          "density_kg_m3": 7850.0,
+          "yield_strength_Pa": 235000000.0,
+          "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+        },
+        "2": {
+          "name": "演示铝材（假设值）",
+          "young_modulus_Pa": 70000000000.0,
+          "poisson_ratio": 0.33,
+          "density_kg_m3": 2700.0,
+          "yield_strength_Pa": 150000000.0,
+          "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+        }
+      },
+      "assembly_mode": "independent",
+      "supports": [
+        {
+          "name": "组件 1 左端固定",
+          "selection": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              1
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "组件 2 左端固定",
+          "selection": {
+            "body_id": 2,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              7
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "body_id": null,
+          "name": "组件 1 1000 N 拉力",
+          "kind": "force",
+          "selection": {
+            "body_id": 1,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              2
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "pressure_Pa": 0.0
+        },
+        {
+          "body_id": null,
+          "name": "组件 2 1000 N 拉力",
+          "kind": "force",
+          "selection": {
+            "body_id": 2,
+            "kind": "faces",
+            "name": null,
+            "face_ids": [
+              8
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            1000.0,
+            0.0,
+            0.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.006,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null
+    },
+    "task_id": "bc9ba045b6de4381ad516544c85b8a6e",
+    "project_id": "cc478d7c6dfc4524b27e7141c6b07503",
+    "config_sha256": "d20da7d81275d604fcb238b79a566bfe93ef903678095d6effb3576c3263e53b",
+    "compute_backend": "cudss_cuda"
+  },
+  "report_and_archive_s": 0.3740263998042792,
+  "end_to_end_s": 2.058422999922186
+}

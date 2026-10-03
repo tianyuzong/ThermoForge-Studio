@@ -1,0 +1,10 @@
+﻿metric,value
+name,电机轴 · 0–1000 N 演示疲劳 · 更新评估
+analysis_type,fatigue
+frames,5
+stress_basis,C3D10 原始积分点；显示场独立投影
+compute_backend,calculix_cpu + scipy_fp64
+maximum_displacement_m,3.308790837406732e-05
+maximum_von_mises_Pa,43814464.72557142
+derived_from,motor-fatigue
+postprocess_only,True

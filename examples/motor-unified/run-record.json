@@ -1,0 +1,196 @@
+{
+  "thermal_transient": {
+    "elapsed_s": 33.3430118560791,
+    "status": {
+      "status": "completed",
+      "detail": "结果与报告已保存"
+    },
+    "summary": {
+      "name": "电机 · 瞬态温度",
+      "analysis_type": "thermal_transient",
+      "frames": 11,
+      "times_s": [
+        0.0,
+        60.0,
+        120.0,
+        180.0,
+        240.0,
+        300.0,
+        360.0,
+        420.0,
+        480.0,
+        540.0,
+        600.0
+      ],
+      "mesh": {
+        "nodes": 73985,
+        "elements": 39431,
+        "dofs": 221955,
+        "size_m": 0.027,
+        "min_jacobian": 2.978936804350159e-10,
+        "gmsh_version": "4.15.2",
+        "sha256": "c79673b1ab6c1740d084de75ee9c77c636381fb33cfbd074371923e0487f3aed",
+        "cache_key": "2beb7801d6ce314770116d5a7f2ac0b9446692f73e21f997fb8dec3cc28b3d82",
+        "cache_reused": true
+      },
+      "stress_basis": "C3D10 原始积分点；显示场独立投影",
+      "convergence": {
+        "status": "not_verified"
+      },
+      "assumptions": [
+        "材料及默认边界为软件演示参数，须按实际工作条件修改",
+        "定子150W、转子75W，机壳全部面施加等效 h=15 W/(m²·K)，环境25°C；等效边界不代表通风流场。",
+        "机械粘结与理想热连接分别显式配置；此工况不模拟轴承滚动。"
+      ],
+      "source_versions": {
+        "strength_studio": {
+          "url": "https://github.com/tianyuzong/strength-studio",
+          "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+        },
+        "thermoforge": {
+          "url": "https://github.com/tianyuzong/ThermoForge",
+          "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+        },
+        "integration_version": "0.6.0"
+      },
+      "compute_backend": "calculix_cpu + scipy_fp64",
+      "minimum_temperature_C": 25.0,
+      "maximum_temperature_C": 40.00723344790968,
+      "maximum_temperature_rise_K": 15.007233447909677,
+      "maximum_gradient_K_m": 463.32144693521093,
+      "thermal_balance": {
+        "maximum_relative_error": 6.8107559963217e-13,
+        "passed": true
+      }
+    }
+  },
+  "thermo_mechanical": {
+    "elapsed_s": 523.4063823223114,
+    "status": {
+      "status": "completed",
+      "detail": "结果与报告已保存"
+    },
+    "summary": {
+      "name": "电机 · 热结构装配",
+      "analysis_type": "thermo_mechanical",
+      "frames": 11,
+      "times_s": [
+        0.0,
+        60.0,
+        120.0,
+        180.0,
+        240.0,
+        300.0,
+        360.0,
+        420.0,
+        480.0,
+        540.0,
+        600.0
+      ],
+      "mesh": {
+        "nodes": 73985,
+        "elements": 39431,
+        "dofs": 221955,
+        "size_m": 0.027,
+        "min_jacobian": 2.978936804350159e-10,
+        "gmsh_version": "4.15.2",
+        "sha256": "c79673b1ab6c1740d084de75ee9c77c636381fb33cfbd074371923e0487f3aed",
+        "cache_key": "2beb7801d6ce314770116d5a7f2ac0b9446692f73e21f997fb8dec3cc28b3d82",
+        "cache_reused": true
+      },
+      "stress_basis": "C3D10 原始积分点；显示场独立投影",
+      "convergence": {
+        "status": "not_verified"
+      },
+      "assumptions": [
+        "材料及默认边界为软件演示参数，须按实际工作条件修改",
+        "定子150W、转子75W，机壳全部面施加等效 h=15 W/(m²·K)，环境25°C；等效边界不代表通风流场。",
+        "机械粘结与理想热连接分别显式配置；此工况不模拟轴承滚动。"
+      ],
+      "source_versions": {
+        "strength_studio": {
+          "url": "https://github.com/tianyuzong/strength-studio",
+          "commit": "60e66d403eda9d250a9c8648dee65088f9f69871"
+        },
+        "thermoforge": {
+          "url": "https://github.com/tianyuzong/ThermoForge",
+          "commit": "5ecea998978792429aa3e45e953e223bbbb0b33f"
+        },
+        "integration_version": "0.6.0"
+      },
+      "compute_backend": "calculix_cpu + scipy_fp64",
+      "minimum_temperature_C": 25.0,
+      "maximum_temperature_C": 40.00723344790968,
+      "maximum_temperature_rise_K": 15.007233447909677,
+      "maximum_gradient_K_m": 463.32144693521093,
+      "thermal_balance": {
+        "maximum_relative_error": 7.974632161583529e-13,
+        "passed": true
+      },
+      "maximum_displacement_m": 3.3087907444911446e-05,
+      "maximum_von_mises_Pa": 55690716.17453334,
+      "mechanical_balance": {
+        "passed": true,
+        "frames": [
+          {
+            "force_relative": 4.738317702078622e-09,
+            "moment_relative": 1.6434396106402378e-06,
+            "passed": true
+          },
+          {
+            "force_relative": 1.0835132440886687e-08,
+            "moment_relative": 8.759860685872774e-07,
+            "passed": true
+          },
+          {
+            "force_relative": 5.2475308793763105e-09,
+            "moment_relative": 1.3550038072662718e-07,
+            "passed": true
+          },
+          {
+            "force_relative": 5.515070957414368e-09,
+            "moment_relative": 8.167735124318365e-08,
+            "passed": true
+          },
+          {
+            "force_relative": 1.5962969994829766e-08,
+            "moment_relative": 9.031883798283231e-08,
+            "passed": true
+          },
+          {
+            "force_relative": 9.008312886984143e-09,
+            "moment_relative": 3.5058947530361954e-08,
+            "passed": true
+          },
+          {
+            "force_relative": 1.0194871303216902e-08,
+            "moment_relative": 5.802717198552542e-09,
+            "passed": true
+          },
+          {
+            "force_relative": 1.9046549332311113e-09,
+            "moment_relative": 4.33291511086069e-08,
+            "passed": true
+          },
+          {
+            "force_relative": 9.33438087257095e-09,
+            "moment_relative": 7.77076843557022e-08,
+            "passed": true
+          },
+          {
+            "force_relative": 1.0257566467254748e-08,
+            "moment_relative": 1.0552664868710703e-07,
+            "passed": true
+          },
+          {
+            "force_relative": 4.674260743650016e-09,
+            "moment_relative": 1.332987673784988e-07,
+            "passed": true
+          }
+        ]
+      },
+      "maximum_contact_pressure_Pa": 0.0,
+      "contact_projection": "Pressure peak from native contact quadrature; UI and thermal feedback use explicit slave-face averaging."
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "root": "C:\\Users\\zongtianyu\\Documents\\Codex\\2026-09-30\\https-github-com-tianyuzong-thermoforge-https\\outputs\\ThermoForge-Studio\\data",
+  "files": 37604,
+  "bytes": 257738514508,
+  "categories": {
+    "diagnostic_or_unclassified": {
+      "files": 26906,
+      "bytes": 113212768846
+    },
+    "regenerable_output": {
+      "files": 341,
+      "bytes": 3042972524
+    },
+    "original_and_evidence": {
+      "files": 147,
+      "bytes": 4126184363
+    },
+    "recovery_required": {
+      "files": 10210,
+      "bytes": 137356588775
+    }
+  },
+  "large_files": [
+    {
+      "path": "studies/dcebc72591b84a10a9925c18d816975a/cycle000/analysis.dat",
+      "bytes": 3605494223,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/7f1a8c7cd9114694bc0e718ca421a505/cycle000/analysis.dat",
+      "bytes": 1809743301,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/48a6532df8ac41b6bc3e08d62b7a1735/cycle000/analysis.dat",
+      "bytes": 1809743301,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/01ac3803a8bc4ee4b877268276554843/cycle000/analysis.dat",
+      "bytes": 1809743301,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/dcebc72591b84a10a9925c18d816975a/cycle000/analysis.frd",
+      "bytes": 1785415553,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/d12cd1cc021542dea02378a6d0a7826f/cycle000/analysis.dat",
+      "bytes": 1466942918,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/2f1c2495592149ff912b92f398b8ff51/cycle000/analysis.dat",
+      "bytes": 1308124645,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "analysis-runs/b05d815b421c4591bf504ca6c165ae69/bundle.zip",
+      "bytes": 1088069486,
+      "retention": "regenerable_output"
+    },
+    {
+      "path": "studies/25739b108b154e4992c12d9fedfb0cb0/cycle000/analysis.dat",
+      "bytes": 952848721,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/d12cd1cc021542dea02378a6d0a7826f/cycle000/analysis.frd",
+      "bytes": 911371312,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/48a6532df8ac41b6bc3e08d62b7a1735/cycle000/analysis.frd",
+      "bytes": 897499905,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/01ac3803a8bc4ee4b877268276554843/cycle000/analysis.frd",
+      "bytes": 897499905,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/2f1c2495592149ff912b92f398b8ff51/cycle000/analysis.frd",
+      "bytes": 675418927,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/dcebc72591b84a10a9925c18d816975a/fields.h5",
+      "bytes": 641154394,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/d12cd1cc021542dea02378a6d0a7826f/fields.h5",
+      "bytes": 596535248,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/25739b108b154e4992c12d9fedfb0cb0/cycle000/analysis.frd",
+      "bytes": 518645588,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/cdfa6f50c70a4c9b9c96a5d0c31e7b08/cycle000/analysis.dat",
+      "bytes": 463016657,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "analysis-runs/f395a017c3404608bfc15313e659bd6e/bundle.zip",
+      "bytes": 428949272,
+      "retention": "regenerable_output"
+    },
+    {
+      "path": "analysis-runs/841c085677814e868c38d280001b343a/bundle.zip",
+      "bytes": 416318925,
+      "retention": "regenerable_output"
+    },
+    {
+      "path": "analysis-runs/f395a017c3404608bfc15313e659bd6e/report-history/bundle.zip",
+      "bytes": 416292030,
+      "retention": "regenerable_output"
+    },
+    {
+      "path": "studies/48a6532df8ac41b6bc3e08d62b7a1735/fields.h5",
+      "bytes": 324386719,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/7f1a8c7cd9114694bc0e718ca421a505/fields.h5",
+      "bytes": 324225067,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/854834e03e7e492eae24d51eb1b81fc0/cycle000/analysis.dat",
+      "bytes": 321500937,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/acf2c5082187434f81e7e51bc4455bf7/fields.h5",
+      "bytes": 270685826,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/04eace3ebae441b3b3b1d2988951c31f/fields.h5",
+      "bytes": 270674158,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/62e5d7926c5a421db2f22d0409f06060/fields.h5",
+      "bytes": 244875945,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/motor-thermo_mechanical/fields.h5",
+      "bytes": 244218505,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/2f1c2495592149ff912b92f398b8ff51/fields.h5",
+      "bytes": 237263321,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/cdfa6f50c70a4c9b9c96a5d0c31e7b08/cycle000/analysis.frd",
+      "bytes": 231563169,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/854834e03e7e492eae24d51eb1b81fc0/cycle000/analysis.frd",
+      "bytes": 203291257,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/25739b108b154e4992c12d9fedfb0cb0/fields.h5",
+      "bytes": 174640145,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "jobs/896f01288d5f4898ac8f64d1527e67f0/result.zip",
+      "bytes": 167099278,
+      "retention": "regenerable_output"
+    },
+    {
+      "path": "studies/cdfa6f50c70a4c9b9c96a5d0c31e7b08/fields.h5",
+      "bytes": 165995928,
+      "retention": "original_and_evidence"
+    },
+    {
+      "path": "studies/0eddf86dc5634929958fd0f1afc051d0/audit.json",
+      "bytes": 118226066,
+      "retention": "diagnostic_or_unclassified"
+    },
+    {
+      "path": "studies/0eddf86dc5634929958fd0f1afc051d0/coupling/committed-audits.json",
+      "bytes": 118226066,
+      "retention": "diagnostic_or_unclassified"
+    }
+  ],
+  "policy": {
+    "automatic_deletion": false,
+    "original_and_evidence": "永久保留，归档须用户明确选择",
+    "recovery_required": "计算停止后仍保留，明确放弃恢复后才可清理",
+    "regenerable_output": "可重新生成；本接口只预览，不删除",
+    "diagnostic_or_unclassified": "保留，分类审阅后处理"
+  },
+  "sampled_at": 1790913755.9801586,
+  "by_extension": {
+    ".rout": {
+      "files": 3432,
+      "bytes": 89184276592
+    },
+    ".dat": {
+      "files": 3910,
+      "bytes": 73614623748
+    },
+    ".rin": {
+      "files": 2884,
+      "bytes": 48068830904
+    },
+    ".frd": {
+      "files": 3351,
+      "bytes": 34234819760
+    },
+    ".inp": {
+      "files": 3910,
+      "bytes": 4105596736
+    },
+    ".h5": {
+      "files": 33,
+      "bytes": 4092032778
+    },
+    ".zip": {
+      "files": 5,
+      "bytes": 2516728991
+    },
+    ".json": {
+      "files": 4977,
+      "bytes": 1356619520
+    },
+    ".npz": {
+      "files": 80,
+      "bytes": 211818070
+    },
+    ".log": {
+      "files": 3958,
+      "bytes": 100476631
+    },
+    ".png": {
+      "files": 246,
+      "bytes": 66917794
+    },
+    ".pdf": {
+      "files": 46,
+      "bytes": 64531882
+    },
+    ".vtu": {
+      "files": 1,
+      "bytes": 49235145
+    },
+    ".step": {
+      "files": 26,
+      "bytes": 31087114
+    },
+    ".mp4": {
+      "files": 32,
+      "bytes": 30699092
+    },
+    ".sqlite": {
+      "files": 1,
+      "bytes": 5636096
+    },
+    ".cvg": {
+      "files": 3351,
+      "bytes": 3040164
+    },
+    ".sta": {
+      "files": 3910,
+      "bytes": 921610
+    },
+    ".md": {
+      "files": 37,
+      "bytes": 551893
+    },
+    ".csv": {
+      "files": 55,
+      "bytes": 56261
+    },
+    ".jsonl": {
+      "files": 6,
+      "bytes": 12715
+    },
+    ".tmp": {
+      "files": 2,
+      "bytes": 1012
+    },
+    ".12d": {
+      "files": 3351,
+      "bytes": 0
+    }
+  },
+  "by_directory": {
+    "studies": {
+      "files": 37021,
+      "bytes": 254655506174
+    },
+    "analysis-runs": {
+      "files": 203,
+      "bytes": 2435433009
+    },
+    "jobs": {
+      "files": 37,
+      "bytes": 442318476
+    },
+    "models": {
+      "files": 139,
+      "bytes": 126485292
+    },
+    "exports": {
+      "files": 152,
+      "bytes": 63071407
+    },
+    "(root)": {
+      "files": 1,
+      "bytes": 5636096
+    },
+    "analysis-plans": {
+      "files": 24,
+      "bytes": 5398560
+    },
+    "tasks": {
+      "files": 25,
+      "bytes": 4612809
+    },
+    "run-presets": {
+      "files": 1,
+      "bytes": 52577
+    },
+    "legacy-thermal": {
+      "files": 1,
+      "bytes": 108
+    }
+  },
+  "largest_files": [
+    {
+      "path": "studies/dcebc72591b84a10a9925c18d816975a/cycle000/analysis.dat",
+      "bytes": 3605494223
+    },
+    {
+      "path": "studies/01ac3803a8bc4ee4b877268276554843/cycle000/analysis.dat",
+      "bytes": 1809743301
+    },
+    {
+      "path": "studies/48a6532df8ac41b6bc3e08d62b7a1735/cycle000/analysis.dat",
+      "bytes": 1809743301
+    },
+    {
+      "path": "studies/7f1a8c7cd9114694bc0e718ca421a505/cycle000/analysis.dat",
+      "bytes": 1809743301
+    },
+    {
+      "path": "studies/dcebc72591b84a10a9925c18d816975a/cycle000/analysis.frd",
+      "bytes": 1785415553
+    },
+    {
+      "path": "studies/d12cd1cc021542dea02378a6d0a7826f/cycle000/analysis.dat",
+      "bytes": 1466942918
+    },
+    {
+      "path": "studies/2f1c2495592149ff912b92f398b8ff51/cycle000/analysis.dat",
+      "bytes": 1308124645
+    },
+    {
+      "path": "analysis-runs/b05d815b421c4591bf504ca6c165ae69/bundle.zip",
+      "bytes": 1088069486
+    },
+    {
+      "path": "studies/25739b108b154e4992c12d9fedfb0cb0/cycle000/analysis.dat",
+      "bytes": 952848721
+    },
+    {
+      "path": "studies/d12cd1cc021542dea02378a6d0a7826f/cycle000/analysis.frd",
+      "bytes": 911371312
+    },
+    {
+      "path": "studies/01ac3803a8bc4ee4b877268276554843/cycle000/analysis.frd",
+      "bytes": 897499905
+    },
+    {
+      "path": "studies/48a6532df8ac41b6bc3e08d62b7a1735/cycle000/analysis.frd",
+      "bytes": 897499905
+    },
+    {
+      "path": "studies/2f1c2495592149ff912b92f398b8ff51/cycle000/analysis.frd",
+      "bytes": 675418927
+    },
+    {
+      "path": "studies/dcebc72591b84a10a9925c18d816975a/fields.h5",
+      "bytes": 641154394
+    },
+    {
+      "path": "studies/d12cd1cc021542dea02378a6d0a7826f/fields.h5",
+      "bytes": 596535248
+    },
+    {
+      "path": "studies/25739b108b154e4992c12d9fedfb0cb0/cycle000/analysis.frd",
+      "bytes": 518645588
+    },
+    {
+      "path": "studies/cdfa6f50c70a4c9b9c96a5d0c31e7b08/cycle000/analysis.dat",
+      "bytes": 463016657
+    },
+    {
+      "path": "analysis-runs/f395a017c3404608bfc15313e659bd6e/bundle.zip",
+      "bytes": 428949272
+    },
+    {
+      "path": "analysis-runs/841c085677814e868c38d280001b343a/bundle.zip",
+      "bytes": 416318925
+    },
+    {
+      "path": "analysis-runs/f395a017c3404608bfc15313e659bd6e/report-history/bundle.zip",
+      "bytes": 416292030
+    }
+  ],
+  "test_cache": {
+    "path": ".runtime/test-runs",
+    "bytes": 12561348081,
+    "files": 6172
+  },
+  "scan_duration_seconds": 5.3811562061309814,
+  "note": "Logical byte counts, read-only snapshot; export processes may add derived files during the scan. No deletion or cleanup performed."
+}

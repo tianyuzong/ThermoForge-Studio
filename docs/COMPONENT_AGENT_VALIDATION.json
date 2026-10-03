@@ -1,0 +1,45 @@
+{
+  "task_id": "376581531fb346cfbe48f3038cc5837f",
+  "job_id": "0eb669d7fcb14bef8200217787ab59b0",
+  "provider": "cli",
+  "status": "completed",
+  "backend": "cudss_cuda",
+  "ratios": [
+    {
+      "body_id": 1,
+      "displacement_ratio": 1.0000000000000102,
+      "stress_ratio": 1.000000000000007
+    },
+    {
+      "body_id": 2,
+      "displacement_ratio": 0.5000000000000154,
+      "stress_ratio": 0.499999999999996
+    }
+  ],
+  "balance": {
+    "passed": true,
+    "force_relative": 5.4527967386983665e-14,
+    "moment_relative": 8.912493301177685e-15,
+    "free_dof_relative": 2.9700664375029683e-14,
+    "force_residual_N": [
+      -8.72510952376615e-11,
+      -5.56998891454441e-12,
+      -7.722267270082739e-12
+    ],
+    "moment_residual_Nm": [
+      7.020078962582943e-14,
+      2.45477249638526e-13,
+      4.996003610813204e-16
+    ],
+    "reaction_N": [
+      -1500.0000000000869,
+      -5.56998891454441e-12,
+      -7.722267270082739e-12
+    ],
+    "moment_origin_m": [
+      0.050011524276150125,
+      0.02022684861072205,
+      0.004997133487658823
+    ]
+  }
+}

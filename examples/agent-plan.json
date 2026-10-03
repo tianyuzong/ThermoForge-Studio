@@ -1,0 +1,301 @@
+{
+  "prompt": "使用已保存的演示材料，固定四个安装孔的全部孔壁。在顶面建立四个独立工况：1）向下 1000 N 总力；2）向下 1500 N 总力；3）沿全局 +Y 方向 300 N 总力；4）同时施加向下 1000 N 与 +Y 方向 300 N。全局网格尺寸统一为 5 mm，不做收敛分析。自动计算应力、变形和安全系数，比较四个工况并生成报告。",
+  "provider": "cli",
+  "cases": [
+    {
+      "schema_version": 1,
+      "name": "工况1：顶面向下1000 N",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "supports": [
+        {
+          "name": "四个安装孔全部孔壁固定",
+          "selection": {
+            "kind": "faces",
+            "name": "安装孔",
+            "face_ids": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "name": "顶面向下1000 N总力",
+          "kind": "force",
+          "selection": {
+            "kind": "faces",
+            "name": "顶面",
+            "face_ids": [
+              4
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            0.0,
+            -1000.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.005,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null
+    },
+    {
+      "schema_version": 1,
+      "name": "工况2：顶面向下1500 N",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "supports": [
+        {
+          "name": "四个安装孔全部孔壁固定",
+          "selection": {
+            "kind": "faces",
+            "name": "安装孔",
+            "face_ids": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "name": "顶面向下1500 N总力",
+          "kind": "force",
+          "selection": {
+            "kind": "faces",
+            "name": "顶面",
+            "face_ids": [
+              4
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            0.0,
+            -1500.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.005,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null
+    },
+    {
+      "schema_version": 1,
+      "name": "工况3：顶面全局+Y方向300 N",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "supports": [
+        {
+          "name": "四个安装孔全部孔壁固定",
+          "selection": {
+            "kind": "faces",
+            "name": "安装孔",
+            "face_ids": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "name": "顶面全局+Y方向300 N总力",
+          "kind": "force",
+          "selection": {
+            "kind": "faces",
+            "name": "顶面",
+            "face_ids": [
+              4
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            300.0,
+            0.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.005,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null
+    },
+    {
+      "schema_version": 1,
+      "name": "工况4：顶面向下1000 N与全局+Y方向300 N组合",
+      "material": {
+        "name": "演示钢材（假设值）",
+        "young_modulus_Pa": 210000000000.0,
+        "poisson_ratio": 0.3,
+        "density_kg_m3": 7850.0,
+        "yield_strength_Pa": 235000000.0,
+        "source": "内置教学/软件验证假设；不代表特定牌号或认证材料数据"
+      },
+      "supports": [
+        {
+          "name": "四个安装孔全部孔壁固定",
+          "selection": {
+            "kind": "faces",
+            "name": "安装孔",
+            "face_ids": [
+              10,
+              11,
+              12,
+              13
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "components": [
+            "x",
+            "y",
+            "z"
+          ],
+          "displacement_m": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "loads": [
+        {
+          "name": "顶面向下1000 N总力",
+          "kind": "force",
+          "selection": {
+            "kind": "faces",
+            "name": "顶面",
+            "face_ids": [
+              4
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            0.0,
+            -1000.0
+          ],
+          "pressure_Pa": 0.0
+        },
+        {
+          "name": "顶面全局+Y方向300 N总力",
+          "kind": "force",
+          "selection": {
+            "kind": "faces",
+            "name": "顶面",
+            "face_ids": [
+              4
+            ],
+            "direction": null,
+            "bounds_m": null
+          },
+          "vector": [
+            0.0,
+            300.0,
+            0.0
+          ],
+          "pressure_Pa": 0.0
+        }
+      ],
+      "mesh": {
+        "size_m": 0.005,
+        "local_selections": [],
+        "local_size_m": null,
+        "convergence": false,
+        "evaluation_selection": null
+      },
+      "target_safety_factor": 1.5,
+      "displacement_limit_m": null
+    }
+  ]
+}

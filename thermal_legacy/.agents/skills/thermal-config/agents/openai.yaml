@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thermal Studio 配置助手"
+  short_description: "结合本地规则、几何选区与语义核对，生成可检查的热仿真配置"
+  default_prompt: "使用 $thermal-config 根据当前模型和我的热源、材料与散热要求生成配置草案。"
